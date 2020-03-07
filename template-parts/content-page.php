@@ -14,14 +14,14 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<?php tc_post_thumbnail(); ?>
+	<?php triadchina_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
 		the_content();
 
 		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'tc' ),
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'triadchina' ),
 			'after'  => '</div>',
 		) );
 		?>
@@ -34,7 +34,7 @@
 				sprintf(
 					wp_kses(
 						/* translators: %s: Name of current post. Only visible to screen readers */
-						__( 'Edit <span class="screen-reader-text">%s</span>', 'tc' ),
+						__( 'Edit <span class="screen-reader-text">%s</span>', 'triadchina' ),
 						array(
 							'span' => array(
 								'class' => array(),

@@ -13,7 +13,7 @@ A starter theme called Triad China.
 
 == Description ==
 
-Explore – Play – Transform
+Explore | PLay |Transform
 
 == Installation ==
 

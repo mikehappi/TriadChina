@@ -14,27 +14,27 @@
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses tc_header_style()
+ * @uses triadchina_header_style()
  */
-function tc_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'tc_custom_header_args', array(
+function triadchina_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'triadchina_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'tc_header_style',
+		'wp-head-callback'       => 'triadchina_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'tc_custom_header_setup' );
+add_action( 'after_setup_theme', 'triadchina_custom_header_setup' );
 
-if ( ! function_exists( 'tc_header_style' ) ) :
+if ( ! function_exists( 'triadchina_header_style' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see tc_custom_header_setup().
+	 * @see triadchina_custom_header_setup().
 	 */
-	function tc_header_style() {
+	function triadchina_header_style() {
 		$header_text_color = get_header_textcolor();
 
 		/*
