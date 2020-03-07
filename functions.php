@@ -120,6 +120,8 @@ add_action( 'widgets_init', 'triadchina_widgets_init' );
  * Enqueue scripts and styles.
  */
 function triadchina_scripts() {
+	wp_enqueue_style("bootstrap", "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
+	
 	wp_enqueue_style( 'triadchina-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'triadchina-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
