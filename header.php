@@ -9,62 +9,76 @@
  * @package Triad_China
  */
 
-?>
-<!doctype html>
-<html <?php language_attributes(); ?>>
-<head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+ ?>
+ <?php $upload_dir = wp_upload_dir(); ?>
+     <!doctype html>
+     <html <?php language_attributes(); ?>>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<?php wp_head(); ?>
-</head>
+     <head>
+         <meta charset="<?php bloginfo( 'charset' ); ?>">
+         <link rel="profile" href="http://gmpg.org/xfn/11">
+         <meta charset="utf-8">
 
-<body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'tc' ); ?></a>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$tc_description = get_bloginfo( 'description', 'display' );
-			if ( $tc_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $tc_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
+         <?php wp_head(); ?>
 
-		<nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#">Navbar</a>
-        <?php
-        wp_nav_menu( array(
-            'theme_location'    => 'primary',
-            'depth'             => 2,
-            'container'         => 'div',
-            'container_class'   => 'collapse navbar-collapse',
-            'container_id'      => 'bs-example-navbar-collapse-1',
-            'menu_class'        => 'nav navbar-nav',
-            'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-            'walker'            => new WP_Bootstrap_Navwalker(),
-        ) );
-        ?>
-    </div>
-</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+         <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+         <div class="container-fluid">
+             <div class="row row-header-1">
 
-	<div id="content" class="site-content">
+             <div id=lang class="hidden-xs hidden-md hidden-sm" style="font-size:10px;">
+               <a href="">EN</a>
+               |
+               <a href="">中文</a>
+             </div>
+
+
+
+
+
+
+
+     <div class="navbar-header">
+
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+         </button>
+
+  <a id=logo class="navbar-brand" href="<?php echo home_url(); ?>">
+
+                   <img src="<?php echo $upload_dir['baseurl'] . '/logo.png'; ?>"  style="width:;height:;" />
+                 </a>
+
+         <ul id="imenu">
+             <?php wp_nav_menu( array(
+                 'menu'              => 'primary',
+                 'theme_location'    => 'primary',
+                 'depth'             => 2,
+                 'container'         => 'div',
+                 'container_class'   => 'collapse navbar-collapse',
+                 'container_id'      => 'bs-example-navbar-collapse-1',
+                 'menu_class'        => 'nav navbar-nav',
+                 'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                 'walker'            => new WP_Bootstrap_Navwalker())
+             );
+         ?>
+
+         </ul>
+            </div>
+            </div>
+
+
+         </nav>
+ <!-- hide dropdown list -->
+ <script>
+ jQuery(document).ready(function($){
+ $('li').find('ul').addClass('hidden-xs hidden-md hidden-sm')
+ });
+ </script>
+
+     </head>
