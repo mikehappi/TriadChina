@@ -30,26 +30,30 @@ get_header();
 			endif;
 
 			/* Start the Loop */
-	            while ( have_posts() ) : the_post();
+			while ( have_posts() ) :
+				the_post();
 
-	                /*
-	                 * Include the Post-Format-specific template for the content.
-	                 * If you want to override this in a child theme, then include a file
-	                 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-	                 */
-	            the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-	            endwhile;
+				/*
+				 * Include the Post-Type-specific template for the content.
+				 * If you want to override this in a child theme, then include a file
+				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
+				 */
+				get_template_part( 'template-parts/content', get_post_type() );
 
-	            the_posts_navigation();
+			endwhile;
 
-	        else :
+			the_posts_navigation();
 
-	            get_template_part( 'template-parts/content', 'none' );
+		else :
 
-	        endif; ?>
+			get_template_part( 'template-parts/content', 'none' );
+
+		endif;
+		?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php
+
 get_footer();
