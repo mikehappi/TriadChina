@@ -44,9 +44,6 @@ if ( ! function_exists( 'triadchina_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'triadchina' ),
-		) );
-		register_nav_menus( array(
 			'primary' => __( 'Primary Menu', 'triadchina' ),
 		) );
 		/*
