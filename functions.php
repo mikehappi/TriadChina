@@ -43,10 +43,10 @@ if ( ! function_exists( 'triadchina_setup' ) ) :
 		add_theme_support( 'post-thumbnails' );
 
 		// This theme uses wp_nav_menu() in one location.
-
 		register_nav_menus( array(
-			'primary' => __( 'Primary Menu', 'triadchina' ),
+			'menu-1' => esc_html__( 'Primary', 'triadchina' ),
 		) );
+
 		/*
 		 * Switch default core markup for search form, comment form, and comments
 		 * to output valid HTML5.
@@ -120,8 +120,6 @@ add_action( 'widgets_init', 'triadchina_widgets_init' );
  * Enqueue scripts and styles.
  */
 function triadchina_scripts() {
-
-	wp_enqueue_style("bootstrap", "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
 	wp_enqueue_style( 'triadchina-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'triadchina-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
@@ -159,13 +157,4 @@ require get_template_directory() . '/inc/customizer.php';
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
-}
-
-
-if ( ! file_exists( get_template_directory() . '/class-wp-bootstrap-navwalker.php' ) ) {
-	// file does not exist... return an error.
-	return new WP_Error( 'class-wp-bootstrap-navwalker-missing', __( 'It appears the class-wp-bootstrap-navwalker.php file may be missing.', 'wp-bootstrap-navwalker' ) );
-} else {
-	// file exists... require it.
-    require_once get_template_directory . '/class-wp-bootstrap-navwalker.php';
 }
