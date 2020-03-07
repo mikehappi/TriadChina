@@ -165,4 +165,4 @@ define('WP_UPLOAD_DIR_URL', wp_upload_dir_url() . '/');
 define('WP_UPLOAD_SUBDIR_URL', wp_upload_subdir_url() . '/');
 
 // Register Custom Navigation Walker
-require_once('wp-bootstrap-navwalker.php');
+require_once('wp-bootstrap-navwalker.php');}
