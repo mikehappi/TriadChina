@@ -46,7 +46,9 @@ if ( ! function_exists( 'triadchina_setup' ) ) :
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'triadchina' ),
 		) );
-
+		register_nav_menus( array(
+         'primary' => __( 'Primary Menu', 'triadchina' ),
+ ) );
 		/*
 		 * Switch default core markup for search form, comment form, and comments
 		 * to output valid HTML5.
@@ -159,3 +161,8 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+define('WP_UPLOAD_DIR_URL', wp_upload_dir_url() . '/');
+define('WP_UPLOAD_SUBDIR_URL', wp_upload_subdir_url() . '/');
+
+// Register Custom Navigation Walker
+require_once('wp-bootstrap-navwalker.php');
