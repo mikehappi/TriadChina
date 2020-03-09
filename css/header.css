@@ -143,6 +143,12 @@ margin: 0em ;
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
+@media (min-width: 1200px)
+.container-fluid {
+    max-width: 1200px;
+}
+
+
 @media only screen and (max-width: 500px) {
    .navbar-brand {
 
