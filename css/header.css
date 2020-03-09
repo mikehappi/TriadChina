@@ -26,11 +26,8 @@ nav:after {
     text-transform: none;
     font-family:AP !important;
     font-size: 24px !important;
-    font-weight: normal;
-    line-height: 1em;
     text-decoration: none;
     height: 135px;
-
 }
 
 .navbar-default a{
@@ -43,27 +40,4 @@ nav:after {
   border-bottom: 2px solid black;
   box-shadow: none !important;
 
-}
-/*styling navbar menu item  active hover */
-.navbar-nav li a:hover, .navbar-nav > .active > a {
-  color:#E74011;
-    }
-/*styling dropdown menu  active hover */
-.dropdown:hover .dropdown-menu > .active > a {
-  background-color: transparent !important;
-  background-image: none !important;
-}
-
-
-/*styling dropdown menu hover opacity and border*/
-
-.dropdown:hover .dropdown-menu{
-display:block;
-background-color: #ffffff;
-border: 1px solid white;
-opacity: 0.6;
-float:left;
-margin:0;
-font-family:AP;
- font-size: 10px !important;
 }
