@@ -107,7 +107,7 @@ height: 30px;
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
-    width: 100%;
+  max-width: 1200px;
 }
 
 
@@ -117,15 +117,11 @@ height: 30px;
 }
 
 #logo {
-  display: inline-block;
-  float: left;
-  vertical-align: middle;
-padding-top: 0px;
-padding-left: 0px;
+
 }
 
 .navbar-header {
-  
+
 }
 
 #lang {
@@ -151,7 +147,7 @@ padding-left: 0px;
 @media only screen and (max-width: 500px) {
    .navbar-brand {
 
-    padding:0.5em 0em 0em 1.5em;
+
 
 }
 
@@ -161,11 +157,9 @@ padding-left: 0px;
 @media screen and (max-width: 769px) {
   .navbar-brand {
 
-    padding:0.5em 0em 0em 1.5em;
+
 
 }
 .navitem {
-    list-style: none;
-    padding-top: 0.3em;
-    margin-right: 0em;}
+
 }
