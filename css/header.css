@@ -113,16 +113,12 @@ margin: 0em ;
   svg:hover {
     fill: #E74011 !important;
   }
-
   .navbar-brand {
-        float: left;
-        height: 30px;
-      padding:0em 0em 0em 0em;
-
+  float: left;
+  height: 30px;
   }
 
 /*Menu item */
-
 #imenu {
 display: inline-block;
 float: none;
