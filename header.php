@@ -51,7 +51,7 @@
 
  <a id=logo class="navbar-brand" href="<?php echo home_url(); ?>">
 
-                  <img src="<?php echo $upload_dir['baseurl'] . '/logo.svg'; ?>"  style="width:px;height:30px;" />
+                  <img src="<?php echo $upload_dir['baseurl'] . '/logo.svg'; ?>"  style="width:auto;height:30px;" />
                 </a>
 
         <ul id="imenu">
