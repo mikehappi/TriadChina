@@ -55,16 +55,6 @@ margin: 0em ;
 }
 
 
-.navbar-brand {
-
-      float: left;
-      height: 50px;
-      /* padding: 15px 15px; */
-      /* font-size: 18px; */
-      /* line-height: 20px; */
-    padding:0.5em 0em 0em 6em;
-
-}
 
 .navbar .navbar-collapse {
   text-align: center;
@@ -99,6 +89,18 @@ margin: 0em ;
 svg:hover {
   fill: #E74011 !important;
 }
+
+.navbar-brand {
+
+      float: left;
+      height: 50px;
+      /* padding: 15px 15px; */
+      /* font-size: 18px; */
+      /* line-height: 20px; */
+    padding:0.5em 0em 0em 6em;
+
+}
+
 
 
 .navbar-header {
