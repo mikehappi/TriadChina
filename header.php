@@ -24,12 +24,11 @@
 
         <?php wp_head(); ?>
 
-        <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="
-    height: 135px;>
+        <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation" />
         <div class="container-fluid">
             <div class="row row-header-1">
 
-            
+
     <div class="navbar-header">
 
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -41,7 +40,7 @@
 
  <a id=logo class="navbar-brand" href="<?php echo home_url(); ?>">
 
-                  <img src="<?php echo $upload_dir['baseurl'] . '/logo.svg'; ?>"  style="width:px;height:30px;" />
+                  <img src="<?php echo $upload_dir['baseurl'] . '/logo.svg'; ?>"  style="width:auto;height:30px;" />
                 </a>
 
         <ul id="imenu">
