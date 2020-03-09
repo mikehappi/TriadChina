@@ -20,7 +20,7 @@
         font-size: 24px !important;
         text-decoration: none;
         height: 135px;
-
+        text-align: right !important;
     }
 
     .navbar-default a{
@@ -61,11 +61,9 @@ margin: 0em ;
      float: none;
 }
 
-
 .row-header-1 {
     width: 1200px !important;
-  text-align:right}
-
+    text-align:right}
 
 langague
 #lang {
