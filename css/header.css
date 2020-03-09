@@ -27,8 +27,8 @@
         color:black !important;
         }
 
-      .navbar-default  a:hover {
-          color: #E74011;
+      .navbar-default a:hover {
+        color: #E74011!important;
         }
 
 
