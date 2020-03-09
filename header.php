@@ -69,11 +69,6 @@
  						'container_class' => 'primary-menu-container'
  					) );
  					?>
- 					<div class="mobile-search-form-wrapper">
- 						<?php
- 						get_search_form();
- 						?>
- 					</div>
  				</div>
  			</nav><!-- #site-navigation -->
  		</div>
