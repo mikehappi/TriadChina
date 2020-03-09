@@ -2,9 +2,9 @@
 /**
  * Template part for displaying results in search pages
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package Triad_China
+ * @package Spectrum-agency
  */
 
 ?>
@@ -15,21 +15,16 @@
 
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php
-			triadchina_posted_on();
-			triadchina_posted_by();
-			?>
+			<?php spectrum_agency_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-
-	<?php triadchina_post_thumbnail(); ?>
 
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 
 	<footer class="entry-footer">
-		<?php triadchina_entry_footer(); ?>
+		<?php spectrum_agency_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

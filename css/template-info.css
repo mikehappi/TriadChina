@@ -1,0 +1,57 @@
+@font-face{
+    font-family:BR;
+     src:local('BRYANTPRO-REGULAR.OTF'),
+url("BRYANTPRO-REGULAR.OTF");
+}
+  @font-face{ 
+    font-family:FL;
+     src:local('FLATLAND.OTF'),
+url("FLATLAND.OTF");
+}
+ @font-face{ 
+    font-family:SAVOYE;
+    src:local('SAVOYE.OTF'),
+    url("SAVOYE.OTF");
+}
+
+/*--------------------------------------------------------------
+##Contact
+--------------------------------------------------------------
+
+crwrap align center*/
+
+.cvwrap {
+    display: -webkit-flex !important;
+    display:flex !important;
+     align-items: center !important;
+     -webkit-flex-wrap: wrap !important;
+    flex-wrap:wrap;
+    -webkit-flex-direction:row !important;
+    flex-direction:row! important;
+
+    -webkit-justify-content: space-around !important;
+   justify-content: space-around !important;
+   
+}
+.cvtext1{ margin-top:20%;}
+
+.cvtext1{
+   font-family:SAVOYE !important;
+font-size: 60px !important; }
+.cvtext2{
+text-transform: uppercase !important;}
+
+.cvtransbox {
+width: 620px;
+height: 100vh !important;
+background-color: #ffffff;
+border: 1px solid white;
+opacity: 1;
+filter: alpha(opacity=60); /* For IE8 and earlier */ 
+}
+.cvtransbox {
+font-family:BR;
+font-size: 22px;
+color: #000000; 
+text-align:center;
+   }

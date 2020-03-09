@@ -1,3 +1,4 @@
+
 <?php
 /**
  * The template for displaying the footer
@@ -10,27 +11,51 @@
  */
 
 ?>
+<?php $upload_dir = wp_upload_dir(); ?>
+	<div> <!-- .site-info -->
 
-	</div><!-- #content -->
+<footer id="colophon" role="content info">
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'triadchina' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'triadchina' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'triadchina' ), 'triadchina', '<a href="http://underscores.me/">Triad China</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+  <nav class="navbar-default navbar-fixed-bottom">
+
+    <section id="lab_social_icon_footer">
+    
+      <div class="container">
+    
+        <div class="text-center center-block">
+        
+        <img src="<?php echo $upload_dir['baseurl'] . '/social-icons/wechat.png'; ?>" class="popmake-169 popmake-qr-code" style="width:20px;height:18px;border:0;" />
+             
+           <a href="http://weibo.com/2990440951/profile" target="_blank"> <img src="<?php echo $upload_dir['baseurl'] . '/social-icons/weibo.png'; ?>" style="width:20px;height:18px;"></a>
+           
+          <img src="http://spectrum-agency.com/wp-content/uploads/2017/08/phone.png" class=" popmake-172 popmake-phone-number" style="width:20px;height:18px;border:0;">
+          
+          <a href="mailto:info@spectrum-agency.com" target="_blank">
+            <img src="<?php echo $upload_dir['baseurl'] . '/social-icons/email.png'; ?>"  style="width:20px;height:18px;border:0;">
+          </a>
+          <a href="https://www.instagram.com/spectrumagency" target="_blank"> <img src="<?php echo $upload_dir['baseurl'] . '/social-icons/instagram.png'; ?>"   style="width:20px;height:18px;border:0;">
+          </a>
+          <a href="https://www.facebook.com/SpectrumEventsChina" target="_blank"> <img src="<?php echo $upload_dir['baseurl'] . '/social-icons/facebook.png'; ?>"   style="width:10px;height:18px;border:0;">
+          </a>
+          <a href="https://www.pinterest.com/spectrum_agency/" target="_blank"> <img src="<?php echo $upload_dir['baseurl'] . '/social-icons/pinterest.png'; ?>"  style="width:20px;height:18px;border:0;"></a>
+        
+        </div>
+      
+      </div>
+    
+    </section>		
+
+  </nav>
+</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
 
-</body>
-</html>
+</body> 
+</html
+
+
+
+
+
+

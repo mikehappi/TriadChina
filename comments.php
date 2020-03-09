@@ -5,7 +5,7 @@
  * This is the template that displays the area of the page that contains both the current comments
  * and the comment form.
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package Triad_China
  */
@@ -24,25 +24,24 @@ if ( post_password_required() ) {
 
 	<?php
 	// You can start editing here -- including this comment!
-	if ( have_comments() ) :
-		?>
+	if ( have_comments() ) : ?>
 		<h2 class="comments-title">
 			<?php
-			$triadchina_comment_count = get_comments_number();
-			if ( '1' === $triadchina_comment_count ) {
-				printf(
-					/* translators: 1: title. */
-					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'triadchina' ),
-					'<span>' . get_the_title() . '</span>'
-				);
-			} else {
-				printf( // WPCS: XSS OK.
-					/* translators: 1: comment count number, 2: title. */
-					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $triadchina_comment_count, 'comments title', 'triadchina' ) ),
-					number_format_i18n( $triadchina_comment_count ),
-					'<span>' . get_the_title() . '</span>'
-				);
-			}
+				$comment_count = get_comments_number();
+				if ( 1 === $comment_count ) {
+					printf(
+						/* translators: 1: title. */
+						esc_html_e( 'One thought on &ldquo;%1$s&rdquo;', 'spectrum-agency' ),
+						'<span>' . get_the_title() . '</span>'
+					);
+				} else {
+					printf( // WPCS: XSS OK.
+						/* translators: 1: comment count number, 2: title. */
+						esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $comment_count, 'comments title', 'spectrum-agency' ) ),
+						number_format_i18n( $comment_count ),
+						'<span>' . get_the_title() . '</span>'
+					);
+				}
 			?>
 		</h2><!-- .comments-title -->
 
@@ -50,21 +49,19 @@ if ( post_password_required() ) {
 
 		<ol class="comment-list">
 			<?php
-			wp_list_comments( array(
-				'style'      => 'ol',
-				'short_ping' => true,
-			) );
+				wp_list_comments( array(
+					'style'      => 'ol',
+					'short_ping' => true,
+				) );
 			?>
 		</ol><!-- .comment-list -->
 
-		<?php
-		the_comments_navigation();
+		<?php the_comments_navigation();
 
 		// If comments are closed and there are comments, let's leave a little note, shall we?
-		if ( ! comments_open() ) :
-			?>
-			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'triadchina' ); ?></p>
-			<?php
+		if ( ! comments_open() ) : ?>
+			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'spectrum-agency' ); ?></p>
+		<?php
 		endif;
 
 	endif; // Check for have_comments().

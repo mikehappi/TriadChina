@@ -10,49 +10,77 @@
  */
 
 ?>
-<!doctype html>
-<html <?php language_attributes(); ?>>
-<head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+<?php $upload_dir = wp_upload_dir(); ?>
+    <!doctype html>
+    <html <?php language_attributes(); ?>>
+   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<?php wp_head(); ?>
-</head>
+    <head>
+        <meta charset="<?php bloginfo( 'charset' ); ?>">
+        <link rel="profile" href="http://gmpg.org/xfn/11">
+        <meta charset="utf-8">
+  
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'triadchina' ); ?></a>
+        <?php wp_head(); ?>
+  
+        <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="
+    height: 136px;>
+        <div class="container-fluid">         
+            <div class="row row-header-1">
+            
+            <div id=lang class="hidden-xs hidden-md hidden-sm" style="font-size:10px;">
+              <a href="http://www.spectrum-agency.com/">EN</a>
+              |
+              <a href="http://www.spectrum-agency.com/zh/">中文</a>
+            </div>
+           
+      
+          
+                  
+          
+                  
+                          
+    <div class="navbar-header">
+          
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+        </button> 
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$triadchina_description = get_bloginfo( 'description', 'display' );
-			if ( $triadchina_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $triadchina_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
+ <a id=logo class="navbar-brand" href="<?php echo home_url(); ?>">
+                 
+                  <img src="<?php echo $upload_dir['baseurl'] . '/logo.svg'; ?>"  style="width:px;height:30px;" />
+                </a>     
+              
+        <ul id="imenu">        
+            <?php wp_nav_menu( array(
+                'menu'              => 'primary',
+                'theme_location'    => 'primary',
+                'depth'             => 2,
+                'container'         => 'div',
+                'container_class'   => 'collapse navbar-collapse',
+                'container_id'      => 'bs-example-navbar-collapse-1',
+                'menu_class'        => 'nav navbar-nav',
+                'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                'walker'            => new WP_Bootstrap_Navwalker())
+            );
+        ?>
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'triadchina' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+        </ul>
+           </div> 
+           </div>
+        
 
-	<div id="content" class="site-content">
+        </nav>
+<!-- hide dropdown list -->
+<script>
+jQuery(document).ready(function($){
+$('li').find('ul').addClass('hidden-xs hidden-md hidden-sm')
+});
+</script> 
+
+    </head>
+
