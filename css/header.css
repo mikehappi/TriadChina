@@ -62,7 +62,9 @@ margin: 0em ;
 }
 
 
-.row-header-1 { text-align:right}
+.row-header-1 {
+
+  text-align:right}
 .container-fluid {
     margin-right: auto;
     margin-left: auto;
@@ -113,9 +115,8 @@ margin: 0em ;
   }
 
   .navbar-brand {
-
         float: left;
-        height: 50px;
+        height: 30px;
         /* padding: 15px 15px; */
         /* font-size: 18px; */
         /* line-height: 20px; */
