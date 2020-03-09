@@ -21,7 +21,7 @@ nav:after {
 
 
 .navbar-default{
-    background: #F2F2F2 !important;
+    background: #f9f9f9; !important;
     background-image: none;
     text-transform: none;
     font-family:AP !important;
@@ -103,6 +103,13 @@ margin: 0em ;
      float: none;
 }
 
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
 
 
 #imenu {
@@ -117,7 +124,7 @@ margin: 0em ;
 #logo {
   display: inline-block;
   float: left;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .navbar-header {
