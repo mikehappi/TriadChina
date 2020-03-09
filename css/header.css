@@ -10,7 +10,7 @@
 .navbar-default {
      background:none;
      box-shadow: none !important;
-      Display:inline-block;
+      Display:block;
     }
 
 nav:after {
