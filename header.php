@@ -8,7 +8,7 @@
  *
  * @package Triad_China
  */
-
+?>
  <!doctype html>
  <html <?php language_attributes(); ?>>
  <head>
@@ -86,10 +86,6 @@
  					</div>
  				</div>
  			</nav><!-- #site-navigation -->
-
- 			<button class="search-toggle" id="search-toggle">
- 				<span class="lnr lnr-magnifier"></span>
- 			</button>
  		</div>
  	</header><!-- #masthead -->
 
