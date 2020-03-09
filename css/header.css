@@ -95,6 +95,11 @@ margin: 0em ;
   vertical-align: middle;
 }
 
+svg:hover {
+  fill: #E74011 !important;
+}
+
+
 .navbar-header {
     float:none;
     display: block;
@@ -109,7 +114,7 @@ margin: 0em ;
     padding-top: 0.6em !important;
     padding-right: 6em !important; }
 
-    #lang a{
+#lang a{
     margin-right: 10px
     }
 
