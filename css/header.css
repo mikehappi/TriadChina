@@ -96,7 +96,7 @@ margin: 0em ;
   vertical-align: middle;
 }
 
-svg:hover {
+.navbar-brand svg:hover {
   fill: #E74011 !important;
 }
 
