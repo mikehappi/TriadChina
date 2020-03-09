@@ -1,5 +1,5 @@
 /*!
-Theme Name: Triad China V1
+Theme Name: Triad China
 Theme URI: http://underscores.me/
 Author: Triad China
 Author URI: http://underscores.me/
@@ -899,8 +899,8 @@ object {
 
 @media screen and (max-width: 419px) {
    .navbar-brand {padding:0.5em 0em 0em 1em;}
- 
-} 
+
+}
 }
 
 
@@ -909,7 +909,7 @@ object {
 .navitem {
     list-style: none;
     padding-top: 0.3em;
-    margin-right: 0em;} 
+    margin-right: 0em;}
 }
 
 
@@ -929,7 +929,7 @@ object {
  /*--------------------------------------------------------------
 #Portfolio Album  menu
 --------------------------------------------------------------*/
-#menucontent{ 
+#menucontent{
     padding-right: 15px!important;
     padding-left: 15px!important;
     margin-right: auto!important;
