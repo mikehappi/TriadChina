@@ -24,9 +24,21 @@
 
         <?php wp_head(); ?>
 
-        <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation" />
+        <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="
+    height: 136px;>
         <div class="container-fluid">
             <div class="row row-header-1">
+            
+            <div id=lang class="hidden-xs hidden-md hidden-sm" style="font-size:10px;">
+              <a href="http://www.spectrum-agency.com/">EN</a>
+              |
+              <a href="http://www.spectrum-agency.com/zh/">中文</a>
+            </div>
+
+
+
+
+
 
 
     <div class="navbar-header">
@@ -40,7 +52,7 @@
 
  <a id=logo class="navbar-brand" href="<?php echo home_url(); ?>">
 
-                  <img src="<?php echo $upload_dir['baseurl'] . '/logo.svg'; ?>"  style="width:auto;height:30px;" />
+                  <img src="<?php echo $upload_dir['baseurl'] . '/logo.svg'; ?>"  style="width:px;height:30px;" />
                 </a>
 
         <ul id="imenu">
