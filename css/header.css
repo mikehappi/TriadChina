@@ -42,18 +42,17 @@ nav:after {
   background-image: none !important;
   border-bottom: 2px solid black;
   box-shadow: none !important;
- 
+
 }
 /*styling navbar menu item  active hover */
 .navbar-nav li a:hover, .navbar-nav > .active > a {
-  background-color: #ffffff!important;
-  background-image: none !important;
+  color:#E74011;
     }
 /*styling dropdown menu  active hover */
 .dropdown:hover .dropdown-menu > .active > a {
   background-color: transparent !important;
   background-image: none !important;
-}                                                                                
+}
 
 
 /*styling dropdown menu hover opacity and border*/
@@ -66,7 +65,7 @@ opacity: 0.6;
 float:left;
 margin:0;
 font-family:AP;
- font-size: 10px !important;   
+ font-size: 10px !important;
 }
 
 
@@ -80,23 +79,23 @@ margin: 0em ;
 
 
 .navitem {
-	list-style: none; 
-    padding-top: 0.3em; 
+	list-style: none;
+    padding-top: 0.3em;
     margin-right: 4em
 
   }
 
 .navitemF {
-   list-style: none; 
+   list-style: none;
     padding-top: 0.3em;
 
- 
+
   }
 
 .navbar-brand {
 
     padding:0.5em 0em 0em 6em;
- 
+
 }
 
 .navbar .navbar-collapse {
@@ -109,7 +108,7 @@ margin: 0em ;
 #imenu {
   display: inline-block;
   float: none;
-  vertical-align: top;  
+  vertical-align: top;
  padding-left: 0px !important;
     margin: 0 !important;
 
@@ -132,7 +131,7 @@ margin: 0em ;
 #lang {
     padding-top: 0.6em !important;
     padding-right: 6em !important; }
- 
+
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
@@ -140,20 +139,20 @@ margin: 0em ;
    .navbar-brand {
 
     padding:0.5em 0em 0em 1.5em;
- 
-} 
 
-   
+}
+
+
 }
 
 @media screen and (max-width: 769px) {
   .navbar-brand {
 
     padding:0.5em 0em 0em 1.5em;
- 
+
 }
 .navitem {
     list-style: none;
     padding-top: 0.3em;
-    margin-right: 0em;} 
+    margin-right: 0em;}
 }
