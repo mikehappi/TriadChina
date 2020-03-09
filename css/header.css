@@ -41,8 +41,6 @@ nav:after {
  .navbar-nav > .active > a{
   background-color: transparent !important;
   background-image: none !important;
-  border-bottom: 2px solid black;
-  box-shadow: none !important;
 
 }
 
