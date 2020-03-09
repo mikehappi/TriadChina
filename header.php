@@ -19,43 +19,32 @@
         <meta charset="<?php bloginfo( 'charset' ); ?>">
         <link rel="profile" href="http://gmpg.org/xfn/11">
         <meta charset="utf-8">
-  
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <?php wp_head(); ?>
-  
+
         <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="
-    height: 136px;>
-        <div class="container-fluid">         
+    height: 135px;>
+        <div class="container-fluid">
             <div class="row row-header-1">
-            
-            <div id=lang class="hidden-xs hidden-md hidden-sm" style="font-size:10px;">
-              <a href="http://www.spectrum-agency.com/">EN</a>
-              |
-              <a href="http://www.spectrum-agency.com/zh/">中文</a>
-            </div>
-           
-      
-          
-                  
-          
-                  
-                          
+
+                      
     <div class="navbar-header">
-          
+
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-        </button> 
+        </button>
 
  <a id=logo class="navbar-brand" href="<?php echo home_url(); ?>">
-                 
+
                   <img src="<?php echo $upload_dir['baseurl'] . '/logo.svg'; ?>"  style="width:px;height:30px;" />
-                </a>     
-              
-        <ul id="imenu">        
+                </a>
+
+        <ul id="imenu">
             <?php wp_nav_menu( array(
                 'menu'              => 'primary',
                 'theme_location'    => 'primary',
@@ -70,9 +59,9 @@
         ?>
 
         </ul>
-           </div> 
            </div>
-        
+           </div>
+
 
         </nav>
 <!-- hide dropdown list -->
@@ -80,7 +69,6 @@
 jQuery(document).ready(function($){
 $('li').find('ul').addClass('hidden-xs hidden-md hidden-sm')
 });
-</script> 
+</script>
 
     </head>
-
