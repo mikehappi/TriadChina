@@ -35,7 +35,7 @@ nav:after {
 }
 
 .navbar-default a{
-    color:black !important;
+    color:#E74011 !important;
     }
 /*styling navbar active menu item   */
  .navbar-nav > .active > a{
@@ -45,31 +45,6 @@ nav:after {
   box-shadow: none !important;
 
 }
-/*styling navbar menu item  active hover */
-.navbar-nav li a:hover, .navbar-nav > .active > a {
-  color:#E74011;
-    }
-/*styling dropdown menu  active hover */
-.dropdown:hover .dropdown-menu > .active > a {
-  background-color: transparent !important;
-  background-image: none !important;
-}
-
-
-/*styling dropdown menu hover opacity and border*/
-
-.dropdown:hover .dropdown-menu{
-display:block;
-background-color: #ffffff;
-border: 1px solid white;
-opacity: 0.6;
-float:left;
-margin:0;
-font-family:AP;
- font-size: 10px !important;
-}
-
-
 
 
 nav ul {
@@ -78,20 +53,6 @@ padding: 0em;
 margin: 0em ;
 }
 
-
-.navitem {
-	list-style: none;
-    padding-top: 0.3em;
-    margin-right: 4em
-
-  }
-
-.navitemF {
-   list-style: none;
-    padding-top: 0.3em;
-
-
-  }
 
 .navbar-brand {
 
