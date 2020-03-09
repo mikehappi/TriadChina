@@ -93,7 +93,8 @@ margin: 0em ;
   }
 
 .navbar-brand {
-
+  width: auto;
+height: 30px;
 }
 
 .navbar .navbar-collapse {
