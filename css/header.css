@@ -7,12 +7,28 @@
 # Navigation
 --------------------------------------------------------------*/
 .row-header-1 { text-align:right}
+
+/*Navbar default   */
 .navbar-default {
      background:none;
      box-shadow: none !important;
       Display:block;
     }
+    .navbar-default{
+        background: #f9f9f9 !important;
+        font-family:AP !important;
+        font-size: 24px !important;
+        text-decoration: none;
+        height: 135px;
 
+    }
+
+    .navbar-default a{
+        color:black !important;
+        }
+
+
+/*styling navbar active menu item   */
 nav:after {
   content: "";
   display: table;
@@ -20,18 +36,6 @@ nav:after {
 }
 
 
-.navbar-default{
-    background: #f9f9f9 !important;
-    font-family:AP !important;
-    font-size: 24px !important;
-    text-decoration: none;
-    height: 135px;
-
-}
-
-.navbar-default a{
-    color:#E74011 !important;
-    }
 /*styling navbar active menu item   */
  .navbar-nav > .active > a{
   background-color: transparent !important;
