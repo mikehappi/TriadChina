@@ -27,7 +27,11 @@
         color:black !important;
         }
 
+      .navbar-default  a:hover {
+          color: red;
+        }
 
+        
 /*styling navbar active menu item   */
 nav:after {
   content: "";
