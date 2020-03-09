@@ -28,7 +28,7 @@
         }
 
       .navbar-default a:hover {
-        color: #E74011!important;
+        color: #E74011 !important;
         }
 
 
@@ -103,9 +103,15 @@ margin: 0em ;
     padding-left: inherit;
 }
 
+
+/*langague  */
 #lang {
     padding-top: 0.6em !important;
     padding-right: 6em !important; }
+
+    #lang a{
+    margin-right: 10px
+    }
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
