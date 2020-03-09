@@ -57,9 +57,13 @@
 
  		<div class="main-navigation-wrapper">
  			<nav id="site-navigation" class="main-navigation">
- 				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
- 					<span class="lnr lnr-menu"></span> <span class="lnr lnr-cross"></span>
- 				</button>
+				<button class="navbar-toggler p-0" data-toggle="collapse" data-target="#navbarNav">
+              <div class="hamburger hamburger--spin js-hamburger">
+                    <div class="hamburger-box">
+                      <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+			</button>
  				<div class="primary-menu-wrapper">
  					<?php
  					wp_nav_menu( array(
