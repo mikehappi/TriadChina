@@ -24,7 +24,7 @@
 
         <?php wp_head(); ?>
 
-        <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="height:135px;>
+        <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation"
         <div class="container-fluid">
             <div class="row row-header-1">
 
