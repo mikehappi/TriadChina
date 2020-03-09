@@ -24,15 +24,14 @@
 
         <?php wp_head(); ?>
 
-        <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="
-    height: 136px;>
+        <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="height:135px;>
         <div class="container-fluid">
             <div class="row row-header-1">
-            
+
             <div id=lang class="hidden-xs hidden-md hidden-sm" style="font-size:10px;">
-              <a href="http://www.spectrum-agency.com/">EN</a>
+              <a href="">DE</a>
               |
-              <a href="http://www.spectrum-agency.com/zh/">中文</a>
+              <a href="">中文</a>
             </div>
 
 
