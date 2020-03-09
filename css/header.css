@@ -63,7 +63,7 @@ margin: 0em ;
 
 
 .row-header-1 {
-  width: 1200PX;
+    width: 1200px !important;
   text-align:right}
 
 
@@ -84,7 +84,6 @@ langague
         text-align: right;
         vertical-align: top;
         padding-left: inherit;
-        width: 1200px !important;
     }
 
 /*Toggle*/
