@@ -27,16 +27,6 @@
  ?>
  <div id="page" class="site">
 
- 	<div class="search-modal" id="search-modal">
- 		<button class="close-search-modal" id="close-search-modal">
- 			<span class="lnr lnr-cross"></span>
- 		</button>
- 		<div class="search-form-wrapper">
- 			<?php
- 			get_search_form();
- 			?>
- 		</div>
- 	</div>
 
  	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'triadchina' ); ?></a>
 
