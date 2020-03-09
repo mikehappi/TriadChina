@@ -6,7 +6,7 @@
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
-.row-header-1 { text-align:right}
+
 
 /*Navbar default   */
 .navbar-default {
@@ -61,6 +61,8 @@ margin: 0em ;
      float: none;
 }
 
+
+.row-header-1 { text-align:right}
 .container-fluid {
     margin-right: auto;
     margin-left: auto;
@@ -70,46 +72,6 @@ margin: 0em ;
 }
 
 
-#imenu {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
- padding-left: 0px !important;
-    margin: 0 !important;
-
-}
-
-/*Logo */
-#logo {
-  display: inline-block;
-  float: left;
-  vertical-align: middle;
-}
-
-svg:hover {
-  fill: #E74011 !important;
-}
-
-.navbar-brand {
-
-      float: left;
-      height: 50px;
-      /* padding: 15px 15px; */
-      /* font-size: 18px; */
-      /* line-height: 20px; */
-    padding:0.5em 0em 0em 6em;
-
-}
-
-
-
-.navbar-header {
-    float:none;
-    display: block;
-    text-align: right;
-      vertical-align: top;
-    padding-left: inherit;
-}
 
 
 /*langague  */
@@ -120,6 +82,58 @@ svg:hover {
 #lang a{
     margin-right: 10px
     }
+
+
+/*Nav-hearder */
+    .navbar-header {
+        float:none;
+        display: block;
+        text-align: right;
+          vertical-align: top;
+        padding-left: inherit;
+    }
+
+
+
+
+/*Toggle*/
+.navbar-toggle {}
+
+
+
+  /*Logo */
+  #logo {
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+  }
+
+  svg:hover {
+    fill: #E74011 !important;
+  }
+
+  .navbar-brand {
+
+        float: left;
+        height: 50px;
+        /* padding: 15px 15px; */
+        /* font-size: 18px; */
+        /* line-height: 20px; */
+      padding:0.5em 0em 0em 6em;
+
+  }
+
+/*Menu item */
+
+#imenu {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+ padding-left: 0px !important;
+    margin: 0 !important;
+
+}
+
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation

@@ -87,7 +87,7 @@ c0.4-0.6,0.1-1.2-0.6-1.2L88.6,0z"/>
         </ul>
            </div>
            </div>
-
+</div>
 
         </nav>
 <!-- hide dropdown list -->
