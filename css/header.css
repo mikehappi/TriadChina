@@ -28,10 +28,10 @@
         }
 
       .navbar-default  a:hover {
-          color: red;
+          color: #E74011;
         }
 
-        
+
 /*styling navbar active menu item   */
 nav:after {
   content: "";
