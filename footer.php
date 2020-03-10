@@ -16,10 +16,10 @@
 
 <footer id="colophon" role="content info">
 
-  <nav class="navbar-default navbar">
+  <nav class="footer-default navbar-fixed-top">
 
 		<div class="row row-header-1">
-	
+
 
 		    <div class="navbar-header">
 
