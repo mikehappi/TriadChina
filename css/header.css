@@ -63,7 +63,7 @@ margin: 0em ;
 
 .row-header-1 {
     width: 1200px !important;
-    text-align:right}
+    }
 
 langague
 #lang {
@@ -83,6 +83,7 @@ langague
         text-align: right;
         vertical-align: top;
         padding-left: inherit;
+         height: 30px !important;
     }
 
 /*Toggle*/
