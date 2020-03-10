@@ -19,7 +19,7 @@
   <nav class="navbar-default navbar">
 
 		<div class="row row-header-1">
-		<div class="container-fluid">
+	
 
 		    <div class="navbar-header">
 
@@ -60,7 +60,7 @@
 
 		        </ul>
 		           </div>
-		</div>
+
 
 
   </nav>
