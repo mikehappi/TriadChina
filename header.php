@@ -64,7 +64,7 @@ c0.4-0.6,0.1-1.2-0.6-1.2L88.6,0z"/>
 </svg>
                 </a>
 
-        <ul id="imenu">
+
             <?php wp_nav_menu( array(
                 'menu'              => 'primary',
                 'theme_location'    => 'primary',
@@ -78,7 +78,6 @@ c0.4-0.6,0.1-1.2-0.6-1.2L88.6,0z"/>
             );
         ?>
 
-        </ul>
            </div>
 </div>
 </div>

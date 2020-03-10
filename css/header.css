@@ -105,18 +105,9 @@ langague
   }
 
 /*Menu item */
-#imenu {
-display: inline-block;
-float: none;
-vertical-align: bottom;
- padding-left: 0px !important;
-margin: 0 !important;
-height: 30px !important;
-}
-
-
 .navbar-nav {
   height: 30px !important;
+  vertical-align: bottom;
   }
 
 .navbar-nav > li > a {
