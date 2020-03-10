@@ -107,9 +107,13 @@ langague
 /*Menu item */
 .navbar-nav {
   height: 30px !important;
-  vertical-align: bottom;
+   position: relative !important;
   }
 
+.navbar-nav > li{
+  position: absolute !important;
+  bottom: 0 !important;
+}
 .navbar-nav > li > a {
    padding: 0px 0px 0px 50px !important;}
   }
