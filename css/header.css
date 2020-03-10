@@ -120,11 +120,8 @@ height: 30px !important;
   }
 
 .navbar-nav > li > a {
-   padding: 0px 0px !important;}
+   padding: 0px 50px 0px 0px !important;}
   }
-  .navbar-nav > li .navitem {
-     padding-right:50px !important;}
-    }
 
 
 /*--------------------------------------------------------------
