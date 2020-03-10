@@ -21,6 +21,8 @@
         text-decoration: none;
         height: 135px;
         text-align: right !important;
+        display: flex;
+        justify-content: center;
     }
 
     .navbar-default a{
