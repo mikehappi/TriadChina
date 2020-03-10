@@ -54,6 +54,11 @@ padding: 0em;
 margin: 0em ;
 }
 
+.navitem {
+
+  padding-right: 50px !important;
+}
+
 
 
 .navbar .navbar-collapse {
@@ -125,7 +130,10 @@ height: 30px !important;
    padding-bottom: 0px!important;
   }
 
-
+  .nav > li > a {
+      position: relative;
+      display: block;
+      padding: 0px 0px !important;}
 
 
 /*--------------------------------------------------------------
