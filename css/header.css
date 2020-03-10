@@ -120,18 +120,12 @@ height: 30px !important;
   }
 
 .navbar-nav > li > a {
-  padding-top: 0px !important;
-   padding-bottom: 0px!important;
+   padding: 0px 0px !important;}
   }
 
-  .nav > li > a {
-      position: relative;
-      display: block;
-      padding: 0px 0px !important;}
 
-      .navitem {
-
-        padding-right: 50px !important;
+.navitem {
+padding-right: 50px !important;
       }
 
 
