@@ -24,7 +24,7 @@
 
         <?php wp_head(); ?>
 
-        <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation"
 
 <div class="row row-header-1">
 <div class="container-fluid">
@@ -64,7 +64,7 @@ c0.4-0.6,0.1-1.2-0.6-1.2L88.6,0z"/>
 </svg>
                 </a>
 
-
+        <ul id="imenu">
             <?php wp_nav_menu( array(
                 'menu'              => 'primary',
                 'theme_location'    => 'primary',
@@ -78,9 +78,10 @@ c0.4-0.6,0.1-1.2-0.6-1.2L88.6,0z"/>
             );
         ?>
 
+        </ul>
            </div>
 </div>
-</div>
+
         </nav>
 <!-- hide dropdown list -->
 <script>
