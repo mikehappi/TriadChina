@@ -122,12 +122,9 @@ height: 30px !important;
 .navbar-nav > li > a {
    padding: 0px 0px !important;}
   }
-
-
-.navitem {
-padding-right: 50px !important;
-      }
-
+  .navbar-nav > li .navitem {
+     padding-right:50px !important;}
+    }
 
 
 /*--------------------------------------------------------------
