@@ -43,7 +43,7 @@
 		</g>
 		</svg>
 		                </a>
-
+						<div class="imenutitle"> Discover</div>
 		        <ul id="imenu">
 		            <?php wp_nav_menu( array(
 		                'menu'              => 'primary',
