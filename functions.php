@@ -47,7 +47,7 @@ function triadchina_setup() {
 	register_nav_menus( array(
 		'menu-1' => esc_html__( 'Primary', 'triadchina' ),
 	) );
-    
+
     register_nav_menus( array(
         'primary' => __( 'Primary Menu', 'triadchina' ),
 ) );
@@ -124,18 +124,12 @@ add_action( 'widgets_init', 'spectrum_agency_widgets_init' );
 function spectrum_agency_scripts() {
 
     wp_enqueue_style( 'triadchina-style', get_stylesheet_uri() );
-    wp_enqueue_style('bootstrap',get_template_directory_uri().'/css/bootstrap.css'); 
-    wp_enqueue_style('bootstrap-theme',get_template_directory_uri().'/css/bootstrap-theme.css'); 
-    wp_register_style( 'header', get_template_directory_uri().'/css/header.css', '', null, 'all' );	
+    wp_enqueue_style('bootstrap',get_template_directory_uri().'/css/bootstrap.css');
+    wp_enqueue_style('bootstrap-theme',get_template_directory_uri().'/css/bootstrap-theme.css');
+    wp_register_style( 'header', get_template_directory_uri().'/css/header.css', '', null, 'all' );
     wp_enqueue_style('header');
-    wp_register_style( 'footer', get_stylesheet_directory_uri().'/css/footer.css', '', null, 'all' );	
-    wp_enqueue_style('footer');
-    /* wp_register_style( 'template-contact', get_stylesheet_directory_uri().'/css/template-contact.css', '', null, 'all' );	
+    /* wp_register_style( 'template-contact', get_stylesheet_directory_uri().'/css/template-contact.css', '', null, 'all' );
     wp_enqueue_style('template-contact');*/
-    wp_register_style( 'template-info', get_stylesheet_directory_uri().'/css/template-info.css', '', null, 'all' );	
-    wp_enqueue_style('template-info');
- wp_register_style( 'template-contact7', get_stylesheet_directory_uri().'/css/template-contact7.css', '', null, 'all' );	
-    wp_enqueue_style('template-contact7');
     wp_enqueue_script('bootstrap-java',get_template_directory_uri().'/js/bootstrap.min.js',array('jquery'),'20161115',true);
     wp_enqueue_script( 'triadchina-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
     wp_enqueue_script( 'triadchina-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );

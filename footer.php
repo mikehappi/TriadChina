@@ -14,6 +14,10 @@
 <?php $upload_dir = wp_upload_dir(); ?>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style type="text/css">
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
 .footer{
     background: #e5e5e5!important;
     font-family:AP !important;
@@ -45,6 +49,8 @@ svg:hover {
 
 .fheader {
     display: flex;
+		height: 30px !important;
+		align-items: baseline;
 }
 
 .fmenutitle {
@@ -53,10 +59,6 @@ font-size:26px !important;
 .fsocialtitle {
 font-size:26px !important;
 }
-
-
-
-
 
 #fmenu {
 
