@@ -18,7 +18,7 @@
 
   <nav class="footer navbar-fixed-bottom">
 
-		<div class="row row-header-1">
+		<div class="row row-footer">
 
 
 		    <div class="navbar-header">
@@ -62,7 +62,7 @@
 		           </div>
 
 
-
+</div>
   </nav>
 </footer><!-- #colophon -->
 </div><!-- #page -->

@@ -6,6 +6,74 @@
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/
+.footer{
+    background: #e5e5e5!important;
+    font-family:AP !important;
+    font-size: 18px !important;
+    text-decoration: none;
+    height: 550px;
+    text-align: right !important;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer a{
+    color:black !important;
+    }
+
+  .footer a:hover {
+    color: #E74011 !important;
+    }
+
+
+/* mouse over link */
+a:hover {
+    color: black;
+ text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: black;
+ text-decoration: none;
+}
+
+svg:hover {
+  fill: #E74011 !important;
+}
+
+
+
+.row-footer{
+  width: 1200px !important;
+  padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #lab_social_icon_footer {
   padding: 20px 0;
@@ -39,36 +107,3 @@ a:visited {
     color: black;
  text-decoration: none;
 }
-
-
-/* mouse over link */
-a:hover {
-    color: black;
- text-decoration: none;
-}
-
-/* selected link */
-a:active {
-    color: black;
- text-decoration: none;
-}
-
-svg:hover {
-  fill: #E74011 !important;
-}
-
-
-.footer{
-    background: #e5e5e5!important;
-    font-family:AP !important;
-    font-size: 18px !important;
-    text-decoration: none;
-    height: 550px;
-    text-align: right !important;
-    display: flex;
-    justify-content: center;
-}
-
-.footer a:hover {
-  color: #E74011 !important;
-  }
