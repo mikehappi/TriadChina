@@ -18,12 +18,12 @@
 
   <nav class="footer navbar-fixed-bottom">
 
-		<div class="row-footer">
+		<div class="rfooter">
 
 
-		 <div class="footer-header">
+		 <div class="fheader">
 
-		 <a id=logo class="footer-brand" href="<?php echo home_url(); ?>">
+		 <a id=logo class="fbrand" href="<?php echo home_url(); ?>">
 
 		   <svg height="30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 		viewBox="0 0 103.3 30" style="enable-background:new 0 0 103.3 30;" xml:space="preserve">
