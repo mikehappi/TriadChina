@@ -51,6 +51,7 @@ svg:hover {
     display: flex;
 		height: 30px !important;
 		align-items: baseline;
+		justify-content: space-between;
 }
 
 .fmenutitle {
