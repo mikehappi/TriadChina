@@ -18,7 +18,7 @@
 
   <nav class="footer navbar-fixed-bottom">
 
-		<div class="row row-footer">
+		<div class="row-footer">
 
 
 		 <div class="footer-header">
