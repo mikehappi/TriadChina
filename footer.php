@@ -72,49 +72,6 @@ font-size:26px !important;
    padding: 0px 0px 0px 50px !important;}
   }
 
-
-
-
-
-
-
-
-
-
-
-#lab_social_icon_footer {
-  padding: 20px 0;
-  background-color: #FFF;
-}
-
-
-html.pum-open.pum-open-overlay, html.pum-open.pum-open-overlay.pum-open-fixed .pum-overlay {
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-}
-html.pum-open.pum-open-overlay.pum-open-scrollable .pum-overlay.pum-active {
-    overflow-y: hidden;
-}
-
-.call {
-font-family:AP !important;
-color: black;
- text-decoration: none;
-}
-
-/* unvisited link */
-a:link {
-    color: black;
- text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-    color: black;
- text-decoration: none;
-}
-
 </style>
 
 
