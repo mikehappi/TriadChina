@@ -21,7 +21,7 @@
 		<div class="row row-footer">
 
 
-		    <div class="footer-header">
+		 <div class="footer-header">
 
 		 <a id=logo class="footer-brand" href="<?php echo home_url(); ?>">
 
@@ -43,7 +43,9 @@
 		</g>
 		</svg>
 		                </a>
-						<div class="footermenutitle"> Discover</div>
+						<div class="fmenutitle"> Discover</div>
+						<div class="fsocialtitle"> Discover</div>
+				</div>
 		        <ul id="footermenu">
 		            <?php wp_nav_menu( array(
 		                'menu'              => 'primary',
@@ -59,7 +61,7 @@
 		        ?>
 
 		        </ul>
-		           </div>
+
 
 
 </div>
