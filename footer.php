@@ -21,9 +21,9 @@
 		<div class="row row-footer">
 
 
-		    <div class="navbar-header">
+		    <div class="footer-header">
 
-		 <a id=logo class="navbar-brand" href="<?php echo home_url(); ?>">
+		 <a id=logo class="footer-brand" href="<?php echo home_url(); ?>">
 
 		   <svg height="30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 		viewBox="0 0 103.3 30" style="enable-background:new 0 0 103.3 30;" xml:space="preserve">
@@ -43,8 +43,8 @@
 		</g>
 		</svg>
 		                </a>
-						<div class="imenutitle"> Discover</div>
-		        <ul id="imenu">
+						<div class="footermenutitle"> Discover</div>
+		        <ul id="footermenu">
 		            <?php wp_nav_menu( array(
 		                'menu'              => 'primary',
 		                'theme_location'    => 'primary',
