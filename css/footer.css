@@ -39,21 +39,21 @@ a:active {
  text-decoration: none;
 }
 
-svg:hover {
-  fill: #E74011 !important;
-}
-
-
 
 .row-footer{
   width: 1200px !important;
   padding-top: 100px;
 }
 
+svg:hover {
+  fill: #E74011 !important;
+}
 
 
 
-
+.imenutitle {
+font-size:26px !important;
+}
 
 
 
