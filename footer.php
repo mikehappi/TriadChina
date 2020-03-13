@@ -19,7 +19,7 @@
 ## Footer
 --------------------------------------------------------------*/
 .footer{
-    background: #e5e5e5!important;
+    background: #F2F2F2!important;
     font-family:AP !important;
     font-size: 18px !important;
     text-decoration: none;
@@ -56,9 +56,11 @@ svg:hover {
 
 .fmenutitle {
 font-size:26px !important;
+margin-left: 447px;
 }
 .fsocialtitle {
 font-size:26px !important;
+margin-right: 110px;
 }
 
 #fmenu {
