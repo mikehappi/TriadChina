@@ -26,20 +26,6 @@
     color: #E74011 !important;
     }
 
-
-/* mouse over link */
-a:hover {
-    color: black;
- text-decoration: none;
-}
-
-/* selected link */
-a:active {
-    color: black;
- text-decoration: none;
-}
-
-
 .row-footer{
   width: 1200px !important;
   padding-top: 100px;
@@ -49,9 +35,20 @@ svg:hover {
   fill: #E74011 !important;
 }
 
+.footer-header {
+    float:none;
+    display: block;
+    text-align: right;
+    vertical-align: top;
+    padding-left: inherit;
+    padding-top: 10px!important;
+     height: 30px !important;
+}
 
-
-.footermenutitle {
+.fmenutitle {
+font-size:26px !important;
+}
+.fsocialtitle {
 font-size:26px !important;
 }
 
@@ -59,11 +56,19 @@ font-size:26px !important;
 
 
 
+#fmenu {
 
 
+}
 
 
+.navbar-nav {
+  height: 30px !important;
+  }
 
+.navbar-nav > li > a {
+   padding: 0px 0px 0px 50px !important;}
+  }
 
 
 

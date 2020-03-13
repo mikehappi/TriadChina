@@ -44,9 +44,9 @@
 		</svg>
 		                </a>
 						<div class="fmenutitle"> Discover</div>
-						<div class="fsocialtitle"> Discover</div>
+						<div class="fsocialtitle"> Follow us on</div>
 				</div>
-		        <ul id="footermenu">
+		        <ul id="fmenu">
 		            <?php wp_nav_menu( array(
 		                'menu'              => 'primary',
 		                'theme_location'    => 'primary',
