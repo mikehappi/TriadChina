@@ -56,11 +56,11 @@ svg:hover {
 
 .fmenutitle {
 font-size:26px !important;
-margin-left: 447px;
+margin-left: 430px;
 }
 .fsocialtitle {
 font-size:26px !important;
-margin-right: 110px;
+margin-right: 115px;
 }
 
 #fmenu {
