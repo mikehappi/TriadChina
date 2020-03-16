@@ -114,7 +114,8 @@ margin-right: 115px;
 
 .ficp > ul {
       display: inline!important;
-      float:right !important;}
+      float:right !important;
+    list-style: none!important;}
 .ficp> li > a {
    position: relative;
    display: -webkit-box;
