@@ -86,6 +86,13 @@ padding: 32px 0px 0px !important;
 
 }
 
+.fsocialicon {
+  width: auto;
+  height: 30px !important;
+padding-top: 32px;
+padding-left: 42em;
+}
+.fsocialicon > svg { margin: 32px!important}
 
 </style>
 
@@ -171,7 +178,6 @@ padding: 32px 0px 0px !important;
   		c83.1807,0,150.6025,56.1748,150.6025,125.4927C634.0195,489.6338,613.7393,523.668,581.9854,546.6797z"/>
   </g>
   </svg>
-
   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve">
   <g>
