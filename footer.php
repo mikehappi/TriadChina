@@ -66,14 +66,17 @@ margin-right: 115px;
 #fmenu {
   text-align: left;
   position: absolute;
-  left: 53.2%;
+  left: 53.8%;
 }
 
 .fbar-nav{
-padding: 0px 0px !important;
+padding: 32px 0px 0px !important;
     margin-bottom: 0;
     list-style: none;}
 
+ .fbar-nav > li {
+  height: 18px !important;
+ }
  .fbar-nav > li > a {
     position: relative;
     display: block;
