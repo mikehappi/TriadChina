@@ -64,8 +64,8 @@ margin-right: 115px;
 }
 .fcontent{
   margin-top: 32px!important;
-      width: 1200px !important;
-      height: auto;
+  width: 1200px !important;
+  height: 200px !important;
 }
 
 
@@ -76,7 +76,6 @@ margin-right: 115px;
 }
 
 .fbar-nav{
-padding: 32px 0px 0px !important;
     margin-bottom: 0;
     list-style: none;}
 
