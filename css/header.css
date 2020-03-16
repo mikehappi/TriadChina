@@ -75,9 +75,11 @@ langague
     padding-right: 6em !important; }
 
 #hitem{
-    font-size: 10px!important;}
+    font-size: 10px!important;
+  text-decoration: none !important;}
 #hitems{
-    margin-left: 10px
+    margin-left: 10px;
+    text-decoration: none !important;
     }
 
 
