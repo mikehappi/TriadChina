@@ -126,7 +126,6 @@ margin-right: 115px;
 
    #fitem{
 text-decoration: none !important;
-margin-left: 50px;
 }
 
    #fitems{
