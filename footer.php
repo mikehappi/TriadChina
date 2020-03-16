@@ -72,7 +72,7 @@ margin-right: 115px;
 .fcontent:before {
   content: '';
   width: 1200px;
-  border-bottom: solid 2px #000;
+  border-bottom: solid 1px #000;
   position: absolute;
   left: 0;
   bottom: 100px;
