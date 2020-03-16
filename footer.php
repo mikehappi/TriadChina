@@ -69,13 +69,6 @@ margin-right: 115px;
 }
 
 
-.navbar-nav {
-  height: 30px !important;
-  }
-
-.navbar-nav > li > a {
-   padding: 0px 0px 0px 50px !important;}
-  }
 
 </style>
 
@@ -112,6 +105,8 @@ margin-right: 115px;
 		</svg>
 		                </a>
 						<div class="fmenutitle"> Discover</div>
+
+
 						<div class="fsocialtitle"> Follow us on</div>
 				</div>
 		        <ul id="fmenu">
@@ -122,7 +117,7 @@ margin-right: 115px;
 		                'container'         => 'div',
 		                'container_class'   => 'collapse navbar-collapse',
 		                'container_id'      => 'bs-example-navbar-collapse-1',
-		                'menu_class'        => 'nav navbar-nav',
+		                'menu_class'        => 'nav fbar-nav',
 		                'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
 		                'walker'            => new WP_Bootstrap_Navwalker())
 		            );
