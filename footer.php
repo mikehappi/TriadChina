@@ -41,6 +41,7 @@
 .rfooter{
   width: 1200px !important;
   padding-top: 100px;
+  position: absolute;
 }
 
 svg:hover {
@@ -69,13 +70,14 @@ margin-right: 115px;
 }
 
 .fcontent:before {
-    content: '';
-    width: 100%;
-    border-bottom: solid 2px #000;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    z-index: 1;
+  fcontent:before {
+  content: '';
+  width: 1200px;
+  border-bottom: solid 2px #000;
+  position: absolute;
+  left: 0;
+  top: 80%;
+  z-index: 1;
 }
 
 
