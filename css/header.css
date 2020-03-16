@@ -74,7 +74,9 @@ langague
     padding-top: 0.6em !important;
     padding-right: 6em !important; }
 
-#lang a{
+#hitem{
+    font-size: 10px!important;}
+#hitems{
     margin-left: 10px
     }
 
