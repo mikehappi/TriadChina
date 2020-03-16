@@ -71,8 +71,7 @@ margin-right: 115px;
 
 #fmenu {
   text-align: left;
-  position: absolute;
-  left: 53.8%;
+  margin-right: 165px;
 }
 
 .fbar-nav{
@@ -92,10 +91,11 @@ margin-right: 115px;
 }
 
 .fsocialicon {
-  text-align: center;
+  text-align: right; */
   width: auto;
   height: 30px !important;
-  padding-left: 42em;
+  float: right;
+  margin-right: 185px;
 }
 .fsocialicon > svg { }
 
