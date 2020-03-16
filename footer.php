@@ -231,6 +231,9 @@ margin-right: 115px;
   </svg>
 
 </div>
+<div class="ficp">
+<span>  © 2020 Triad China Ltd. All rights reserved.</span>
+</div>
 </div>
 </div>
   </nav>
