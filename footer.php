@@ -64,7 +64,9 @@ margin-right: 115px;
 }
 
 #fmenu {
-    text-align: left !important;
+  text-align: left;
+  position: absolute;
+  left: 53.2%;
 }
 
 
@@ -124,7 +126,7 @@ margin-right: 115px;
 		        </ul>
 
 <div class="fsocialicon">
-  
+
 </div>
 
 </div>
