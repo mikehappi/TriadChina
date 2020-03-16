@@ -68,6 +68,16 @@ margin-right: 115px;
   height: 200px !important;
 }
 
+.fcontent:after {
+    content: '';
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+}
+
 
 #fmenu {
   text-align: left;
