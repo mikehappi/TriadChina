@@ -124,7 +124,12 @@ margin-right: 115px;
        float:right !important;
    }
 
-   .ficp > li > a {
+   #fitem{
+text-decoration: none !important;
+margin-left: 50px;
+}
+
+   #fitems{
 text-decoration: none !important;
 margin-left: 50px;
 }
@@ -259,7 +264,7 @@ margin-left: 50px;
 <ul>
   <li class="fitemsicp"><a id="fitems" href="" >京ICP备04000001号</a></li>
   <li class="fitemsicp"><a id="fitems" href="" >Imprint</a></li>
-<li class="fitemsicp"><a id="fitems" href="" >Privacy policy</a></li>
+<li class="fitemsicp"><a id="fitem" href="" >Privacy policy</a></li>
 </ul>
 </div>
 </div>
