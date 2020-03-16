@@ -64,7 +64,7 @@ margin-right: 115px;
 }
 
 #fmenu {
-
+    text-align: left;
 
 }
 
