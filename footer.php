@@ -108,7 +108,11 @@ margin-right: 115px;
   float: right;
   margin-right: 185px;
 }
-.fsocialicon > svg { }
+
+
+.ficp { float:left !important;}
+
+.ficp > ul { float:right !important;}
 
 </style>
 
@@ -233,6 +237,11 @@ margin-right: 115px;
 </div>
 <div class="ficp">
 <span>  © 2020 Triad China Ltd. All rights reserved.</span>
+<ul>
+<li class="fitems_icp"><span>Privacy policy</span></li>
+<li class="fitems_icp"><span>Imprint</span></li>
+<li class="fitems_icp"><span>京ICP备04000001号</span></li>
+</ul>
 </div>
 </div>
 </div>
