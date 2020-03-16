@@ -68,10 +68,10 @@ margin-right: 115px;
   height: 200px !important;
 }
 
-.fcontent:after {
+.fcontent:before {
     content: '';
     width: 100%;
-    border-bottom: solid 1px #fff;
+    border-bottom: solid 2px #000;
     position: absolute;
     left: 0;
     top: 50%;
