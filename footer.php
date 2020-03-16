@@ -41,7 +41,7 @@
 .rfooter{
   width: 1200px !important;
   padding-top: 100px;
-  position: absolute;
+  position: relative;
 }
 
 svg:hover {
