@@ -62,6 +62,12 @@ margin-left: 430px;
 font-size:26px !important;
 margin-right: 115px;
 }
+.fcontent{
+  margin-top: 32px!important;
+      width: 1200px !important;
+      height: auto;
+}
+
 
 #fmenu {
   text-align: left;
@@ -80,19 +86,17 @@ padding: 32px 0px 0px !important;
  }
  .fbar-nav > li > a {
     position: relative;
-    display: block;
+    display: -webkit-box;
     padding: 0px 0px !important;
     text-decoration: none !important;
 
 }
-.fcontent{
-  margin: 32px!important
-}
+
 .fsocialicon {
   text-align: center;
   width: auto;
   height: 30px !important;
-padding-left: 42em;
+  padding-left: 42em;
 }
 .fsocialicon > svg { }
 
