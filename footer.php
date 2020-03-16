@@ -145,7 +145,7 @@ padding: 32px 0px 0px !important;
 <div class="fsocialicon">
 
   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-  	 width="768px" height="768px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve">
+  	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve">
   <g>
   	<path d="M254.5127,266.0757c-13.3193,0-24.1064,10.7871-24.1064,24.0952c0,13.3076,10.7871,24.0947,24.1064,24.0947
   		c13.2959,0,24.083-10.7871,24.083-24.0947C278.5957,276.8628,267.8086,266.0757,254.5127,266.0757z"/>
@@ -171,9 +171,9 @@ padding: 32px 0px 0px !important;
   		c83.1807,0,150.6025,56.1748,150.6025,125.4927C634.0195,489.6338,613.7393,523.668,581.9854,546.6797z"/>
   </g>
   </svg>
-  
+
   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-  	 width="768px" height="768px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve">
+  	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve">
   <g>
   	<path d="M384,0C172.0649,0,0,172.0649,0,384c0,211.9346,172.0649,384,384,384c211.9346,0,384-172.0654,384-384
   		C768,172.0649,595.9346,0,384,0z M622.5557,482.9521c-1.166,25.5449-5.2236,42.9912-11.1543,58.2568
