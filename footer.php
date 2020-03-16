@@ -73,7 +73,7 @@ margin-right: 115px;
 padding: 0px 0px !important;
     margin-bottom: 0;
     list-style: none;}
-    
+
  .fbar-nav > li > a {
     position: relative;
     display: block;
@@ -128,7 +128,7 @@ padding: 0px 0px !important;
 		                'container'         => 'div',
 		                'container_class'   => 'collapse navbar-collapse',
 		                'container_id'      => 'bs-example-navbar-collapse-1',
-		                'menu_class'        => 'nav fbar-nav',
+		                'menu_class'        => 'fbar-nav',
 		                'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
 		                'walker'            => new WP_Bootstrap_Navwalker())
 		            );
