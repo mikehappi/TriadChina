@@ -85,14 +85,16 @@ padding: 32px 0px 0px !important;
     text-decoration: none !important;
 
 }
-
+.fcontent{
+  margin: 32px!important
+}
 .fsocialicon {
+  text-align: center;
   width: auto;
   height: 30px !important;
-padding-top: 32px;
 padding-left: 42em;
 }
-.fsocialicon > svg { margin: 32px!important}
+.fsocialicon > svg { }
 
 </style>
 
@@ -133,6 +135,8 @@ padding-left: 42em;
 
 						<div class="fsocialtitle"> Follow us on</div>
 				</div>
+
+        <div class="fcontent">
 		        <ul id="fmenu">
 		            <?php wp_nav_menu( array(
 		                'menu'              => 'primary',
@@ -212,7 +216,7 @@ padding-left: 42em;
   </svg>
 
 </div>
-
+</div>
 </div>
   </nav>
 </footer><!-- #colophon -->
