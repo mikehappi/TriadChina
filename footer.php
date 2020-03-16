@@ -109,8 +109,10 @@ margin-right: 115px;
   margin-right: 185px;
 }
 
-
-.ficp { float:left !important;}
+.ficp{
+  width: 1200px !important;
+  height::auto;
+}
 
 .ficp > ul {
       display: inline!important;
@@ -246,6 +248,9 @@ margin-right: 115px;
   </svg>
 
 </div>
+
+</div>
+
 <div class="ficp">
 <span>  © 2020 Triad China Ltd. All rights reserved.</span>
 <ul>
@@ -255,7 +260,7 @@ margin-right: 115px;
 </ul>
 </div>
 </div>
-</div>
+
   </nav>
 </footer><!-- #colophon -->
 </div><!-- #page -->
