@@ -75,7 +75,7 @@ margin-right: 115px;
   border-bottom: solid 2px #000;
   position: absolute;
   left: 0;
-  top: 88.2%;
+  bottom: 100px;
   z-index: 1;
 }
 
@@ -111,7 +111,9 @@ margin-right: 115px;
 
 .ficp{
   width: 1200px !important;
-  height::auto;
+  height:auto;
+  position: absolute!important;
+bottom: 40px!important;
 }
 
 .ficp > ul {
