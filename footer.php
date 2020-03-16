@@ -76,11 +76,14 @@ padding: 32px 0px 0px !important;
 
  .fbar-nav > li {
   height: 18px !important;
+  margin-bottom: 28px;
  }
  .fbar-nav > li > a {
     position: relative;
     display: block;
     padding: 0px 0px !important;
+    text-decoration: none !important;
+
 }
 
 
