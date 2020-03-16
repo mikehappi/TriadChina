@@ -80,7 +80,7 @@ margin-right: 115px;
 
  .fbar-nav > li {
   height: 18px !important;
-  margin-bottom: 28px;
+  margin-bottom: 18px;
  }
  .fbar-nav > li > a {
     position: relative;
@@ -159,7 +159,8 @@ margin-right: 115px;
 <div class="fsocialicon">
 
   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-  	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve">
+  	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve" style="
+    margin-right: 2px;">
   <g>
   	<path d="M254.5127,266.0757c-13.3193,0-24.1064,10.7871-24.1064,24.0952c0,13.3076,10.7871,24.0947,24.1064,24.0947
   		c13.2959,0,24.083-10.7871,24.083-24.0947C278.5957,276.8628,267.8086,266.0757,254.5127,266.0757z"/>
