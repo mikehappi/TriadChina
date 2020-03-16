@@ -112,7 +112,14 @@ margin-right: 115px;
 
 .ficp { float:left !important;}
 
-.ficp > ul { float:right !important;}
+.ficp > ul {
+      display: inline!important;
+      float:right !important;}
+.ficp> li > a {
+   position: relative;
+   display: -webkit-box;
+   padding: 0px 0px !important;
+   text-decoration: none !important;}
 
 </style>
 
@@ -238,9 +245,10 @@ margin-right: 115px;
 <div class="ficp">
 <span>  © 2020 Triad China Ltd. All rights reserved.</span>
 <ul>
-<li class="fitems_icp"><span>Privacy policy</span></li>
-<li class="fitems_icp"><span>Imprint</span></li>
-<li class="fitems_icp"><span>京ICP备04000001号</span></li>
+
+<li class="fitemsicp"><a id="fitems" href="" >Privacy policy</a></li>
+<li class="fitemsicp"><a id="fitems" href="" >Imprint</a></li>
+<li class="fitemsicp"><a id="fitems" href="" >京ICP备04000001号</a></li>
 </ul>
 </div>
 </div>
