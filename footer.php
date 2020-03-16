@@ -75,7 +75,7 @@ margin-right: 115px;
   border-bottom: solid 2px #000;
   position: absolute;
   left: 0;
-  top: 80%;
+  top: 88.2%;
   z-index: 1;
 }
 
