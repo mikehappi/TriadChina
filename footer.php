@@ -69,6 +69,11 @@ margin-right: 115px;
   left: 53.2%;
 }
 
+.fbar-nav{
+padding: 0px 0px !important;
+    margin-bottom: 0;
+    list-style: none;}
+    
  .fbar-nav > li > a {
     position: relative;
     display: block;
