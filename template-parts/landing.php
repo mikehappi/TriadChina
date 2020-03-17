@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" type="text/css" href="/wp-content/themes/HX-V1/css/Landing_page.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/TriadChina/css/landing.css" media="screen" />
 <?php
   /*
     Template Name: Landing Page
@@ -67,9 +67,9 @@ padding-top:0 !important;}
 }
 
 </style>
-
 <?php endforeach; ?>
 
+<?php get_header(); ?>
 <div class="landing">
 
   <?php foreach ($m_pages as $key => $page) :?>
