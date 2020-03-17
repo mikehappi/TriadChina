@@ -70,6 +70,7 @@ padding-top:0 !important;}
 <?php endforeach; ?>
 
 <?php get_header(); ?>
+
 <div class="landing">
 
   <?php foreach ($m_pages as $key => $page) :?>
