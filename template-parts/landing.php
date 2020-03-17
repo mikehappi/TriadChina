@@ -5,7 +5,7 @@
     Template Name: Landing Page
   */
   global $wpdb;
-  $ids = [ 81, 83, 113, 97, 99, 101 ];
+  $ids = [ 21, 26, 28, 30, 32, 34, 36 ];
   $str_order = '';
   $str_in = $ids[0];
   for ($i = 1; $i<count($ids); $i++) {
@@ -19,6 +19,7 @@
 <style type="text/css">
     <?php echo ".landing .section.p$id {" ?>
     background:url("/wp-content/uploads/bg/<?php echo $id; ?>.png");
+    background:
     /* Full height  width: 100% !important;*/
    	height: 100VH !important;
     /* Center and scale the image nicely */
