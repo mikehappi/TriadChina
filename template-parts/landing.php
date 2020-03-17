@@ -17,9 +17,9 @@
 
 <?php foreach ($ids as $id) :?>
 <style type="text/css">
-    <?php echo ".landing .section.p$id {" ?>
-    background:url("/wp-content/uploads/bg/<?php echo $id; ?>.png");
-    background:
+<?php echo ".landing .section.p$id {" ?>
+background:url("/wp-content/uploads/bg/<?php echo $id; ?>.png");
+    background-color:#E5E5E5 !important;
     /* Full height  width: 100% !important;*/
    	height: 100VH !important;
     /* Center and scale the image nicely */
