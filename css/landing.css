@@ -1,0 +1,422 @@
+@font-face{
+    font-family:AP;
+     src:url("AltoPro.OTF");
+}
+
+  body {
+    height: 100%;
+    margin: 0;
+
+/* Pick a solid background color that will be displayed while the background image is loading */
+background-color:#f3efe4 !important;
+
+}
+
+
+/* Padding Header */
+.hd {padding-top:2%;}
+
+
+/*--------------------------------------------------------------
+#Action
+--------------------------------------------------------------*/
+.atitle{
+font-family:LFD !important;
+color: white !important;
+font-size:30px !important;
+text-transform:uppercase !important;
+}
+.acontainer{
+padding-top: 5em;
+width: 75%;
+float: left;
+position: relative;
+right: -8em; /* or left 30% */
+text-align: left;
+
+}
+.acontent{
+font-family:PNR !important;
+color: white !important;
+font-size:13px !important;
+text-transform:uppercase !important;
+text-align:justify !important;
+}
+.atitle{
+ width: 615px;;
+}
+.abody {
+display: flex;
+}
+.abar{
+width: 70px;
+margin-right: 1em;
+}
+
+.acontent {
+align-self: flex-start;
+}
+
+
+
+.acontent1{
+font-family:LFD!important;
+color: white !important;
+font-size:11px !important;
+text-transform:uppercase !important;
+text-align:left !important;
+margin-top: 20em;
+display:flex;
+flex-wrap: wrap;
+width: 1100px;
+flex-direction: row-reverse;
+}
+.acontent1 img{
+height:10px;
+width: 2px;
+margin-right: 0.5em;}
+
+.aflex {
+width: 230px;
+margin: 0px 0 0em 2em;
+}
+/* unvisited link */
+.acontent a:link {
+color: white !important;
+font-size:13px !important;
+text-decoration: none;
+}
+
+/* visited link */
+.acontent a:visited {
+color: white !important;
+font-size:13px !important;
+text-decoration: none;
+}
+
+/* mouse over link */
+.acontent a:hover {
+color: white !important;
+font-size:13px !important;
+text-decoration: none;
+}
+
+/* selected link */
+.acontent a:active {
+color: white !important;
+font-size:13px !important;
+text-decoration: none;
+}
+
+/* unvisited link */
+.acontent1 a:link {
+color: white !important;
+font-size:11px !important;
+text-decoration: none;
+}
+
+/* visited link */
+.acontent1 a:visited {
+  color: white !important;
+font-size:11px !important;
+text-decoration: none;
+}
+
+/* mouse over link */
+.acontent1 a:hover {
+color: white !important;
+font-size:11px !important;
+text-decoration: none;
+}
+
+/* selected link */
+.acontent1 a:active {
+ color: white !important;
+font-size:11px !important;
+text-decoration: none;
+}
+
+
+/*--------------------------------------------------------------
+Decouvrir HC
+--------------------------------------------------------------*/
+
+
+.dhtitle{
+font-family:LFR !important;
+color: #b91338 !important;
+font-size:30px !important;
+font-weight:600;
+text-transform:uppercase !important;
+text-align:center !important;
+}
+.dhcontent1{
+font-family:LFR !important;
+color: #383838 !important;
+font-size:17px !important;
+font-weight:600;
+text-transform:uppercase !important;
+text-align:center !important;
+line-height: 2.5em;
+}
+.dhcontent2{
+font-family:LFR !important;
+color: #383838 !important;
+font-size:23px !important;
+font-weight: 600;
+text-transform:uppercase !important;
+text-align:center !important;
+line-height: 4em;
+padding-bottom:13em;
+}
+
+
+
+/* unvisited link */
+.dhcontent2 a:link {
+color: #383838 !important;
+font-size:23px !important;
+text-decoration: none;
+}
+
+/* visited link */
+.dhcontent2 a:visited {
+  color: #383838 !important;
+font-size:23px !important;
+text-decoration: none;
+font-weight: 600;
+}
+
+/* mouse over link */
+.dhcontent2 a:hover {
+  color: #383838 !important;
+font-size:23px !important;
+text-decoration: none;
+font-weight: 600;
+}
+
+/* selected link */
+.dhcontent2 a:active {
+  color: #383838 !important;
+font-size:23px !important;
+text-decoration: none;
+font-weight: 600;
+
+padding-bottom: 5em;
+
+}
+/* titlebar space */
+.dhtitle img {margin: 2em;}
+/*--------------------------------------------------------------
+#Gestion privee
+--------------------------------------------------------------*/
+.gptitle{
+font-family:LFD !important;
+color: #b91338 !important;
+font-size:42px !important;
+text-transform:uppercase !important;
+}
+.gpcontent{
+font-family:PNR !important;
+color: #383838 !important;
+font-size:13px !important;
+text-transform:uppercase !important;
+text-align:justify !important;
+}
+.gptitle{
+width:50px;
+}
+.gpbody {
+display: flex;
+}
+.gpbar{
+width:180px !important;
+padding-right:4em;
+}
+.gpcontent {
+align-self: flex-start;
+}
+
+.gpcontainer{
+padding-top: 5em;
+width: 75%;
+float: left;
+position: relative;
+right: -8em; /* or left 30% */
+text-align: left;
+
+}
+
+/*--------------------------------------------------------------
+#Valeurs
+--------------------------------------------------------------*/
+.vctitle{
+font-family:LFR !important;
+color: #b91338 !important;
+font-size:30px !important;
+font-weight: 600;
+text-transform:uppercase !important;
+}
+.acontainer{
+padding-top: 5em;
+width: 75%;
+float: left;
+position: relative;
+right: -8em; /* or left 30% */
+text-align: left;
+
+}
+.vccontent{
+font-family:PNR !important;
+color: #383838 !important;
+font-size:13px !important;
+text-transform:uppercase !important;
+text-align:justify !important;
+}
+.vctitle{
+ width: 615px;;
+}
+.vcbody {
+display: flex;
+}
+.vcbar{
+width: 70px;
+margin-right: 1em;
+}
+
+.vccontent {
+align-self: flex-start;
+}
+
+
+
+.vccontent1{
+font-family:PNR!important;
+color: #383838 !important;
+font-size:11px !important;
+text-transform:uppercase !important;
+text-align:left !important;
+margin-top: 10em;
+display:flex;
+flex-wrap: wrap;
+width:1100px;
+}
+.vccontent1 img{
+height:10px;
+width: 2px;
+margin-right: 0.5em;}
+
+.vcflex {
+width: 320px;
+margin: 0px 0 2em 2em;
+}
+
+
+/* unvisited link */
+.vccontent1 a:link {
+color: #383838 !important;
+font-size:11px !important;
+text-decoration: none;
+}
+
+/* visited link */
+.vccontent1 a:visited {
+  color: #383838 !important;
+font-size:11px !important;
+text-decoration: none;
+}
+
+/* mouse over link */
+.vccontent1 a:hover {
+color: #383838 !important;
+font-size:11px !important;
+text-decoration: none;
+}
+
+/* selected link */
+.vccontent1 a:active {
+ color: #383838 !important;
+font-size:11px !important;
+text-decoration: none;
+}
+.vcnumber{
+font-family:LFD!important;
+color: #b91338 !important;
+font-size:42px !important;
+
+}
+/*--------------------------------------------------------------
+ A philantropique
+--------------------------------------------------------------*/
+
+.aptitle{
+font-family:LFR !important;
+color: white !important;
+font-size:23px !important;
+font-weight: 600;
+text-transform:uppercase !important;
+text-align:center !important;
+}
+.apcontent{
+font-family:LFR !important;
+color: white !important;
+font-size:18px !important;
+font-weight: 600;
+text-transform:uppercase !important;
+text-align:center !important;
+line-height: 2em;
+}
+    .apimg{
+      margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;}
+
+
+
+/*--------------------------------------------------------------
+# Couverture internationale
+--------------------------------------------------------------*/
+.cititle{
+font-family:LFR !important;
+color: white !important;
+font-size:20px !important;
+font-weight: 600;
+text-transform:uppercase !important;
+text-align:center !important;
+}
+.cimg{
+text-align:center !important;
+padding-top:4%;
+padding-bottom:4%;}
+
+.cicontent{
+font-family:PNR !important;
+color: white !important;
+font-size:12px !important;
+font-weight:light;
+text-transform:uppercase !important;
+text-align:center !important;
+padding-bottom: 10em;
+}
+.cih1{font-family:LFR !important;
+color: white !important;
+font-size:12px !important;
+font-weight: 600;}
+
+/*--------------------------------------------------------------
+# Media Qeries  Mobile CSSS adapation
+--------------------------------------------------------------*/
+@media only screen and (max-width: 500px) {
+   .bpic {
+    width: 100% !important;
+    height: auto !important;
+}
+.post-list{
+    margin: 0 auto;
+     width : auto !important;
+}
+}
+
+
+/*--------------------------------------------------------------
+#Sticky Header
