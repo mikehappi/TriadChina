@@ -76,7 +76,7 @@ padding-top:0 !important;}
         <?php $class = 'section p' . $page->ID; ?>
         <?php  $content = apply_filters('the_content', $page->post_content); ?>
           <div class="<?php print $class; ?>">
-             <?php get_header(3); ?>
+             <?php get_header(); ?>
               <div class="lcontainer">
               <?php echo $content;  ?>
           </div>

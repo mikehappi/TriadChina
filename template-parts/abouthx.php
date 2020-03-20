@@ -137,7 +137,7 @@ text-align: justify;
 </style>
 </head>
 <!--display  banner x Menu RED WHITE -->
-<?php get_header(2); ?>
+<?php get_header(); ?>
 <header class="entry-header">
 				<h1 class="page-title"><?php the_title(); ?></h1>
 			</header>
