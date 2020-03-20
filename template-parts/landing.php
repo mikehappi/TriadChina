@@ -68,7 +68,6 @@ padding-top:0 !important;}
 </style>
 <?php endforeach; ?>
 
-<?php get_header(); ?>
 
 <div class="landing">
 
