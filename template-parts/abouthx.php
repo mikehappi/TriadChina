@@ -88,6 +88,5 @@ else:
   echo '<p>Sorry, no posts matched your criteria.</p>';
 endif;
 ?>
-</div>
-
 <?php get_footer(); ?>
+</div>
