@@ -138,10 +138,10 @@ text-align: justify;
 </head>
 <!--display  banner x Menu RED WHITE -->
 <?php get_header(); ?>
-<header class="entry-header">
-				<h1 class="page-title"><?php the_title(); ?></h1>
-			</header>
+
 <div class="ficontent">
+
+  <h1 class="page-title"><?php the_title(); ?></h1>
 <?php
 if (have_posts()):
   while (have_posts()) : the_post();
