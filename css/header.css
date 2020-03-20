@@ -145,6 +145,14 @@ margin-top: 0.5em;
 
 @media only screen and (max-width: 500px) {
 
+  .navbar-default {
+
+      height: 180px !important;
+  }
+
+
+
+
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #000;
 }
