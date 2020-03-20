@@ -42,7 +42,13 @@ background-color: #e3e3e3 !important;}
 font-size: 20px !important;
 margin: 0 !important;
 }
-
+.page-title:before {
+  content: '';
+  width: 35vw;
+  border-bottom: solid 1px #E74011;
+  position: absolute;
+  z-index: 1;
+}
 .asection p {
   margin:0px !important;
 
