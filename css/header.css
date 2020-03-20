@@ -2,6 +2,10 @@
     font-family:AP;
      src:url("AltoPro.OTF");
 }
+@font-face{
+    font-family:APM;
+     src:url("AltoProM.OTF");
+}
 
 /*--------------------------------------------------------------
 # Navigation

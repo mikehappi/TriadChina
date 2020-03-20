@@ -39,6 +39,7 @@ background-color: #e3e3e3 !important;}
 .page-title{
   font-family:AP !important;
 font-size: 20px
+margin: 0 !important;
 }
 
 .asection p {
@@ -48,7 +49,7 @@ font-size: 20px
 
 .Acontent h3 {
   font-family:APM !important;
-
+  font-size:38px !important;
 }
 
 .Acontent p {
