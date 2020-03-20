@@ -26,9 +26,11 @@ body {
 display: flex;
 justify-content: center;
 background-color: #e3e3e3;}
+
 .asection{
   width: 1200px !important;
   font-family:AP !important;
+  padding-top: 15em !important;
 }
 .page-title{
 font-size: 28px
