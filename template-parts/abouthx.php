@@ -18,8 +18,15 @@
 <html>
 <head>
 <style type="text/css">
+@font-face{
+    font-family:AP;
+     src:url("AltoPro.OTF");
+}
 
-
+.asection{
+  width: 1200px !important;
+  font-family:AP !important;
+}
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
@@ -32,7 +39,7 @@
 <!--display  banner x Menu RED WHITE -->
 <?php get_header(); ?>
 
-<div class="ficontent">
+<div class="asection">
 
   <h1 class="page-title"><?php the_title(); ?></h1>
 <?php
@@ -44,9 +51,6 @@ else:
   echo '<p>Sorry, no posts matched your criteria.</p>';
 endif;
 ?>
-</div>
-</div>
-</div>
 </div>
 
 <?php get_footer(); ?>
