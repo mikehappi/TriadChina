@@ -35,6 +35,7 @@ background-color: #e3e3e3 !important;}
   width: 1200px !important;
   font-family:AP !important;
   padding-top: 15em !important;
+  padding-bottom: 150px !important;
 }
 .page-title{
   font-family:AP !important;
@@ -56,6 +57,13 @@ margin: 0 !important;
   font-size:30Px !important;
 
 }
+
+.Acontent img {
+width: 800px;
+    height: auto;
+    margin: 0 !important; }
+
+
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
