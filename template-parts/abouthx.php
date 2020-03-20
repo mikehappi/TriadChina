@@ -29,7 +29,7 @@
 body {
 display: flex;
 justify-content: center;
-color: #e3e3e3 !important;}
+background-color: #e3e3e3 !important;}
 
 .asection{
   width: 1200px !important;
