@@ -22,11 +22,18 @@
     font-family:AP;
      src:url("AltoPro.OTF");
 }
-
+body {
+display: flex;
+justify-content: center;
+background-color: #e3e3e3;}
 .asection{
   width: 1200px !important;
   font-family:AP !important;
 }
+.page-title{
+font-size: 28px
+}
+
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
