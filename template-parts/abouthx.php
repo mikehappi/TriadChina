@@ -22,10 +22,14 @@
     font-family:AP;
      src:url("AltoPro.OTF");
 }
+@font-face{
+    font-family:APM;
+     src:url("AltoProM.OTF");
+}
 body {
 display: flex;
 justify-content: center;
-background-color: #e3e3e3;}
+color: #e3e3e3 !important;}
 
 .asection{
   width: 1200px !important;
@@ -33,9 +37,24 @@ background-color: #e3e3e3;}
   padding-top: 15em !important;
 }
 .page-title{
-font-size: 28px
+  font-family:AP !important;
+font-size: 20px
 }
 
+.asection p {
+  margin:0px !important;
+
+}
+
+.Acontent h3 {
+  font-family:APM !important;
+
+}
+
+.Acontent p {
+  font-size:30Px !important;
+
+}
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
