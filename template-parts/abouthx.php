@@ -94,5 +94,5 @@ else:
   echo '<p>Sorry, no posts matched your criteria.</p>';
 endif;
 ?>
-<?php get_footer(); ?>
 </div>
+<?php get_footer(); ?>
