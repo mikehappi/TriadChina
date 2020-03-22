@@ -45,7 +45,7 @@ margin: 0 !important;
 .page-title:before {
   content: '';
   width: 35vw;
-  border-bottom: solid 1px #E74011;
+  border-bottom: solid 2  px #E74011;
   position: absolute;
   z-index: 1;
 }
