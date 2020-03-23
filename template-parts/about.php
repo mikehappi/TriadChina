@@ -25,7 +25,7 @@
      ?>
    </div>
    <footer id="footer">
-   <?php get_footer(X); ?></footer>
+   <?php get_footer(); ?></footer>
  </div>
 </body>
 
