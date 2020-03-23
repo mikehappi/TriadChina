@@ -42,12 +42,9 @@ background-color: #e3e3e3 !important;}
 font-size: 20px !important;
 margin: 0 !important;
 }
-.Acontent:before {
-  content: '';
+.hr {
   width: 35vw;
-  border-bottom: solid 2px #E74011;
-  position: absolute;
-  z-index: 1;
+  border-top: solid 2px #E74011;
 }
 .asection p {
   margin:0px !important;
