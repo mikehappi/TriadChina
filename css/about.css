@@ -52,7 +52,12 @@ width: 800px;
     margin: 0 !important; }
 
 
-
+    #footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+          
+    }
 
 
     #page-container {
