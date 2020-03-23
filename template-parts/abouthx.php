@@ -43,11 +43,11 @@ font-size: 20px !important;
 margin: 0 !important;
 }
 hr {
-  margin-top: 20px;
-margin-bottom: 60px;
+  margin-top: 20px !important;
+margin-bottom: 60px !important;
 border: 0;
-border-top: 2px solid #E74011;
-float: left;
+border-top: 2px solid #E74011 !important;
+float: left !important;
 width: 50% !important;
 }
 }
