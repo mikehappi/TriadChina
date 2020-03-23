@@ -18,7 +18,7 @@
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/
-.footer{
+.navfoot{
     background: #F2F2F2!important;
     font-family:AP !important;
     font-size: 18px !important;
@@ -27,14 +27,15 @@
     text-align: right !important;
     display: flex;
     justify-content: center;
+
 }
 
 
-.footer a{
+.navfoot a{
     color:black !important;
     }
 
-  .footer a:hover {
+  .navfoot a:hover {
     color: #E74011 !important;
     }
 
@@ -143,7 +144,7 @@ margin-left: 50px;
 
 <footer id="colophon" role="content info">
 
-  <nav class="footer navbar-fixed-bottom">
+  <nav class="navfoot">
 
 		<div class="rfooter">
 
