@@ -1,111 +1,32 @@
-<?php
-/**
- * Template Name:About Page 2
 
+<?php
+/*
+ * Template Name: About Template
+ * description: >-
+ * underneath the page content
  */
 
-?>
 
-<?php $upload_dir = wp_upload_dir(); ?>
- <!doctype html>
-    <html <?php language_attributes(); ?>>
-   <meta name="viewport" content="width=device-width,initial-scale=1">
-<?php
-/**
- * Move the styles below into your stylesheet
- */
-?>
-<html>
-<head>
-<style type="text/css">
-@font-face{
-    font-family:AP;
-     src:url("AltoPro.OTF");
-}
-@font-face{
-    font-family:APM;
-     src:url("AltoProM.OTF");
-}
-body {
-display: flex;
-justify-content: center;
-background-color: #e3e3e3 !important;}
+ get_header(); ?>
 
-.asection{
-  width: 1200px !important;
-  font-family:AP !important;
-  padding-top: 15em !important;
-  padding-bottom: 150px !important;
-}
-.page-title{
-  font-family:AP !important;
-font-size: 20px !important;
-margin: 0 !important;
-}
-.page-title:before {
-  content: '';
-  width: 35vw;
-  border-bottom: solid 2px #E74011;
-  position: absolute;
-  z-index: 1;
-}
-.asection p {
-  margin:0px !important;
+ <div id="primary" class="site-content">
+   <div id="content" role="main">
 
-}
+     <?php while ( have_posts() ) : the_post(); ?>
+       <header class="entry-header">
+         <?php the_post_thumbnail(); ?>
+         <h1 class="entry-title"><?php the_title(); ?></h1>
+       </header>
 
-.Acontent h3 {
-  font-family:AP !important;
-  font-size:38px !important;
-}
+       <div class="entry-content">
+         <?php the_content(); ?>
+       </div><!-- .entry-content -->
 
-.Acontent p {
-  font-size:30Px !important;
+       <?php comments_template( ’, true ); ?>
+     <?php endwhile; // end of the loop. ?>
 
-}
-
-.Acontent img {
-width: 800px;
-    height: auto;
-    margin: 0 !important; }
+   </div><!-- #content -->
+ </div><!-- #primary -->
 
 
-/*--------------------------------------------------------------
-# Media Qeries  Mobile CSSS adapation
---------------------------------------------------------------*/
-@media only screen and (max-width: 500px) {
-
-}
-
-</style>
-
-</head>
-
-
-
-
-
-<?php
-get_header(); ?>
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
-
-			<?php
-			while ( have_posts() ) : the_post();
-
-				get_template_part( 'template-parts/content', 'about' );
-
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
-
-			endwhile; // End of the loop.
-			?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php
-get_footer();
+ <?php get_footer(); ?>
