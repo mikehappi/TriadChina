@@ -10,8 +10,9 @@
  <head>
    <link rel="stylesheet" type="text/css" href="about.css" />
  </head>
-<?php get_header(); ?>
+
 <body>
+  <?php get_header(); ?>
  <div id="page-container">
    <div id="content-wrap">
      <?php
