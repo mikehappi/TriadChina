@@ -80,20 +80,16 @@ width: 800px;
 </style>
 </head>
 <body>
-<div class="asection">
-
-<!-- Display title-->
-       <h1 class="page-title"><?php the_title(); ?></h1>
-
-        <!-- Display the Whole content -->
-
-       <?php the_content(); ?>
-
-    <?php endforeach; ?>
-
+<<?php get_header(); ?>
+              <div class="asection">
+              <?php echo $content;  ?>
+          </div>
+          </div>
+      <?php endif; ?>
+  <?php endforeach; ?>
 </div>
-<?php endwhile; ?>
+<?php get_footer(X); ?>
+
 
 </body>
 </html>
-<?php get_footer("X"); ?>
