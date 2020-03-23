@@ -12,7 +12,6 @@
  </head>
 
 <body>
-  <?php get_header(); ?>
  <div id="page-container">
    <div id="content-wrap">
      <?php
@@ -26,7 +25,7 @@
      ?>
    </div>
    <footer id="footer">
-   <?php get_footer(); ?></footer>
+   <?php get_footer(X); ?></footer>
  </div>
 </body>
 
