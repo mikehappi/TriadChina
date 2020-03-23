@@ -42,7 +42,7 @@ background-color: #e3e3e3 !important;}
 font-size: 20px !important;
 margin: 0 !important;
 }
-.page-title:before {
+.Acontent:before {
   content: '';
   width: 35vw;
   border-bottom: solid 2px #E74011;
