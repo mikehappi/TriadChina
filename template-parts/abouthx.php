@@ -20,11 +20,11 @@
 <style type="text/css">
 @font-face{
     font-family:AP;
-     src:url("AltoPro.OTF");
+     src:url("<?php echo get_template_directory_uri(); ?>/css/AltoPro.OTF");
 }
 @font-face{
     font-family:APM;
-     src:url("AltoProM.OTF");
+     src:url("<?php echo get_template_directory_uri(); ?>/css/AltoProM.OTF");
 }
 body {
 display: flex;
@@ -55,7 +55,7 @@ margin: 0 !important;
 }
 
 .Acontent h3 {
-  font-family:AP !important;
+  font-family:APM !important;
   font-size:38px !important;
 }
 
