@@ -134,6 +134,7 @@ font-size:22px !important;
  }
  .iicaption a4{
 font-size:14px !important;
+line-height: 16.8px !important;
  }
 
 /*--------------------------------------------------------------
