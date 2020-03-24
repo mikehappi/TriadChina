@@ -83,7 +83,7 @@ width: 800px;
 </head>
 <!--display  banner x Menu RED WHITE -->
 <?php get_header(); ?>
-
+<div id="primary" class="site-content">
 <div class="asection">
 
   <h1 class="page-title"><?php the_title(); ?></h1>
