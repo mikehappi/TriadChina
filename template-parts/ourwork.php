@@ -53,18 +53,18 @@ width: 50% !important;
    justify-content:center;
 }
 
-.iifitems {
-width:592px;
-height:333px;
+.iifitems img{
+width:592px !important;
+height:333px !important;
 }
 .iiifcont {
   display: flex;
   flex-direction: row ;
   justify-content:space-between;
 }
-.iiifitems {
-  width:390px;
-  height:220px;
+.iiifitems  img{
+  width:390px !important;
+  height:220px !important;
 }
 
 
