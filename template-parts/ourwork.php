@@ -54,7 +54,8 @@ width: 50% !important;
 }
 
 .iifitems {
-
+width:592px;
+height:333px;
 }
 .iiifcont {
   display: flex;
@@ -62,7 +63,8 @@ width: 50% !important;
   justify-content:space-between;
 }
 .iiifitems {
-
+  width:390px;
+  height:220px;
 }
 
 
