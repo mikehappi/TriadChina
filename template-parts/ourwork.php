@@ -102,14 +102,17 @@ margin-left: 15px;
 .iiifitems  img{
   width:390px !important;
   height:220px !important;
-  vertical-align: super!important;  
+  vertical-align: super!important;
 }
 
 .iiifitems {
+  /* To correctly align image, regardless of content height: */
+     vertical-align: top;
+     display: inline-block;
+     /* To horizontally center images and caption */
+     text-align: center;
+   background-color: #F2F2F2;}
 
-background-color: #F2F2F2;
-
-}
 
 
 /*--------------------------------------------------------------
