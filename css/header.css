@@ -48,8 +48,8 @@ nav:after {
 
 /*styling navbar active menu item   */
  .navbar-nav > .active > a{
-  background-color: transparent !important;
-  background-image: none !important;
+      background-color: inherit !important;
+      background-image: none !important;
     -webkit-box-shadow: 0 !important;
     box-shadow:0 !important;
 }
