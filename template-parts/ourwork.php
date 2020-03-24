@@ -116,17 +116,18 @@ margin-left: 15px;
    }
 
  .caption a1{
-
+font-size:14px !important;
+color:#E74011!important;
  }
  .caption a2{
-
+font-size:34px !important;
  }
 
  .caption a3{
-
+font-size:22px !important;
  }
  .caption a4{
-
+font-size:14px !important;
  }
 
 /*--------------------------------------------------------------
