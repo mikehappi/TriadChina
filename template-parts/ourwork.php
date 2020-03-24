@@ -24,7 +24,9 @@
 body {
 display: flex;
 justify-content: center;
-background-color: #e3e3e3 !important;}
+background-color: #e3e3e3 !important;
+ine-height: unset !important;
+}
 
 .wsection{
   width: 1200px !important;
@@ -120,13 +122,15 @@ font-size:14px !important;
 color:#E74011!important;
  }
  .iicaption a2{
+line-height: 40.8px !important;
 font-size:34px !important;
  }
 
  .iicaption a3{
+      line-height: 26.4px !important;
 font-size:22px !important;
  }
- .caption a4{
+ .iicaption a4{
 font-size:14px !important;
  }
 
