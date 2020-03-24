@@ -118,8 +118,6 @@ margin-left: 15px;
  .iicaption a1{
 font-size:14px !important;
 color:#E74011!important;
-line-height: 40.8px !important;
-
  }
  .iicaption a2{
 line-height: 40.8px !important;
