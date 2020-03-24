@@ -25,7 +25,6 @@ body {
 display: flex;
 justify-content: center;
 background-color: #e3e3e3 !important;
-line-height: unset !important;
 }
 
 .wsection{
