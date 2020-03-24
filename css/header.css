@@ -50,7 +50,7 @@ nav:after {
  .navbar-nav > .active > a{
   background-color: transparent !important;
   background-image: none !important;
-
+    -webkit-box-shadow: 0 !important;
 }
 
 
