@@ -94,7 +94,6 @@ margin-left: 15px;
 .iiifitems  img{
   width:390px !important;
   height:220px !important;
-  vertical-align: super!important;
 }
 
 .iiifitems {
