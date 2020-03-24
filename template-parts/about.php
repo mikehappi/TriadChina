@@ -40,16 +40,13 @@ background-color: #e3e3e3 !important;}
 .page-title{
   font-family:AP !important;
 font-size: 20px !important;
-margin: 0 !important;
-}
-hr {
-  margin-top: 20px !important;
+margin-top: 20px !important;
 margin-bottom: 60px !important;
-border: 0;
-border-top: 2px solid #E74011 !important;
-float: left !important;
-width: 50% !important;
 }
+h1 span {
+border-bottom: 2px solid #E74011 !important;
+display: inline;
+padding-bottom: 20px;
 }
 .asection p {
   margin:0px !important;
@@ -86,7 +83,7 @@ width: 800px;
 <div id="primary" class="site-content">
 <div class="asection">
 
-  <h1 class="page-title"><?php the_title(); ?></h1>
+  <h1 class="page-title"><span> <?php the_title(); ?></span></h1>
 <?php
 if (have_posts()):
   while (have_posts()) : the_post();
