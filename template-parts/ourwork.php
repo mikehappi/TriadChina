@@ -81,14 +81,6 @@ margin-left: 15px;
    text-align: center;
  background-color: #F2F2F2;}
 
-.caption {
-    /* Make the caption a block so it occupies its own line. */
-    display: block;
-    text-align: left;
-    height: 310px;
-    width: 472.5px;
-    margin-left: 60px;
-  }
 
 
 
@@ -114,7 +106,28 @@ margin-left: 15px;
    background-color: #F2F2F2;
  }
 
+ .caption {
+     /* Make the caption a block so it occupies its own line. */
+     display: block;
+     text-align: left;
+     height: 310px;
+     width: 472.5px;
+     margin-left: 60px;
+   }
 
+ .caption a1{
+
+ }
+ .caption a2{
+
+ }
+
+ .caption a3{
+
+ }
+ .caption a4{
+
+ }
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
