@@ -97,4 +97,3 @@ else:
 endif;
 ?>
 </div>
-<?php get_footer(); ?>
