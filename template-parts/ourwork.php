@@ -38,8 +38,7 @@ background-color: #e3e3e3 !important;}
 .page-title{
 font-family:AP !important;
 font-size: 20px !important;
-margin-top: 20px !important;
-margin-bottom: 60px !important;
+margin-bottom: 80px !important;
 }
 
 .wcontent {
@@ -85,7 +84,12 @@ margin-left: 15px;
 .caption {
     /* Make the caption a block so it occupies its own line. */
     display: block;
-}
+    text-align: left;
+    height: 310px;
+    width: 472.5px;
+    margin-left: 60px;
+  }
+
 
 
 .iiifcont {

@@ -40,8 +40,7 @@ background-color: #e3e3e3 !important;}
 .page-title{
   font-family:AP !important;
 font-size: 20px !important;
-margin-top: 20px !important;
-margin-bottom: 60px !important;
+margin-bottom: 80px !important;
 }
 h1 span {
 border-bottom: 2px solid #E74011 !important;
