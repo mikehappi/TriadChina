@@ -44,7 +44,6 @@ margin: 0 !important;
 
 .wcontent {
 display: inline-block !important;
-margin-top: 80px;
 }
 
 hr {
@@ -58,18 +57,24 @@ width: 50% !important;
 
 /* work items displaying */
 .iifcont {
-  display: flex;
+  display: inline-flex;
    flex-direction: row ;
   justify-content: flex-end;
 }
 
-.iifitems img{
+.iifitem img{
 width:592px !important;
 height:333px !important;
 vertical-align: super!important;
 }
+.iifitemR img{
+width:592px !important;
+height:333px !important;
+vertical-align: super!important;
+margin-left: 15px;
+}
 .iiifcont {
-  display: flex;
+  display: inline-flex;
   flex-direction: row ;
   justify-content:space-between;
 
@@ -79,6 +84,7 @@ vertical-align: super!important;
   height:220px !important;
   vertical-align: super!important;
 }
+
 
 
 
