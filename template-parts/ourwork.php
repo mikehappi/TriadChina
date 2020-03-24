@@ -84,8 +84,6 @@ margin-left: 15px;
  background-color: #F2F2F2;}
 
 
-
-
 .iiifcont {
   display:flex;
   flex-direction: row ;
@@ -129,7 +127,7 @@ font-size:34px !important;
  }
 
  .iicaption a3{
-      line-height: 26.4px !important;
+line-height: 26.4px !important;
 font-size:22px !important;
  }
  .iicaption a4{
