@@ -60,6 +60,7 @@ width: 50% !important;
   display: inline-flex;
    flex-direction: row ;
   justify-content: flex-end;
+  height: 700px;
 }
 
 .iifitem img{
@@ -77,12 +78,15 @@ margin-left: 15px;
   display:flex;
   flex-direction: row ;
   justify-content:space-between;
+  height: 620px;
 
 }
 .iiifitems  img{
   width:390px !important;
   height:220px !important;
   vertical-align: super!important;
+  height: 720px;
+    background-color: #F2F2F2;
 }
 
 
