@@ -10,12 +10,7 @@
  <!doctype html>
     <html <?php language_attributes(); ?>>
    <meta name="viewport" content="width=device-width,initial-scale=1">
-<?php
-/**
- * Move the styles below into your stylesheet
- */
-?>
-<html>
+
 <head>
 <style type="text/css">
 @font-face{
