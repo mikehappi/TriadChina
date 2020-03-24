@@ -74,7 +74,7 @@ vertical-align: super!important;
 margin-left: 15px;
 }
 .iiifcont {
-  display: inline-flex;
+  display:flex;
   flex-direction: row ;
   justify-content:space-between;
 
