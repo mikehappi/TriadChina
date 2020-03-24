@@ -112,6 +112,7 @@ margin-left: 15px;
      height: 310px;
      width: 472.5px;
      margin-left: 60px;
+     margin-top: 40px;
    }
 
  .iicaption a1{
