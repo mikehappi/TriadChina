@@ -83,9 +83,8 @@ margin-left: 15px;
    display: inline-block;
    /* To horizontally center images and caption */
    text-align: center;
-   /* The width of the container also implies margin around the images. */
-   width: 120px;}
-  
+ background-color: #F2F2F2;}
+
 .caption {
     /* Make the caption a block so it occupies its own line. */
     display: block;
@@ -103,12 +102,14 @@ margin-left: 15px;
 .iiifitems  img{
   width:390px !important;
   height:220px !important;
-  vertical-align: super!important;
-  height: 720px;
-  background-color: #F2F2F2;
+  vertical-align: super!important;  
 }
 
+.iiifitems {
 
+background-color: #F2F2F2;
+
+}
 
 
 /*--------------------------------------------------------------
