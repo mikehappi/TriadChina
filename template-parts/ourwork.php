@@ -25,6 +25,7 @@ body {
 display: flex;
 justify-content: center;
 background-color: #e3e3e3 !important;
+ line-height: unset !important;
 }
 
 .wsection{
@@ -63,7 +64,7 @@ padding-bottom: 20px;
 .iifitem img{
 width:592px !important;
 height:333px !important;
-vertical-align: super!important;
+
 }
 .iifitemR img{
 width:592px !important;
