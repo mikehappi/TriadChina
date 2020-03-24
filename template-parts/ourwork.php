@@ -76,6 +76,23 @@ height: 720px;
 background-color: #F2F2F2;
 margin-left: 15px;
 }
+
+ .iifitem {
+/* To correctly align image, regardless of content height: */
+   vertical-align: top;
+   display: inline-block;
+   /* To horizontally center images and caption */
+   text-align: center;
+   /* The width of the container also implies margin around the images. */
+   width: 120px;}
+  
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+}
+
+
+
 .iiifcont {
   display:flex;
   flex-direction: row ;
