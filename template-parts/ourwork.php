@@ -106,7 +106,7 @@ margin-left: 15px;
    background-color: #F2F2F2;
  }
 
- .caption {
+ .iicaption {
      /* Make the caption a block so it occupies its own line. */
      display: block;
      text-align: left;
@@ -115,18 +115,18 @@ margin-left: 15px;
      margin-left: 60px;
    }
 
- .caption a1{
+ .iicaption a1{
 font-size:14px !important;
 color:#E74011!important;
  }
- .caption a2{
+ .iicaption a2{
 font-size:34px !important;
  }
 
- .caption a3{
+ .iicaption a3{
 font-size:22px !important;
  }
- .caption a4{
+ .iicaption a4{
 font-size:14px !important;
  }
 
