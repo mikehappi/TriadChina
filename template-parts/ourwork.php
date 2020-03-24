@@ -31,12 +31,21 @@ background-color: #e3e3e3 !important;}
   font-family:AP !important;
   padding-top: 15em !important;
   padding-bottom: 150px !important;
+
 }
+
+
 .page-title{
   font-family:AP !important;
 font-size: 20px !important;
 margin: 0 !important;
 }
+
+
+.wcontent {
+display: inline-block !important;
+}
+
 hr {
   margin-top: 20px !important;
 margin-bottom: 60px !important;
@@ -50,21 +59,24 @@ width: 50% !important;
 .iifcont {
   display: flex;
    flex-direction: row ;
-   justify-content:center;
+  justify-content: flex-end;
 }
 
 .iifitems img{
 width:592px !important;
 height:333px !important;
+vertical-align: super!important;
 }
 .iiifcont {
   display: flex;
   flex-direction: row ;
   justify-content:space-between;
+
 }
 .iiifitems  img{
   width:390px !important;
   height:220px !important;
+  vertical-align: super!important;
 }
 
 
