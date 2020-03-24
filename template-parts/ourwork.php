@@ -128,7 +128,7 @@ margin-left: 15px;
 <div id="primary" class="site-content">
 <div class="wsection">
 
-  <h1 class="page-title"><?php the_title(); ?></h1>
+  <h1 class="page-title"><span> <?php the_title(); ?></span></h1>
 <?php
 if (have_posts()):
   while (have_posts()) : the_post();
