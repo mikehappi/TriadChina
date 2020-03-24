@@ -100,7 +100,7 @@ margin-left: 15px;
 .iiifitems {
   /* To correctly align image, regardless of content height: */
      vertical-align: top;
-     display: inline-grid;
+     display: inline-block;
      /* To horizontally center images and caption */
      text-align: center;
    background-color: #F2F2F2;
@@ -108,7 +108,7 @@ margin-left: 15px;
 
  .iicaption {
      /* Make the caption a block so it occupies its own line. */
-     display: block;
+    display: inline-grid;
      text-align: left;
      height: 310px;
      width: 472.5px;
@@ -126,7 +126,7 @@ font-size:34px !important;
  .iicaption a3{
 font-size:22px !important;
  }
- .iicaption a4{
+ .caption a4{
 font-size:14px !important;
  }
 
