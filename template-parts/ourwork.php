@@ -44,6 +44,7 @@ margin: 0 !important;
 
 .wcontent {
 display: inline-block !important;
+margin-top: 80px;
 }
 
 hr {
