@@ -4,7 +4,7 @@
 
  */
 
-?>
+ get_header(); ?>
 
 <?php $upload_dir = wp_upload_dir(); ?>
  <!doctype html>
@@ -57,7 +57,7 @@ width: 50% !important;
 </style>
 </head>
 <!--display  banner x Menu RED WHITE -->
-<?php get_header(); ?>
+
 
 <div class="wsection">
 
