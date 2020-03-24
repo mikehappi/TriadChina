@@ -100,7 +100,7 @@ margin-left: 15px;
 .iiifitems {
   /* To correctly align image, regardless of content height: */
      vertical-align: top;
-     display: inline-block;
+     display: inline-grid;
      /* To horizontally center images and caption */
      text-align: center;
    background-color: #F2F2F2;
