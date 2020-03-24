@@ -72,6 +72,8 @@ vertical-align: super!important;
 width:592px !important;
 height:333px !important;
 vertical-align: super!important;
+height: 720px;
+background-color: #F2F2F2;
 margin-left: 15px;
 }
 .iiifcont {
@@ -79,14 +81,14 @@ margin-left: 15px;
   flex-direction: row ;
   justify-content:space-between;
   height: 620px;
-
+  margin-top: 15px;
 }
 .iiifitems  img{
   width:390px !important;
   height:220px !important;
   vertical-align: super!important;
   height: 720px;
-    background-color: #F2F2F2;
+  background-color: #F2F2F2;
 }
 
 
