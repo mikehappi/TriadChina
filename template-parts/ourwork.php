@@ -79,6 +79,7 @@ height:333px;
 </style>
 </head>
 
+<div id="primary" class="site-content">
 <div class="wsection">
 
   <h1 class="page-title"><?php the_title(); ?></h1>
