@@ -108,7 +108,7 @@ margin-left: 15px;
 
  .iicaption {
      /* Make the caption a block so it occupies its own line. */
-    display: inline-grid;
+    display: block;
      text-align: left;
      height: 310px;
      width: 472.5px;
