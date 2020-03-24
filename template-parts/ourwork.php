@@ -46,6 +46,26 @@ float: left !important;
 width: 50% !important;
 }
 
+/* work items displaying */
+.iifcont {
+  display: flex;
+   flex-direction: row ;
+   justify-content:center;
+}
+
+.iifitems {
+
+}
+.iiifcont {
+  display: flex;
+  flex-direction: row ;
+  justify-content:space-between;
+}
+.iiifitems {
+
+}
+
+
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
@@ -56,8 +76,6 @@ width: 50% !important;
 
 </style>
 </head>
-<!--display  banner x Menu RED WHITE -->
-
 
 <div class="wsection">
 
