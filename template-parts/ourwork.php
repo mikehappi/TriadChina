@@ -36,23 +36,20 @@ background-color: #e3e3e3 !important;}
 
 
 .page-title{
-  font-family:AP !important;
+font-family:AP !important;
 font-size: 20px !important;
-margin: 0 !important;
+margin-top: 20px !important;
+margin-bottom: 60px !important;
 }
-
 
 .wcontent {
 display: inline-block !important;
 }
 
-hr {
-  margin-top: 20px !important;
-margin-bottom: 60px !important;
-border: 0;
-border-top: 2px solid #E74011 !important;
-float: left !important;
-width: 50% !important;
+h1 span {
+border-bottom: 2px solid #E74011 !important;
+display: inline;
+padding-bottom: 20px;
 }
 
 /* work items displaying */
