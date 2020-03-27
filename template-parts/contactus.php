@@ -85,7 +85,7 @@ background-color: #F2F2F2;
 
  }
 
- 
+
  .cpr {
  line-height: 40.8px !important;
  font-size:28px !important;
@@ -119,7 +119,7 @@ background-color: #F2F2F2;
 </head>
 
 <div id="primary" class="site-content">
-<div class="wsection">
+<div class="csection">
 
   <h1 class="page-title"><span> <?php the_title(); ?></span></h1>
 <?php
