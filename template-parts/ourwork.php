@@ -53,6 +53,9 @@ display: inline;
 padding-bottom: 20px;
 }
 
+
+/*Two  frame blocks */
+
 /* work items displaying */
 .iifcont {
   display: inline-flex;
@@ -85,6 +88,30 @@ background-color: #F2F2F2;
 
  }
 
+
+
+
+ .iicat {
+ font-size:14px !important;
+ color:#E74011!important;
+ margin-bottom: 7px;
+ }
+ .iipr {
+ line-height: 40.8px !important;
+ font-size:34px !important;
+ }
+ .iipd {
+ line-height: 26.4px !important;
+ font-size:22px !important;
+ }
+ .iilo{
+ font-size:14px !important;
+ line-height: 16.8px !important;
+ margin-top: 20px;
+ }
+
+/*three case blocks */
+
 .iiifcont {
   display:flex;
   flex-direction: row ;
@@ -116,24 +143,7 @@ background-color: #F2F2F2;
      margin-top: 40px;
    }
 
- .iicat {
-font-size:14px !important;
-color:#E74011!important;
-margin-bottom: 7px;
- }
- .iipr {
-line-height: 40.8px !important;
-font-size:34px !important;
- }
- .iipd {
-line-height: 26.4px !important;
-font-size:22px !important;
- }
- .iilo{
-font-size:14px !important;
-line-height: 16.8px !important;
-margin-top: 20px;
- }
+
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
