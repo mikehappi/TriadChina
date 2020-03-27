@@ -52,7 +52,7 @@ padding-bottom: 20px;
 
 .pcontent {
 display: inline-block !important;
-height: 840px;
+height: 510px;
 width:  1200px;
 background-color: white;
 padding-top: 110px;
