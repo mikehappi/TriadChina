@@ -76,7 +76,7 @@ padding-bottom: 20px;
 
  }
  .iifitemR {
-/background-color: #F2F2F2;
+background-color: #F2F2F2;
     margin-left: 15px;
  }
  .iifitemR img{
