@@ -57,7 +57,18 @@ width: 100VH;
 background-color: white;
 }
 
+.scontainer{
 
+
+}
+.sitem {
+    border:1px solid red;
+    height:300px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:300px;
+}
 
 
 
