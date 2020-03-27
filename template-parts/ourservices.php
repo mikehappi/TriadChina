@@ -55,6 +55,7 @@ display: inline-block !important;
 height: 840px;
 width: 100VH;
 background-color: white;
+padding-top: 110px;
 }
 
 .scontainer{
@@ -63,17 +64,20 @@ background-color: white;
   justify-content: center;
 }
 .sitem img{
-    border:1px;
-    height:300px;
-    border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-    width:300px;
+  border: 1px;
+    height: 200px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 200px;
 }
 
 .scap{
   font-size:28px !important;
   text-align: center !important;
+  margin-top: 30px;
+  margin-bottom: 47px;
+
 }
 
 
