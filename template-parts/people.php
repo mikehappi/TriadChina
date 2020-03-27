@@ -28,7 +28,7 @@ background-color: #e3e3e3 !important;
  line-height: unset !important;
 }
 
-.ssection{
+.psection{
   width: 1200px !important;
   font-family:AP !important;
   padding-top: 15em !important;
