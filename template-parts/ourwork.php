@@ -36,7 +36,6 @@ background-color: #e3e3e3 !important;
 
 }
 
-
 .page-title{
 font-family:AP !important;
 font-size: 20px !important;
