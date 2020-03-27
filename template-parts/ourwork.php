@@ -61,16 +61,7 @@ padding-bottom: 20px;
   height: 700px;
 }
 
-.iifitem img{
-width:592px !important;
-height:333px !important;
 
-}
-.iifitemR img{
-width:592px !important;
-height:333px !important;
-margin-left: 15px;
-}
 
  .iifitem {
 /* To correctly align image, regardless of content height: */
@@ -79,15 +70,21 @@ margin-left: 15px;
    /* To horizontally center images and caption */
    text-align: center;
  background-color: #F2F2F2;}
+ 
+ .iifitem img{
+ width:592px !important;
+ height:333px !important;
 
- .iifitemR {
-/* To correctly align image, regardless of content height: */
-   vertical-align: top;
-   display: inline-block;
-   /* To horizontally center images and caption */
-   text-align: center;
  }
-.iifitemR figcaption{background-color: #F2F2F2;}
+ .iifitemR {
+/background-color: #F2F2F2;
+    margin-left: 15px;
+ }
+ .iifitemR img{
+ width:592px !important;
+ height:333px !important;
+
+ }
 
 .iiifcont {
   display:flex;
