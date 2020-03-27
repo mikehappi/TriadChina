@@ -116,20 +116,19 @@ padding-bottom: 20px;
      margin-top: 40px;
    }
 
- .iicat a1{
+ .iicat {
 font-size:14px !important;
 color:#E74011!important;
  }
- .iipr a2{
+ .iipr {
 line-height: 40.8px !important;
 font-size:34px !important;
  }
-
- .iipd a3{
+ .iipd {
 line-height: 26.4px !important;
 font-size:22px !important;
  }
- .iilo a4{
+ .iilo{
 font-size:14px !important;
 line-height: 16.8px !important;
  }
