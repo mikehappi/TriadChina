@@ -61,8 +61,8 @@ background-color: white;
 
 
 }
-.sitem {
-    border:1px solid red;
+.sitem img{
+    border:1px;
     height:300px;
     border-radius:50%;
     -moz-border-radius:50%;
