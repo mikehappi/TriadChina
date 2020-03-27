@@ -62,7 +62,6 @@ padding-bottom: 20px;
 }
 
 
-
  .iifitem {
 /* To correctly align image, regardless of content height: */
    vertical-align: top;
@@ -70,7 +69,7 @@ padding-bottom: 20px;
    /* To horizontally center images and caption */
    text-align: center;
  background-color: #F2F2F2;}
- 
+
  .iifitem img{
  width:592px !important;
  height:333px !important;
