@@ -64,7 +64,6 @@ padding-bottom: 20px;
   height: 700px;
 }
 
-
  .iifitem {
 /* To correctly align image, regardless of content height: */
    vertical-align: top;
@@ -87,8 +86,6 @@ background-color: #F2F2F2;
  height:333px !important;
 
  }
-
-
 
 
  .iicat {
