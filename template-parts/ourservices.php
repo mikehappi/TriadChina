@@ -71,6 +71,10 @@ background-color: white;
     width:300px;
 }
 
+.scap{
+  font-size:28px !important;
+  text-align: center !important;
+}
 
 
 
