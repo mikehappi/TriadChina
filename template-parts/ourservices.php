@@ -58,8 +58,9 @@ background-color: white;
 }
 
 .scontainer{
-
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .sitem img{
     border:1px;
