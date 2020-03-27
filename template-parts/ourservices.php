@@ -61,7 +61,7 @@ padding-top: 110px;
 .scontainer{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 .sitem img{
   border: 1px;
