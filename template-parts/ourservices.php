@@ -52,6 +52,9 @@ padding-bottom: 20px;
 
 .scontent {
 display: inline-block !important;
+height: 840px;
+width: 100VH;
+background-color: white;
 }
 
 
