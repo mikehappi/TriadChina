@@ -69,13 +69,18 @@ height:333px !important;
 .iifitemR img{
 width:592px !important;
 height:333px !important;
-vertical-align: super!important;
-height: 720px;
-background-color: #F2F2F2;
 margin-left: 15px;
 }
 
  .iifitem {
+/* To correctly align image, regardless of content height: */
+   vertical-align: top;
+   display: inline-block;
+   /* To horizontally center images and caption */
+   text-align: center;
+ background-color: #F2F2F2;}
+
+ .iifitemR {
 /* To correctly align image, regardless of content height: */
    vertical-align: top;
    display: inline-block;
