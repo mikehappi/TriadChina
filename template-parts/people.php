@@ -61,7 +61,7 @@ padding-top: 110px;
 .pcontainer{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 .pitem img{
   border: 1px;
