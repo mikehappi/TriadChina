@@ -133,10 +133,10 @@ background-color: #F2F2F2;
      /* Make the caption a block so it occupies its own line. */
     display: block;
      text-align: left;
-     height: 310px;
-     width: 472.5px;
-     margin-left: 60px;
-     margin-top: 40px;
+     height:310px;
+     width:472.5px;
+     margin-left:60px;
+     margin-top:40px;
    }
 
 
