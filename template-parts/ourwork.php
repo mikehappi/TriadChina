@@ -119,6 +119,7 @@ padding-bottom: 20px;
  .iicat {
 font-size:14px !important;
 color:#E74011!important;
+margin-bottom: 7px;
  }
  .iipr {
 line-height: 40.8px !important;
