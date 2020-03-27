@@ -87,7 +87,6 @@ background-color: #F2F2F2;
 
  }
 
-
  .iicat {
  font-size:14px !important;
  color:#E74011!important;
@@ -140,6 +139,16 @@ background-color: #F2F2F2;
      margin-top: 40px;
    }
 
+
+   .iiicaption {
+       /* Make the caption a block so it occupies its own line. */
+      display: block;
+       text-align: left;
+       height: 400px;
+       width: 390px;
+       margin-left: 60px;
+       margin-top: 40px;
+     }
 
 
 /*--------------------------------------------------------------
