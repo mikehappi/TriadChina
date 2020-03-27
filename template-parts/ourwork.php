@@ -114,6 +114,7 @@ background-color: #F2F2F2;
   justify-content:space-between;
   height: 620px;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 .iiifitems  img{
   width:390px !important;
