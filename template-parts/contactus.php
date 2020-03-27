@@ -55,14 +55,14 @@ padding-bottom: 20px;
 /*Two  frame blocks */
 
 /* work items displaying */
-.cfcont {
+.ccont {
   display: inline-flex;
    flex-direction: row ;
   justify-content: flex-end;
   height: 700px;
 }
 
- .cfitem {
+ .citem {
 /* To correctly align image, regardless of content height: */
    vertical-align: top;
    display: inline-block;
@@ -70,16 +70,16 @@ padding-bottom: 20px;
    text-align: center;
  background-color: #F2F2F2;}
 
- .cfitem img{
+ .citem img{
  width:592px !important;
  height:333px !important;
 
  }
- .cfitemR {
+ .citemR {
 background-color: #F2F2F2;
     margin-left: 15px;
  }
- .cfitemR img{
+ .citemR img{
  width:592px !important;
  height:333px !important;
 
