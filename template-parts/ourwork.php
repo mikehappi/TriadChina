@@ -86,8 +86,8 @@ margin-left: 15px;
    display: inline-block;
    /* To horizontally center images and caption */
    text-align: center;
- background-color: #F2F2F2;}
-
+ }
+.iifitemR figcaption{background-color: #F2F2F2;}
 
 .iiifcont {
   display:flex;
