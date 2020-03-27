@@ -145,7 +145,7 @@ background-color: #F2F2F2;
       display: block;
        text-align: left;
        height: 400px!important;
-       width: 390px!important;
+       width: 330px!important;
        margin-left: 60px;
        margin-top: 40px;
      }
