@@ -131,6 +131,7 @@ font-size:22px !important;
  .iilo{
 font-size:14px !important;
 line-height: 16.8px !important;
+margin-top: 20px;
  }
 
 /*--------------------------------------------------------------
