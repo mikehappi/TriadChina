@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name:Our Awards Page
+ * Template Name:Our Clients Page
 
  */
 
