@@ -52,7 +52,7 @@ padding-bottom: 20px;
 
 .awcontent {
 display: inline-block !important;
-height: 840px;
+height: 360px;
 width:  1200px;
 background-color: white;
 padding-top: 40px;
@@ -71,6 +71,12 @@ padding-top: 40px;
 }
 .awitem p {
   margin:0 !important;
+}
+
+.awcontent span {
+  border-bottom: 2px solid #E74011 !important;
+  display: inline;
+
 }
 
 
