@@ -83,11 +83,14 @@ background-color: #F2F2F2;
  .cfitemR img{
  width:592px !important;
  height:333px !important;
-opacity:30% !important;
+
  }
 .cop{
-  width:592px !important;
-  height:333px !important;
+  position: relative;
+  width: 592px !important;
+  height: 333px !important;
+  background-color: black;
+  opacity:30% !important;
 }
  .center {
   position: absolute;
