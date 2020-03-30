@@ -88,12 +88,12 @@ width:  1200px;
 
 
 .awitem .colored{
-  display:inline;
+  display:none;
 }
 
-.awitem .blackwhite:hover{
+.awitem .colored:hover{
 
-display:none;
+display:inline;
 }
 
 
