@@ -82,7 +82,7 @@ width:  1200px;
   display:inline;
 }
 
-.awitem .blackwhite hover{
+.awitem .blackwhite:hover{
   display:none;
 }
 
@@ -91,7 +91,7 @@ width:  1200px;
   display:inline;
 }
 
-.awitem .blackwhite hover{
+.awitem .blackwhite:hover{
 
 display:none;
 }
