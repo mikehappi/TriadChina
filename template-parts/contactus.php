@@ -28,7 +28,7 @@ background-color: #e3e3e3 !important;
  line-height: unset !important;
 }
 
-.wsection{
+.csection{
   width: 1200px !important;
   font-family:AP !important;
   padding-top: 15em !important;
@@ -42,7 +42,7 @@ font-size: 20px !important;
 margin-bottom: 80px !important;
 }
 
-.wcontent {
+.ccontent {
 display: inline-block !important;
 }
 
@@ -56,14 +56,14 @@ padding-bottom: 20px;
 /*Two  frame blocks */
 
 /* work items displaying */
-.iifcont {
+.cfcont {
   display: inline-flex;
    flex-direction: row ;
   justify-content: flex-end;
   height: 700px;
 }
 
- .iifitem {
+ .cfitem {
 /* To correctly align image, regardless of content height: */
    vertical-align: top;
    display: inline-block;
@@ -71,22 +71,22 @@ padding-bottom: 20px;
    text-align: center;
  background-color: #F2F2F2;}
 
- .iifitem img{
+ .cfitem img{
  width:592px !important;
  height:333px !important;
 
  }
- .iifitemR {
+ .cfitemR {
 background-color: #F2F2F2;
     margin-left: 15px;
  }
- .iifitemR img{
+ .cfitemR img{
  width:592px !important;
  height:333px !important;
 
  }
 
- .iicaption {
+ .ccaption {
      /* Make the caption a block so it occupies its own line. */
      display: block;
      text-align: left;
@@ -97,20 +97,20 @@ background-color: #F2F2F2;
    }
 
 
- .iicat {
+ .ccat {
  font-size:14px !important;
  color:#E74011!important;
  margin-bottom: 7px;
  }
- .iipr {
+ .cpr {
  line-height: 40.8px !important;
  font-size:34px !important;
  }
- .iipd {
+ .cpd {
  line-height: 26.4px !important;
  font-size:22px !important;
  }
- .iilo{
+ .clo{
  font-size:14px !important;
  line-height: 16.8px !important;
  margin-top: 20px;
@@ -131,7 +131,7 @@ background-color: #F2F2F2;
 </head>
 
 <div id="primary" class="site-content">
-<div class="wsection">
+<div class="csection">
 
   <h1 class="page-title"><span> <?php the_title(); ?></span></h1>
 <?php
