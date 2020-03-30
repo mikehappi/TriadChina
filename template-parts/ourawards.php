@@ -54,7 +54,6 @@ padding-bottom: 20px;
 display: inline-block !important;
 height: 360px;
 width:  1200px;
-padding-top: 40px;
 }
 
 .awcontainer{
@@ -73,7 +72,10 @@ padding-top: 40px;
 }
 
 .awcontent hr {
-  border-bottom: 2px solid #E74011 !important;
+  margin-top: 40px!important;
+  margin-bottom: 40px!important;
+  border: 0;
+  border-top: 2px solid #FFF!important;
 }
 
 
