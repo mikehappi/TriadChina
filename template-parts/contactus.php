@@ -74,7 +74,7 @@ padding-bottom: 20px;
  .cfitem img{
  width:592px !important;
  height:333px !important;
-
+opacity:30% !important;
  }
  .cfitemR {
 background-color: #F2F2F2;
@@ -83,7 +83,7 @@ background-color: #F2F2F2;
  .cfitemR img{
  width:592px !important;
  height:333px !important;
-
+opacity:30% !important;
  }
 
  .ccaption {
