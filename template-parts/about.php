@@ -65,7 +65,7 @@ padding-bottom: 20px;
 .Acontent img {
 width: 800px;
     height: auto;
-    margin: 0 !important; }
+  margin: 45px 0 0 0 !important;}
 
 
 /*--------------------------------------------------------------
