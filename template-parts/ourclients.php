@@ -62,7 +62,7 @@ width:  1200px;
   justify-content: space-between;
   margin-top: 40px;
 }
-.awitem img{
+.clitem img{
   border: 1px;
     height: 100px;
     width: 100px;
