@@ -97,20 +97,12 @@ background-color: #F2F2F2;
    }
 
 
- .ccat {
- font-size:14px !important;
- color:#E74011!important;
- margin-bottom: 7px;
- }
- .cpr {
- line-height: 40.8px !important;
- font-size:34px !important;
- }
- .cpd {
+
+ .ccd {
  line-height: 26.4px !important;
  font-size:22px !important;
  }
- .clo{
+ .cmail{
  font-size:14px !important;
  line-height: 16.8px !important;
  margin-top: 20px;
