@@ -78,8 +78,22 @@ width:  1200px;
   border-top: 2px solid #FFF!important;
 }
 
+.awitem .blackwhite{
+  display:inline;
+}
+
+.awitem .blackwhite hover{
+  display:none;
+}
 
 
+.awitem .colored{
+  display:none;
+}
+
+.awitem .blackwhite hover{
+  display:inline;
+}
 
 
 /*--------------------------------------------------------------
