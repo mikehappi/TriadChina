@@ -8,7 +8,7 @@
 
 <?php $upload_dir = wp_upload_dir(); ?>
  <!doctype html>
-    <html <?php language_attributes(); ?>
+    <html <?php language_attributes(); ?>>
    <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <head>
@@ -28,11 +28,12 @@ background-color: #e3e3e3 !important;
  line-height: unset !important;
 }
 
-.csection{
+.wsection{
   width: 1200px !important;
   font-family:AP !important;
   padding-top: 15em !important;
   padding-bottom: 150px !important;
+
 }
 
 .page-title{
@@ -41,7 +42,7 @@ font-size: 20px !important;
 margin-bottom: 80px !important;
 }
 
-.ccontent {
+.wcontent {
 display: inline-block !important;
 }
 
@@ -55,14 +56,14 @@ padding-bottom: 20px;
 /*Two  frame blocks */
 
 /* work items displaying */
-.ccont {
+.iifcont {
   display: inline-flex;
    flex-direction: row ;
   justify-content: flex-end;
   height: 700px;
 }
 
- .citem {
+ .iifitem {
 /* To correctly align image, regardless of content height: */
    vertical-align: top;
    display: inline-block;
@@ -70,40 +71,51 @@ padding-bottom: 20px;
    text-align: center;
  background-color: #F2F2F2;}
 
- .citem img{
+ .iifitem img{
  width:592px !important;
  height:333px !important;
 
  }
- .citemR {
+ .iifitemR {
 background-color: #F2F2F2;
     margin-left: 15px;
  }
- .citemR img{
+ .iifitemR img{
  width:592px !important;
  height:333px !important;
 
  }
 
-
- .cpr {
- line-height: 40.8px !important;
- font-size:28px !important;
- }
- .cpd {
- line-height: 26.4px !important;
- font-size:22px !important;
- }
-
- .ccaption {
+ .iicaption {
      /* Make the caption a block so it occupies its own line. */
      display: block;
      text-align: left;
-     height:310px;
-     width:472.5px;
-     margin-left:60px;
-     margin-top:40px;
+     height: 310px;
+     width: 472.5px;
+     margin-left: 60px;
+     margin-top: 40px;
    }
+
+
+ .iicat {
+ font-size:14px !important;
+ color:#E74011!important;
+ margin-bottom: 7px;
+ }
+ .iipr {
+ line-height: 40.8px !important;
+ font-size:34px !important;
+ }
+ .iipd {
+ line-height: 26.4px !important;
+ font-size:22px !important;
+ }
+ .iilo{
+ font-size:14px !important;
+ line-height: 16.8px !important;
+ margin-top: 20px;
+ }
+
 
 
 
@@ -119,7 +131,7 @@ background-color: #F2F2F2;
 </head>
 
 <div id="primary" class="site-content">
-<div class="csection">
+<div class="wsection">
 
   <h1 class="page-title"><span> <?php the_title(); ?></span></h1>
 <?php
