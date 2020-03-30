@@ -85,7 +85,10 @@ background-color: #F2F2F2;
  height:333px !important;
 opacity:30% !important;
  }
-
+.cop{
+  width:592px !important;
+  height:333px !important;
+}
  .center {
   position: absolute;
   top: 50%;
