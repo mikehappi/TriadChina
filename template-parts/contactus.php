@@ -88,8 +88,7 @@ background-color: #F2F2F2;
   position: relative;
   width: 592px !important;
   height: 333px !important;
-  background-color: black;
-  opacity:30% !important;
+
 }
  .center {
   position: absolute;
@@ -97,6 +96,7 @@ background-color: #F2F2F2;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 38px;
+  color: white !important;
 }
 
  .ccaption {
