@@ -52,7 +52,7 @@ padding-bottom: 20px;
 
 .clcontent {
 display: inline-block !important;
-height: 720px;
+height: 360px;
 width:  1200px;
 }
 
@@ -62,7 +62,7 @@ width:  1200px;
   justify-content: space-between;
   margin-top: 40px;
 }
-.clitem img{
+.awitem img{
   border: 1px;
     height: 100px;
     width: 100px;
@@ -75,10 +75,25 @@ width:  1200px;
   margin-top: 40px!important;
   margin-bottom: 40px!important;
   border: 0 !important;
-  border-top: 2px solid #FFF!important;
+  border-top: 1px solid #FFF!important;
+}
+
+.clitem .blackwhite{
+  display:inline;
+}
+
+.clitem:hover .blackwhite {
+    display: none;
 }
 
 
+.clitem .colored{
+  display:none;
+}
+
+.clitem:hover .colored{
+display:inline;
+}
 
 
 
