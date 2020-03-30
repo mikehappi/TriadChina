@@ -52,7 +52,7 @@ padding-bottom: 20px;
 
 .clcontent {
 display: inline-block !important;
-height: 7200px;
+height: 720px;
 width:  1200px;
 }
 
