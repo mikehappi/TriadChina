@@ -65,11 +65,8 @@ padding-top: 110px;
 }
 .awitem img{
   border: 1px;
-    height: 200px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
 
 
