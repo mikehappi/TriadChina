@@ -82,8 +82,8 @@ width:  1200px;
   display:inline;
 }
 
-.awitem .blackwhite:hover{
-  display:none;
+.awitem:hover .blackwhite {
+    display: none;
 }
 
 
@@ -91,10 +91,10 @@ width:  1200px;
   display:none;
 }
 
-.awitem .colored:hover{
-
+.awitem:hover .colored{
 display:inline;
 }
+
 
 
 /*--------------------------------------------------------------
