@@ -74,7 +74,7 @@ width:  1200px;
 .awcontent hr {
   margin-top: 40px!important;
   margin-bottom: 40px!important;
-  border: 0;
+  border: 0 !important;
   border-top: 2px solid #FFF!important;
 }
 
