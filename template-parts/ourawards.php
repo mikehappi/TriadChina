@@ -55,20 +55,23 @@ display: inline-block !important;
 height: 840px;
 width:  1200px;
 background-color: white;
-padding-top: 110px;
+padding-top: 40px;
 }
 
 .awcontainer{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 40px;
 }
 .awitem img{
   border: 1px;
     height: 100px;
     width: 100px;
 }
-
+.awitem p {
+  margin:0 !important;
+}
 
 
 
