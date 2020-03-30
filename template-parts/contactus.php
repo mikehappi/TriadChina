@@ -134,6 +134,14 @@ background-color: #F2F2F2;
  margin-top: 20px;
  }
 
+ .ccaption a{
+     color:black !important;
+     text-decoration: none !important;
+     }
+
+   .ccaption a:hover {
+     color: #E74011 !important;
+     }
 
 
 
