@@ -86,6 +86,14 @@ background-color: #F2F2F2;
 opacity:30% !important;
  }
 
+ .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 38px;
+}
+
  .ccaption {
      /* Make the caption a block so it occupies its own line. */
      display: block;
