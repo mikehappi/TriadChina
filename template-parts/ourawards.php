@@ -54,7 +54,6 @@ padding-bottom: 20px;
 display: inline-block !important;
 height: 360px;
 width:  1200px;
-background-color: white;
 padding-top: 40px;
 }
 
@@ -73,11 +72,11 @@ padding-top: 40px;
   margin:0 !important;
 }
 
-.awcontent span {
+.awcontent hr {
   border-bottom: 2px solid #E74011 !important;
-  display: inline;
-
 }
+
+
 
 
 
