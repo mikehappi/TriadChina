@@ -99,12 +99,12 @@ background-color: #F2F2F2;
 
 
  .ccd {
- line-height: 26.4px !important;
- font-size:22px !important;
+ line-height: 33.6px !important;
+ font-size:28px !important;
  }
  .cmail{
- font-size:14px !important;
- line-height: 16.8px !important;
+ font-size:22px !important;
+ line-height: 26.4px !important;
  margin-top: 20px;
  }
 
