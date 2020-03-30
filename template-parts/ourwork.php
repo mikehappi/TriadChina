@@ -85,6 +85,15 @@ background-color: #F2F2F2;
  height:333px !important;
 
  }
+ .iicaption {
+     /* Make the caption a block so it occupies its own line. */
+     display: block;
+     text-align: left;
+     height: 310px;
+     width: 472.5px;
+     margin-left: 60px;
+     margin-top: 40px;
+   }
 
  .iicat {
  font-size:14px !important;
@@ -129,16 +138,6 @@ background-color: #F2F2F2;
      background-color: #F2F2F2;
  }
 
- .iicaption {
-     /* Make the caption a block so it occupies its own line. */
-     display: block;
-     text-align: left;
-     height: 310px;
-     width: 472.5px;
-     margin-left: 60px;
-     margin-top: 40px;
-   }
-
 
    .iiicaption {
        /* Make the caption a block so it occupies its own line. */
@@ -148,6 +147,25 @@ background-color: #F2F2F2;
        width: 330px!important;
        margin-left: 60px;
        margin-top: 40px;
+     }
+
+     .iiicat {
+     font-size:14px !important;
+     color:#E74011!important;
+     margin-bottom: 7px;
+     }
+     .iiipr {
+     line-height: 40.8px !important;
+     font-size:34px !important;
+     }
+     .iiipd {
+     line-height: 26.4px !important;
+     font-size:22px !important;
+     }
+     .iiilo{
+     font-size:14px !important;
+     line-height: 16.8px !important;
+     margin-top: 20px;
      }
 
 
