@@ -6,12 +6,6 @@
 
  get_header(); ?>
 
-<?php $upload_dir = wp_upload_dir(); ?>
- <!doctype html>
-    <html <?php language_attributes(); ?>>
-   <meta name="viewport" content="width=device-width,initial-scale=1">
-
-<head>
 <style type="text/css">
 @font-face{
     font-family:AP;
@@ -90,12 +84,8 @@ padding-top: 110px;
 }
 
 </style>
-</head>
 
-<div id="primary" class="site-content">
-<div class="ssection">
 
-  <h1 class="page-title"><span> <?php the_title(); ?></span></h1>
 <?php
 if (have_posts()):
   while (have_posts()) : the_post();
@@ -105,4 +95,3 @@ else:
   echo '<p>Sorry, no posts matched your criteria.</p>';
 endif;
 ?>
-</div>
