@@ -22,7 +22,7 @@ background-color: #e3e3e3 !important;
  line-height: unset !important;
 }
 
-.wsection{
+.lsection{
   width: 1200px !important;
   font-family:AP !important;
   padding-top: 15em !important;
@@ -47,102 +47,6 @@ padding-bottom: 20px;
 }
 
 
-/*Two  frame blocks */
-
-/* work items displaying */
-.iifcont {
-  display: inline-flex;
-   flex-direction: row ;
-  justify-content: flex-end;
-  height: 700px;
-}
-
- .iifitem {
-/* To correctly align image, regardless of content height: */
-   vertical-align: top;
-   display: inline-block;
-   /* To horizontally center images and caption */
-   text-align: center;
- background-color: #F2F2F2;}
-
- .iifitem img{
- width:592px !important;
- height:333px !important;
-
- }
- .iifitemR {
-background-color: #F2F2F2;
-    margin-left: 15px;
- }
- .iifitemR img{
- width:592px !important;
- height:333px !important;
-
- }
-
- .iicat {
- font-size:14px !important;
- color:#E74011!important;
- margin-bottom: 7px;
- }
- .iipr {
- line-height: 40.8px !important;
- font-size:34px !important;
- }
- .iipd {
- line-height: 26.4px !important;
- font-size:22px !important;
- }
- .iilo{
- font-size:14px !important;
- line-height: 16.8px !important;
- margin-top: 20px;
- }
-
-/*three case blocks */
-
-.iiifcont {
-  display:flex;
-  flex-direction: row ;
-  justify-content:space-between;
-  height: 620px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.iiifitems  img{
-  width:390px !important;
-  height:220px !important;
-}
-
-.iiifitems {
-  /* To correctly align image, regardless of content height: */
-     vertical-align: top;
-     display: inline-block;
-     /* To horizontally center images and caption */
-     text-align: center;
-     background-color: #F2F2F2;
- }
-
- .iicaption {
-     /* Make the caption a block so it occupies its own line. */
-     display: block;
-     text-align: left;
-     height: 310px;
-     width: 472.5px;
-     margin-left: 60px;
-     margin-top: 40px;
-   }
-
-
-   .iiicaption {
-       /* Make the caption a block so it occupies its own line. */
-      display: block;
-       text-align: left;
-       height: 400px!important;
-       width: 330px!important;
-       margin-left: 60px;
-       margin-top: 40px;
-     }
 
 
 /*--------------------------------------------------------------
@@ -163,7 +67,7 @@ background-color: #F2F2F2;
 <?php get_template_part('template-parts/ourawards.php'); ?>
 <?php get_template_part('template-parts/contactus.php'); ?>
 
-<div class="wsection">
+<div class="lsection">
 <?php
 if (have_posts()):
   while (have_posts()) : the_post();
