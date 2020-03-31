@@ -156,11 +156,14 @@ background-color: #F2F2F2;
 
 
 <?php get_template_part('template-parts/about.php'); ?>
-
+<?php get_template_part('template-parts/ourwork.php'); ?>
+<?php get_template_part('template-parts/ourservices.php'); ?>
+<?php get_template_part('template-parts/ourclients.php'); ?>
+<?php get_template_part('template-parts/people.php'); ?>
+<?php get_template_part('template-parts/ourawards.php'); ?>
+<?php get_template_part('template-parts/contactus.php'); ?>
 
 <div class="wsection">
-
-  <h1 class="page-title"><span> <?php the_title(); ?></span></h1>
 <?php
 if (have_posts()):
   while (have_posts()) : the_post();
@@ -171,5 +174,3 @@ else:
 endif;
 ?>
 </div>
-
-<?php get_footer(); ?>
