@@ -9,7 +9,6 @@ get_header(); ?>
 
 <div class="lsection">
 
-
 <?php
     // query for the about page
     $your_query = new WP_Query( 'pagename=about-us' );
