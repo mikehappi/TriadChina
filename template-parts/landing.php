@@ -6,58 +6,8 @@
  *
  */
 get_header(); ?>
-<style type="text/css">
-@font-face{
-    font-family:AP;
-     src:url("<?php echo get_template_directory_uri(); ?>/css/AltoPro.OTF");
-}
-@font-face{
-    font-family:APM;
-     src:url("<?php echo get_template_directory_uri(); ?>/css/AltoProM.OTF");
-}
-body {
-display: flex;
-justify-content: center;
-background-color: #e3e3e3 !important;
- line-height: unset !important;
-}
 
-.lsection{
-  width: 1200px !important;
-  font-family:AP !important;
-  padding-top: 15em !important;
-  padding-bottom: 150px !important;
-
-}
-
-.page-title{
-font-family:AP !important;
-font-size: 20px !important;
-margin-bottom: 80px !important;
-}
-
-.lcontent {
-display: inline-block !important;
-}
-
-h1 span {
-border-bottom: 2px solid #E74011 !important;
-display: inline;
-padding-bottom: 20px;
-}
-
-
-
-
-/*--------------------------------------------------------------
-# Media Qeries  Mobile CSSS adapation
---------------------------------------------------------------*/
-@media only screen and (max-width: 500px) {
-
-}
-
-</style>
-
+<div class="lsection">
 
 <?php get_template_part('template-parts/about.php'); ?>
 <?php get_template_part('template-parts/ourwork.php'); ?>
@@ -67,16 +17,6 @@ padding-bottom: 20px;
 <?php get_template_part('template-parts/ourawards.php'); ?>
 <?php get_template_part('template-parts/contactus.php'); ?>
 
-<div class="lsection">
-<?php
-if (have_posts()):
-  while (have_posts()) : the_post();
-    the_content();
-  endwhile;
-else:
-  echo '<p>Sorry, no posts matched your criteria.</p>';
-endif;
-?>
 
 <?php
     // query for the about page
