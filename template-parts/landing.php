@@ -36,7 +36,7 @@ font-size: 20px !important;
 margin-bottom: 80px !important;
 }
 
-.wcontent {
+.lcontent {
 display: inline-block !important;
 }
 
@@ -78,8 +78,6 @@ else:
 endif;
 ?>
 
-</div>
-
 <?php
     // query for the about page
     $your_query = new WP_Query( 'pagename=contact-us' );
@@ -90,3 +88,4 @@ endif;
     // reset post data (important!)
     wp_reset_postdata();
 ?>
+</div>
