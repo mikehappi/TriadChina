@@ -6,12 +6,6 @@
 
  get_header(); ?>
 
-<?php $upload_dir = wp_upload_dir(); ?>
- <!doctype html>
-    <html <?php language_attributes(); ?>>
-   <meta name="viewport" content="width=device-width,initial-scale=1">
-
-<head>
 <style type="text/css">
 @font-face{
     font-family:AP;
@@ -105,9 +99,6 @@ display:inline;
 }
 
 </style>
-</head>
-
-<div id="primary" class="site-content">
 <div class="awsection">
 
   <h1 class="page-title"><span> <?php the_title(); ?></span></h1>
