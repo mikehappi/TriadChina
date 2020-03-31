@@ -6,11 +6,6 @@
 
 get_header(); ?>
 
-/**
- * Move the styles below into your stylesheet
- */
-?>
-
 <style type="text/css">
 @font-face{
     font-family:AP;

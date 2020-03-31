@@ -1,422 +1,606 @@
+
 @font-face{
     font-family:AP;
-     src:url("AltoPro.OTF");
+     src:url("<?php echo get_template_directory_uri(); ?>/css/AltoPro.OTF");
 }
-
-  body {
-    height: 100%;
-    margin: 0;
-
-/* Pick a solid background color that will be displayed while the background image is loading */
-background-color:#e5e5e5 !important;
-
+@font-face{
+    font-family:APM;
+     src:url("<?php echo get_template_directory_uri(); ?>/css/AltoProM.OTF");
 }
-
-
-/* Padding Header */
-.hd {padding-top:2%;}
-
-
-/*--------------------------------------------------------------
-#Action
---------------------------------------------------------------*/
-.atitle{
-font-family:LFD !important;
-color: white !important;
-font-size:30px !important;
-text-transform:uppercase !important;
-}
-.acontainer{
-padding-top: 5em;
-width: 75%;
-float: left;
-position: relative;
-right: -8em; /* or left 30% */
-text-align: left;
-
-}
-.acontent{
-font-family:PNR !important;
-color: white !important;
-font-size:13px !important;
-text-transform:uppercase !important;
-text-align:justify !important;
-}
-.atitle{
- width: 615px;;
-}
-.abody {
+body {
 display: flex;
-}
-.abar{
-width: 70px;
-margin-right: 1em;
-}
-
-.acontent {
-align-self: flex-start;
-}
-
-
-
-.acontent1{
-font-family:LFD!important;
-color: white !important;
-font-size:11px !important;
-text-transform:uppercase !important;
-text-align:left !important;
-margin-top: 20em;
-display:flex;
-flex-wrap: wrap;
-width: 1100px;
-flex-direction: row-reverse;
-}
-.acontent1 img{
-height:10px;
-width: 2px;
-margin-right: 0.5em;}
-
-.aflex {
-width: 230px;
-margin: 0px 0 0em 2em;
-}
-/* unvisited link */
-.acontent a:link {
-color: white !important;
-font-size:13px !important;
-text-decoration: none;
-}
-
-/* visited link */
-.acontent a:visited {
-color: white !important;
-font-size:13px !important;
-text-decoration: none;
-}
-
-/* mouse over link */
-.acontent a:hover {
-color: white !important;
-font-size:13px !important;
-text-decoration: none;
-}
-
-/* selected link */
-.acontent a:active {
-color: white !important;
-font-size:13px !important;
-text-decoration: none;
-}
-
-/* unvisited link */
-.acontent1 a:link {
-color: white !important;
-font-size:11px !important;
-text-decoration: none;
-}
-
-/* visited link */
-.acontent1 a:visited {
-  color: white !important;
-font-size:11px !important;
-text-decoration: none;
-}
-
-/* mouse over link */
-.acontent1 a:hover {
-color: white !important;
-font-size:11px !important;
-text-decoration: none;
-}
-
-/* selected link */
-.acontent1 a:active {
- color: white !important;
-font-size:11px !important;
-text-decoration: none;
-}
+justify-content: center;
+background-color: #e3e3e3 !important;}
 
 
 /*--------------------------------------------------------------
-Decouvrir HC
+# About us
 --------------------------------------------------------------*/
 
 
-.dhtitle{
-font-family:LFR !important;
-color: #b91338 !important;
-font-size:30px !important;
-font-weight:600;
-text-transform:uppercase !important;
-text-align:center !important;
+.asection{
+  width: 1200px !important;
+  font-family:AP !important;
+  padding-top: 15em !important;
+  padding-bottom: 150px !important;
 }
-.dhcontent1{
-font-family:LFR !important;
-color: #383838 !important;
-font-size:17px !important;
-font-weight:600;
-text-transform:uppercase !important;
-text-align:center !important;
-line-height: 2.5em;
+.page-title{
+  font-family:AP !important;
+font-size: 20px !important;
+margin-bottom: 80px !important;
 }
-.dhcontent2{
-font-family:LFR !important;
-color: #383838 !important;
-font-size:23px !important;
-font-weight: 600;
-text-transform:uppercase !important;
-text-align:center !important;
-line-height: 4em;
-padding-bottom:13em;
+h1 span {
+border-bottom: 2px solid #E74011 !important;
+display: inline;
+padding-bottom: 20px;
 }
-
-
-
-/* unvisited link */
-.dhcontent2 a:link {
-color: #383838 !important;
-font-size:23px !important;
-text-decoration: none;
-}
-
-/* visited link */
-.dhcontent2 a:visited {
-  color: #383838 !important;
-font-size:23px !important;
-text-decoration: none;
-font-weight: 600;
-}
-
-/* mouse over link */
-.dhcontent2 a:hover {
-  color: #383838 !important;
-font-size:23px !important;
-text-decoration: none;
-font-weight: 600;
-}
-
-/* selected link */
-.dhcontent2 a:active {
-  color: #383838 !important;
-font-size:23px !important;
-text-decoration: none;
-font-weight: 600;
-
-padding-bottom: 5em;
-
-}
-/* titlebar space */
-.dhtitle img {margin: 2em;}
-/*--------------------------------------------------------------
-#Gestion privee
---------------------------------------------------------------*/
-.gptitle{
-font-family:LFD !important;
-color: #b91338 !important;
-font-size:42px !important;
-text-transform:uppercase !important;
-}
-.gpcontent{
-font-family:PNR !important;
-color: #383838 !important;
-font-size:13px !important;
-text-transform:uppercase !important;
-text-align:justify !important;
-}
-.gptitle{
-width:50px;
-}
-.gpbody {
-display: flex;
-}
-.gpbar{
-width:180px !important;
-padding-right:4em;
-}
-.gpcontent {
-align-self: flex-start;
-}
-
-.gpcontainer{
-padding-top: 5em;
-width: 75%;
-float: left;
-position: relative;
-right: -8em; /* or left 30% */
-text-align: left;
+.asection p {
+  margin:0px !important;
 
 }
 
-/*--------------------------------------------------------------
-#Valeurs
---------------------------------------------------------------*/
-.vctitle{
-font-family:LFR !important;
-color: #b91338 !important;
-font-size:30px !important;
-font-weight: 600;
-text-transform:uppercase !important;
-}
-.acontainer{
-padding-top: 5em;
-width: 75%;
-float: left;
-position: relative;
-right: -8em; /* or left 30% */
-text-align: left;
-
-}
-.vccontent{
-font-family:PNR !important;
-color: #383838 !important;
-font-size:13px !important;
-text-transform:uppercase !important;
-text-align:justify !important;
-}
-.vctitle{
- width: 615px;;
-}
-.vcbody {
-display: flex;
-}
-.vcbar{
-width: 70px;
-margin-right: 1em;
+.Acontent h3 {
+  font-family:AP !important;
+  font-size:38px !important;
 }
 
-.vccontent {
-align-self: flex-start;
-}
-
-
-
-.vccontent1{
-font-family:PNR!important;
-color: #383838 !important;
-font-size:11px !important;
-text-transform:uppercase !important;
-text-align:left !important;
-margin-top: 10em;
-display:flex;
-flex-wrap: wrap;
-width:1100px;
-}
-.vccontent1 img{
-height:10px;
-width: 2px;
-margin-right: 0.5em;}
-
-.vcflex {
-width: 320px;
-margin: 0px 0 2em 2em;
-}
-
-
-/* unvisited link */
-.vccontent1 a:link {
-color: #383838 !important;
-font-size:11px !important;
-text-decoration: none;
-}
-
-/* visited link */
-.vccontent1 a:visited {
-  color: #383838 !important;
-font-size:11px !important;
-text-decoration: none;
-}
-
-/* mouse over link */
-.vccontent1 a:hover {
-color: #383838 !important;
-font-size:11px !important;
-text-decoration: none;
-}
-
-/* selected link */
-.vccontent1 a:active {
- color: #383838 !important;
-font-size:11px !important;
-text-decoration: none;
-}
-.vcnumber{
-font-family:LFD!important;
-color: #b91338 !important;
-font-size:42px !important;
+.Acontent p {
+  font-size:30Px !important;
 
 }
-/*--------------------------------------------------------------
- A philantropique
---------------------------------------------------------------*/
 
-.aptitle{
-font-family:LFR !important;
-color: white !important;
-font-size:23px !important;
-font-weight: 600;
-text-transform:uppercase !important;
-text-align:center !important;
-}
-.apcontent{
-font-family:LFR !important;
-color: white !important;
-font-size:18px !important;
-font-weight: 600;
-text-transform:uppercase !important;
-text-align:center !important;
-line-height: 2em;
-}
-    .apimg{
-      margin-top: 2em;
-    margin-bottom: 2em;
-    text-align: center;}
+.Acontent img {
+width: 800px;
+    height: auto;
+  margin: 45px 0 0 0 !important;}
 
-
-
-/*--------------------------------------------------------------
-# Couverture internationale
---------------------------------------------------------------*/
-.cititle{
-font-family:LFR !important;
-color: white !important;
-font-size:20px !important;
-font-weight: 600;
-text-transform:uppercase !important;
-text-align:center !important;
-}
-.cimg{
-text-align:center !important;
-padding-top:4%;
-padding-bottom:4%;}
-
-.cicontent{
-font-family:PNR !important;
-color: white !important;
-font-size:12px !important;
-font-weight:light;
-text-transform:uppercase !important;
-text-align:center !important;
-padding-bottom: 10em;
-}
-.cih1{font-family:LFR !important;
-color: white !important;
-font-size:12px !important;
-font-weight: 600;}
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
 @media only screen and (max-width: 500px) {
-   .bpic {
-    width: 100% !important;
-    height: auto !important;
-}
-.post-list{
-    margin: 0 auto;
-     width : auto !important;
-}
-}
 
+}
 
 /*--------------------------------------------------------------
-#Sticky Header
+# Our Work
+--------------------------------------------------------------*/
+
+ .wsection{
+   width: 1200px !important;
+   font-family:AP !important;
+   padding-top: 15em !important;
+   padding-bottom: 150px !important;
+
+ }
+
+ .page-title{
+ font-family:AP !important;
+ font-size: 20px !important;
+ margin-bottom: 80px !important;
+ }
+
+ .wcontent {
+ display: inline-block !important;
+ }
+
+ h1 span {
+ border-bottom: 2px solid #E74011 !important;
+ display: inline;
+ padding-bottom: 20px;
+ }
+
+
+ /*Two  frame blocks */
+
+ /* work items displaying */
+ .iifcont {
+   display: inline-flex;
+    flex-direction: row ;
+   justify-content: flex-end;
+   height: 700px;
+ }
+
+  .iifitem {
+ /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+  background-color: #F2F2F2;}
+
+  .iifitem img{
+  width:592px !important;
+  height:333px !important;
+
+  }
+  .iifitemR {
+ background-color: #F2F2F2;
+     margin-left: 15px;
+  }
+  .iifitemR img{
+  width:592px !important;
+  height:333px !important;
+
+  }
+
+  .iicat {
+  font-size:14px !important;
+  color:#E74011!important;
+  margin-bottom: 7px;
+  }
+  .iipr {
+  line-height: 40.8px !important;
+  font-size:34px !important;
+  }
+  .iipd {
+  line-height: 26.4px !important;
+  font-size:22px !important;
+  }
+  .iilo{
+  font-size:14px !important;
+  line-height: 16.8px !important;
+  margin-top: 20px;
+  }
+
+ /*three case blocks */
+
+ .iiifcont {
+   display:flex;
+   flex-direction: row ;
+   justify-content:space-between;
+   height: 620px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+ }
+ .iiifitems  img{
+   width:390px !important;
+   height:220px !important;
+ }
+
+ .iiifitems {
+   /* To correctly align image, regardless of content height: */
+      vertical-align: top;
+      display: inline-block;
+      /* To horizontally center images and caption */
+      text-align: center;
+      background-color: #F2F2F2;
+  }
+
+  .iicaption {
+      /* Make the caption a block so it occupies its own line. */
+      display: block;
+      text-align: left;
+      height: 310px;
+      width: 472.5px;
+      margin-left: 60px;
+      margin-top: 40px;
+    }
+
+
+    .iiicaption {
+        /* Make the caption a block so it occupies its own line. */
+       display: block;
+        text-align: left;
+        height: 400px!important;
+        width: 330px!important;
+        margin-left: 60px;
+        margin-top: 40px;
+      }
+
+
+ /*--------------------------------------------------------------
+ # Media Qeries  Mobile CSSS adapation
+ --------------------------------------------------------------*/
+ @media only screen and (max-width: 500px) {
+
+ }
+
+ /*--------------------------------------------------------------
+ # Our services
+ --------------------------------------------------------------*/
+
+ .ssection{
+   width: 1200px !important;
+   font-family:AP !important;
+   padding-top: 15em !important;
+   padding-bottom: 150px !important;
+
+ }
+
+ .page-title{
+ font-family:AP !important;
+ font-size: 20px !important;
+ margin-bottom: 80px !important;
+ }
+
+ /*underline title */
+ h1 span {
+ border-bottom: 2px solid #E74011 !important;
+ display: inline;
+ padding-bottom: 20px;
+ }
+
+
+ .scontent {
+ display: inline-block !important;
+ height: 840px;
+ width:  1200px;
+ background-color: white;
+ padding-top: 110px;
+ }
+
+ .scontainer{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+ .sitem img{
+   border: 1px;
+     height: 200px;
+     border-radius: 50%;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     width: 200px;
+ }
+
+ .scap{
+   font-size:28px !important;
+   text-align: center !important;
+   margin-top: 30px;
+   margin-bottom: 47px;
+
+ }
+
+
+
+ /*--------------------------------------------------------------
+ # Media Qeries  Mobile CSSS adapation
+ --------------------------------------------------------------*/
+ @media only screen and (max-width: 500px) {
+
+
+
+ }
+
+ /*--------------------------------------------------------------
+ # Our clients
+ --------------------------------------------------------------*/
+
+ .clsection{
+   width: 1200px !important;
+   font-family:AP !important;
+   padding-top: 15em !important;
+   padding-bottom: 150px !important;
+
+ }
+
+ .page-title{
+ font-family:AP !important;
+ font-size: 20px !important;
+ margin-bottom: 80px !important;
+ }
+
+ /*underline title */
+ h1 span {
+ border-bottom: 2px solid #E74011 !important;
+ display: inline;
+ padding-bottom: 20px;
+ }
+
+
+ .clcontent {
+ display: inline-block !important;
+ height: 720px;
+ width:  1200px;
+ }
+
+ .clcontainer{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 40px;
+ }
+ .clitem img{
+   border: 1px;
+     height: 100px;
+     width: 100px;
+ }
+ .clitem p {
+   margin:0 !important;
+ }
+
+ .clcontent hr {
+   margin-top: 40px!important;
+   margin-bottom: 40px!important;
+   border: 0 !important;
+   border-top: 1px solid #FFF!important;
+ }
+
+ .clitem .blackwhite{
+   display:inline;
+ }
+
+ .clitem:hover .blackwhite {
+     display: none;
+ }
+
+
+ .clitem .colored{
+   display:none;
+ }
+
+ .clitem:hover .colored{
+ display:inline;
+ }
+
+
+
+ /*--------------------------------------------------------------
+ # Media Qeries  Mobile CSSS adapation
+ --------------------------------------------------------------*/
+ @media only screen and (max-width: 500px) {
+
+ }
+ /*--------------------------------------------------------------
+ # People
+ --------------------------------------------------------------*/
+
+ .psection{
+   width: 1200px !important;
+   font-family:AP !important;
+   padding-top: 15em !important;
+   padding-bottom: 150px !important;
+
+ }
+
+ .page-title{
+ font-family:AP !important;
+ font-size: 20px !important;
+ margin-bottom: 80px !important;
+ }
+
+ /*underline title */
+ h1 span {
+ border-bottom: 2px solid #E74011 !important;
+ display: inline;
+ padding-bottom: 20px;
+ }
+
+
+ .pcontent {
+ display: inline-block !important;
+ height: 510px;
+ width:  1200px;
+ background-color: white;
+ padding-top: 110px;
+ }
+
+ .pcontainer{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+ .pitem img{
+   border: 1px;
+     height: 200px;
+     border-radius: 50%;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     width: 200px;
+ }
+
+ .pcap{
+   font-size:28px !important;
+   text-align: center !important;
+   margin-top: 30px;
+   margin-bottom: 47px;
+
+ }
+
+
+
+ /*--------------------------------------------------------------
+ # Media Qeries  Mobile CSSS adapation
+ --------------------------------------------------------------*/
+ @media only screen and (max-width: 500px) {
+
+ }
+
+   /*--------------------------------------------------------------
+   # Our Awards
+   --------------------------------------------------------------*/
+
+ .awsection{
+   width: 1200px !important;
+   font-family:AP !important;
+   padding-top: 15em !important;
+   padding-bottom: 150px !important;
+
+ }
+
+ .page-title{
+ font-family:AP !important;
+ font-size: 20px !important;
+ margin-bottom: 80px !important;
+ }
+
+ /*underline title */
+ h1 span {
+ border-bottom: 2px solid #E74011 !important;
+ display: inline;
+ padding-bottom: 20px;
+ }
+
+
+ .awcontent {
+ display: inline-block !important;
+ height: 360px;
+ width:  1200px;
+ }
+
+ .awcontainer{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 40px;
+ }
+ .awitem img{
+   border: 1px;
+     height: 100px;
+     width: 100px;
+ }
+ .awitem p {
+   margin:0 !important;
+ }
+
+ .awcontent hr {
+   margin-top: 40px!important;
+   margin-bottom: 40px!important;
+   border: 0 !important;
+   border-top: 1px solid #FFF!important;
+ }
+
+ .awitem .blackwhite{
+   display:inline;
+ }
+
+ .awitem:hover .blackwhite {
+     display: none;
+ }
+
+
+ .awitem .colored{
+   display:none;
+ }
+
+ .awitem:hover .colored{
+ display:inline;
+ }
+
+ /*--------------------------------------------------------------
+ # Contact us
+ --------------------------------------------------------------*/
+
+ .csection{
+   width: 1200px !important;
+   font-family:AP !important;
+   padding-top: 15em !important;
+   padding-bottom: 150px !important;
+
+ }
+
+ .page-title{
+ font-family:AP !important;
+ font-size: 20px !important;
+ margin-bottom: 80px !important;
+ }
+
+ .ccontent {
+ display: inline-block !important;
+ }
+
+ h1 span {
+ border-bottom: 2px solid #E74011 !important;
+ display: inline;
+ padding-bottom: 20px;
+ }
+
+
+ /*Two  frame blocks */
+
+ /* work items displaying */
+ .cfcont {
+   display: inline-flex;
+    flex-direction: row ;
+   justify-content: flex-end;
+   height: 700px;
+ }
+
+  .cfitem {
+ /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+  background-color: #F2F2F2;}
+
+  .cfitem img{
+  width:592px !important;
+  height:333px !important;
+  }
+  .cfitemR {
+ background-color: #F2F2F2;
+     margin-left: 15px;
+  }
+  .cfitemR img{
+  width:592px !important;
+  height:333px !important;
+
+  }
+ .cop{
+   position: relative;
+   width: 592px !important;
+   height: 333px !important;
+
+ }
+
+ .overlay{
+   position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     right: 0;
+     bottom: 0;
+     background-color: rgba(0,0,0,0.5);
+     z-index: 0;
+     width: 592px !important;
+     height: 333px !important;
+ }
+  .center {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 38px;
+   color: white !important;
+ }
+
+  .ccaption {
+      /* Make the caption a block so it occupies its own line. */
+      display: block;
+      text-align: left;
+      height: 310px;
+      width: 472.5px;
+      margin-left: 60px;
+      margin-top: 40px;
+    }
+
+
+
+  .ccd {
+  line-height: 33.6px !important;
+  font-size:28px !important;
+  }
+  .cmail{
+  font-size:22px !important;
+  line-height: 26.4px !important;
+  margin-top: 20px;
+  }
+
+  .ccaption a{
+      color:black !important;
+      text-decoration: none !important;
+      }
+
+    .ccaption a:hover {
+      color: #E74011 !important;
+      }
+
+
+ /*--------------------------------------------------------------
+ # Media Qeries  Mobile CSSS adapation
+ --------------------------------------------------------------*/
+ @media only screen and (max-width: 500px) {
+
+ }
