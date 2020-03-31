@@ -154,6 +154,10 @@ background-color: #F2F2F2;
 
 </style>
 
+
+<?php get_template_part('template-parts/about.php'); ?>
+
+
 <div class="wsection">
 
   <h1 class="page-title"><span> <?php the_title(); ?></span></h1>
