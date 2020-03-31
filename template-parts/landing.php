@@ -84,4 +84,3 @@ padding-top:0 !important;}
       <?php endif; ?>
   <?php endforeach; ?>
 </div>
-<?php get_footer(); ?>
