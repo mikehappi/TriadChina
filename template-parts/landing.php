@@ -8,7 +8,6 @@
 get_header(); ?>
 
 <div class="lsection">
-
 <?php get_template_part('template-parts/about.php'); ?>
 <?php get_template_part('template-parts/ourwork.php'); ?>
 <?php get_template_part('template-parts/ourservices.php'); ?>
