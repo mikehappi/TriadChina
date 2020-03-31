@@ -74,6 +74,10 @@ padding-top: 110px;
   margin-bottom: 47px;
 
 }
+.pcap h6 {
+font-size:22px !important;
+
+}
 
 
 
