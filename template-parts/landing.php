@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Full width page
+ * Template Name: Landing page
  *
  * A custom page template without sidebar.
  *
@@ -172,5 +172,16 @@ if (have_posts()):
 else:
   echo '<p>Sorry, no posts matched your criteria.</p>';
 endif;
+?>
+
+<?php
+    // query for the about page
+    $your_query = new WP_Query( 'pagename=contact-us' );
+    // "loop" through query (even though it's just one page)
+    while ( $your_query->have_posts() ) : $your_query->the_post();
+        the_content();
+    endwhile;
+    // reset post data (important!)
+    wp_reset_postdata();
 ?>
 </div>
