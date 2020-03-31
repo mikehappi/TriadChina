@@ -8,13 +8,7 @@
 get_header(); ?>
 
 <div class="lsection">
-<?php get_template_part('template-parts/about.php'); ?>
-<?php get_template_part('template-parts/ourwork.php'); ?>
-<?php get_template_part('template-parts/ourservices.php'); ?>
-<?php get_template_part('template-parts/ourclients.php'); ?>
-<?php get_template_part('template-parts/people.php'); ?>
-<?php get_template_part('template-parts/ourawards.php'); ?>
-<?php get_template_part('template-parts/contactus.php'); ?>
+
 
 <?php
     // query for the about page
