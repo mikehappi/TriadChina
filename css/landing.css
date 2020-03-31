@@ -27,7 +27,6 @@ background-color: #e3e3e3 !important;}
   width: 1200px !important;
   font-family:AP !important;
   padding-top: 15em !important;
-  padding-bottom: 150px !important;
 }
 .page-title{
   font-family:AP !important;
@@ -74,8 +73,7 @@ width: 800px;
  .wsection{
    width: 1200px !important;
    font-family:AP !important;
-   padding-top: 15em !important;
-   padding-bottom: 150px !important;
+      margin-top: 150px !important;
 
  }
 
@@ -208,8 +206,7 @@ width: 800px;
  .ssection{
    width: 1200px !important;
    font-family:AP !important;
-   padding-top: 15em !important;
-   padding-bottom: 150px !important;
+      margin-top: 150px !important;
 
  }
 
@@ -275,8 +272,7 @@ width: 800px;
  .clsection{
    width: 1200px !important;
    font-family:AP !important;
-   padding-top: 15em !important;
-   padding-bottom: 150px !important;
+       margin-top: 150px !important;
 
  }
 
@@ -354,8 +350,7 @@ width: 800px;
  .psection{
    width: 1200px !important;
    font-family:AP !important;
-   padding-top: 15em !important;
-   padding-bottom: 150px !important;
+       margin-top: 150px !important;
 
  }
 
@@ -419,8 +414,7 @@ width: 800px;
  .awsection{
    width: 1200px !important;
    font-family:AP !important;
-   padding-top: 15em !important;
-   padding-bottom: 150px !important;
+       margin-top: 150px !important;
 
  }
 
@@ -490,8 +484,7 @@ width: 800px;
  .csection{
    width: 1200px !important;
    font-family:AP !important;
-   padding-top: 15em !important;
-   padding-bottom: 150px !important;
+    margin-top: 150px !important;
 
  }
 
