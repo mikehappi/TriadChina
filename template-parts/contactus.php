@@ -5,12 +5,6 @@
  */
 
  get_header(); ?>
-
-<?php $upload_dir = wp_upload_dir(); ?>
- <!doctype html>
-<html <?php language_attributes(); ?>>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-
 <style type="text/css">
 @font-face{
     font-family:AP;
