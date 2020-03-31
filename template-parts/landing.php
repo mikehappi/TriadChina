@@ -1,86 +1,158 @@
-
-<link rel="stylesheet" type="text/css" href="/wp-content/themes/TriadChina/css/landing.css" media="screen" />
 <?php
-  /*
-    Template Name: Landing Page
-  */
-  global $wpdb;
-  $ids = [ 21, 26, 28, 30, 32, 34, 36 ];
-  $str_order = '';
-  $str_in = $ids[0];
-  for ($i = 1; $i<count($ids); $i++) {
-	$str_in .= ",$ids[$i]";
-  }
-  $m_pages = $wpdb->get_results( "SELECT * FROM wordpress_posts where post_type='page' and ID IN($str_in) order by field(id,$str_in)", OBJECT );
-
-?>
-
-<?php foreach ($ids as $id) :?>
+/**
+ * Template Name: Full width page
+ *
+ * A custom page template without sidebar.
+ *
+ */
+get_header(); ?>
 <style type="text/css">
-<?php echo ".landing .section.p$id {" ?>
-background:url("/wp-content/uploads/bg/<?php echo $id; ?>.png");
-    /* Full height  width: 100% !important;*/
-   	height: 100VH !important;
-    /* Center and scale the image nicely */
-    background-position: center center !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
-    padding-top:3em !important;
+@font-face{
+    font-family:AP;
+     src:url("<?php echo get_template_directory_uri(); ?>/css/AltoPro.OTF");
+}
+@font-face{
+    font-family:APM;
+     src:url("<?php echo get_template_directory_uri(); ?>/css/AltoProM.OTF");
+}
+body {
+display: flex;
+justify-content: center;
+background-color: #e3e3e3 !important;
+ line-height: unset !important;
 }
 
-/* Auto for certain page */
-.landing .section.p83{
-width: 100% !important;
-height: auto !important;}
-.landing .section.p101{
-width: 100% !important;
-height: auto !important;}
+.wsection{
+  width: 1200px !important;
+  font-family:AP !important;
+  padding-top: 15em !important;
+  padding-bottom: 150px !important;
+
+}
+
+.page-title{
+font-family:AP !important;
+font-size: 20px !important;
+margin-bottom: 80px !important;
+}
+
+.wcontent {
+display: inline-block !important;
+}
+
+h1 span {
+border-bottom: 2px solid #E74011 !important;
+display: inline;
+padding-bottom: 20px;
+}
 
 
-.landing .section.p81 {
-padding-top:0 !important;}
-.section.p81 .lcontainer {
-	padding-top: 5em;
-    width: 75%;
-    float: left;
-    position: relative;
-    right: -10em;
-    text-align: left;
+/*Two  frame blocks */
+
+/* work items displaying */
+.iifcont {
+  display: inline-flex;
+   flex-direction: row ;
+  justify-content: flex-end;
+  height: 700px;
 }
-.section.p97 .lcontainer {
-	padding-top: 5em;
-    width: 75%;
-    float: left;
-    position: relative;
-    right: -10em;
-    text-align: left;
+
+ .iifitem {
+/* To correctly align image, regardless of content height: */
+   vertical-align: top;
+   display: inline-block;
+   /* To horizontally center images and caption */
+   text-align: center;
+ background-color: #F2F2F2;}
+
+ .iifitem img{
+ width:592px !important;
+ height:333px !important;
+
+ }
+ .iifitemR {
+background-color: #F2F2F2;
+    margin-left: 15px;
+ }
+ .iifitemR img{
+ width:592px !important;
+ height:333px !important;
+
+ }
+
+ .iicat {
+ font-size:14px !important;
+ color:#E74011!important;
+ margin-bottom: 7px;
+ }
+ .iipr {
+ line-height: 40.8px !important;
+ font-size:34px !important;
+ }
+ .iipd {
+ line-height: 26.4px !important;
+ font-size:22px !important;
+ }
+ .iilo{
+ font-size:14px !important;
+ line-height: 16.8px !important;
+ margin-top: 20px;
+ }
+
+/*three case blocks */
+
+.iiifcont {
+  display:flex;
+  flex-direction: row ;
+  justify-content:space-between;
+  height: 620px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-.section.p113 .lcontainer {
-	padding-top: 5em;
-    width: 75%;
-    float: left;
-    position: relative;
-    right: -10em;
-    text-align: left;
+.iiifitems  img{
+  width:390px !important;
+  height:220px !important;
+}
+
+.iiifitems {
+  /* To correctly align image, regardless of content height: */
+     vertical-align: top;
+     display: inline-block;
+     /* To horizontally center images and caption */
+     text-align: center;
+     background-color: #F2F2F2;
+ }
+
+ .iicaption {
+     /* Make the caption a block so it occupies its own line. */
+     display: block;
+     text-align: left;
+     height: 310px;
+     width: 472.5px;
+     margin-left: 60px;
+     margin-top: 40px;
+   }
+
+
+   .iiicaption {
+       /* Make the caption a block so it occupies its own line. */
+      display: block;
+       text-align: left;
+       height: 400px!important;
+       width: 330px!important;
+       margin-left: 60px;
+       margin-top: 40px;
+     }
+
+
+/*--------------------------------------------------------------
+# Media Qeries  Mobile CSSS adapation
+--------------------------------------------------------------*/
+@media only screen and (max-width: 500px) {
+
 }
 
 </style>
-<?php endforeach; ?>
 
 
-<div class="landing">
-
-  <?php foreach ($m_pages as $key => $page) :?>
-      <?php if(!(empty($page))) :?>
-        <?php $class = 'section p' . $page->ID; ?>
-        <?php  $content = apply_filters('the_content', $page->post_content); ?>
-          <div class="<?php print $class; ?>">
-             <?php get_header(); ?>
-              <div class="lcontainer">
-              <?php echo $content;  ?>
-          </div>
-          </div>
-      <?php endif; ?>
-  <?php endforeach; ?>
-</div>
+<?php get_footer(); ?>
