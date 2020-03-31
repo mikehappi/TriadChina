@@ -142,7 +142,6 @@ background-color: #F2F2F2;
 @media only screen and (max-width: 500px) {
 
 }
-
 </style>
 
 <div class="csection">
