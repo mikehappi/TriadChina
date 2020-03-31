@@ -154,5 +154,18 @@ background-color: #F2F2F2;
 
 </style>
 
+<div class="wsection">
+
+  <h1 class="page-title"><span> <?php the_title(); ?></span></h1>
+<?php
+if (have_posts()):
+  while (have_posts()) : the_post();
+    the_content();
+  endwhile;
+else:
+  echo '<p>Sorry, no posts matched your criteria.</p>';
+endif;
+?>
+</div>
 
 <?php get_footer(); ?>
