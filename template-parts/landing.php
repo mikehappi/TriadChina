@@ -6,7 +6,7 @@
  *
  */
 get_header(); ?>
-
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/landing.css" type="text/css" media="screen" />
 <div class="lsection">
 
 <?php
