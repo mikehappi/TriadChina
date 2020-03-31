@@ -8,10 +8,9 @@
 
 <?php $upload_dir = wp_upload_dir(); ?>
  <!doctype html>
-    <html <?php language_attributes(); ?>>
-   <meta name="viewport" content="width=device-width,initial-scale=1">
+<html <?php language_attributes(); ?>>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
-<head>
 <style type="text/css">
 @font-face{
     font-family:AP;
@@ -152,9 +151,7 @@ background-color: #F2F2F2;
 }
 
 </style>
-</head>
 
-<div id="primary" class="site-content">
 <div class="csection">
 
   <h1 class="page-title"><span> <?php the_title(); ?></span></h1>
