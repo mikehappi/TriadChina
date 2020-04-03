@@ -109,7 +109,7 @@ $('.navitem').click(function(e){
   var target = $($(this).attr('href'));
   if(target.length){
     var scrollTo = target.offset().top;
-    $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
+    $('body, html').animate({scrollTop: scrollTo+'px'}, 300);
   }
 });
 </script>
@@ -123,7 +123,7 @@ $('.navitemf').click(function(e){
   var target = $($(this).attr('href'));
   if(target.length){
     var scrollTo = target.offset().top;
-    $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
+    $('body, html').animate({scrollTop: scrollTo+'px'}, 300);
   }
 });
 </script>
