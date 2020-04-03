@@ -489,8 +489,8 @@ font-size: 22px !important;
  .csection{
    width: 1200px !important;
    font-family:AP !important;
-    margin-top: 150px !important;
-margin-bottom: 150px !important;
+   padding-top: 150px !important;
+     padding-bottom: 600px;
  }
 
  .page-title{
