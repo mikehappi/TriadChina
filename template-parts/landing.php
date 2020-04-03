@@ -128,4 +128,4 @@ $('.navitemf').click(function(e){
   }
 });
 </script>
-<?php get_footer(x); ?>
+<?php get_footer(); ?>
