@@ -140,9 +140,10 @@ margin-left: 50px;
 </style>
 
 
-<!-- .site-info -->
 
-<footer id="colophon" role="content info">
+</div><!-- #content -->
+
+<footer id="colophon" class="site-footer">
 
   <nav class="footer navbar-fixed-bottom">
 
