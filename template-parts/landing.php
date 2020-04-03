@@ -98,7 +98,7 @@ get_header(); ?>
 ?>
 
 </div>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js'></script>
 <script>
 /*
@@ -110,7 +110,7 @@ $('.navitem').click(function(e){
   var target = $($(this).attr('href'));
   if(target.length){
     var scrollTo = target.offset().top;
-    $('body, html').animate({scrollTop: scrollTo+'px'}, 1000);
+    $('body, html').animate({scrollTop: scrollTo+'px'}, 100);
   }
 });
 </script>
@@ -124,7 +124,7 @@ $('.navitemf').click(function(e){
   var target = $($(this).attr('href'));
   if(target.length){
     var scrollTo = target.offset().top;
-    $('body, html').animate({scrollTop: scrollTo+'px'}, 1000);
+    $('body, html').animate({scrollTop: scrollTo+'px'}, 100);
   }
 });
 </script>
