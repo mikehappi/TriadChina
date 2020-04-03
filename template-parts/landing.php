@@ -95,4 +95,6 @@ get_header(); ?>
     // reset post data (important!)
     wp_reset_postdata();
 ?>
+
+<?php get_footer(); ?>
 </div>
