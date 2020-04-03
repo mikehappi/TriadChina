@@ -6,6 +6,7 @@
  *
  */
 get_header(); ?>
+<?php $upload_dir = wp_upload_dir(); ?>
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/landing.css" type="text/css" media="screen" />
 
 <div class="lsection">
@@ -96,5 +97,19 @@ get_header(); ?>
     wp_reset_postdata();
 ?>
 
-<?php get_footer(); ?>
 </div>
+
+<script>
+/*
+	Smooth scroll functionality for anchor links (animates the scroll
+	rather than a sudden jump in the page)
+*/
+$('.js-anchor-link').click(function(e){
+  e.preventDefault();
+  var target = $($(this).attr('href'));
+  if(target.length){
+    var scrollTo = target.offset().top;
+    $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
+  }
+});
+</script>
