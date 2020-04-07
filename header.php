@@ -86,14 +86,14 @@ jQuery(document).ready(function($){
 $('li').find('ul').addClass('hidden-xs hidden-md hidden-sm')
 });
 </script>
-<script> 
+<script>
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("nav").style.top = "0";
   } else {
-    document.getElementById("nav").style.top = "-50px";
+    document.getElementById("nav").style.top = "-135px";
   }
   prevScrollpos = currentScrollPos;
 }
