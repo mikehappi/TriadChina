@@ -24,7 +24,7 @@
 
         <?php wp_head(); ?>
 
-        <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <nav id=nav class="navbar navbar-default navbar-fixed-top nav-down" role="navigation">
 
 <div class="row row-header-1">
 <div class="container-fluid">
@@ -89,5 +89,44 @@ jQuery(document).ready(function($){
 $('li').find('ul').addClass('hidden-xs hidden-md hidden-sm')
 });
 </script>
+<script>
+// Hide Header on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('header').outerHeight();
 
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('header').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('header').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+
+    lastScrollTop = st;
+}
+</script>
     </head>
