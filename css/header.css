@@ -26,7 +26,7 @@ top: 0;
         display: flex;
         justify-content: center;
         top: 0;
-         transition: top 0.8s;
+        transition: top 0.8s;
     }
 
     .navbar-default a{
