@@ -25,6 +25,10 @@ flex-direction: column;
 line-height: unset !important;
  }
 
+.section{
+ display: flex;
+ justify-content: center;
+}
  .wsection{
    width: 1200px !important;
    font-family:AP !important;
