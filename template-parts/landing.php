@@ -8,7 +8,7 @@
 get_header(); ?>
 <?php $upload_dir = wp_upload_dir(); ?>
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/landing.css" type="text/css" media="screen" />
-
+<div class="section">
 <div class="lsection">
 
 <?php
@@ -98,7 +98,8 @@ get_header(); ?>
 ?>
 
 </div>
-
+</div>
+<?php get_footer ()?>
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
