@@ -87,7 +87,7 @@ $('li').find('ul').addClass('hidden-xs hidden-md hidden-sm')
 });
 </script>
 
-<!-- hide dropdown list -->
+<!-- Hide Menu on Scroll -->
 <script>
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
