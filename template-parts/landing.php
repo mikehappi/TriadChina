@@ -98,3 +98,33 @@ get_header(); ?>
 ?>
 
 </div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script>
+/*
+	Smooth scroll functionality for anchor links (animates the scroll
+	rather than a sudden jump in the page)
+*/
+$('.navitem').click(function(e){
+  e.preventDefault();
+  var target = $($(this).attr('href'));
+  if(target.length){
+    var scrollTo = target.offset().top;
+    $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
+  }
+});
+</script>
+<script>
+/*
+	Smooth scroll functionality for anchor links (animates the scroll
+	rather than a sudden jump in the page)
+*/
+$('.navitemf').click(function(e){
+  e.preventDefault();
+  var target = $($(this).attr('href'));
+  if(target.length){
+    var scrollTo = target.offset().top;
+    $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
+  }
+});
+</script>
