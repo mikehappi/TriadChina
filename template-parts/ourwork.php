@@ -19,7 +19,7 @@
  body {
 display: flex;
 flex-direction: column;
-height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+/*height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
  justify-content: center;
  background-color: #e3e3e3 !important;
   line-height: unset !important;
