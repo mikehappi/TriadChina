@@ -7,11 +7,14 @@
     font-family:APM;
      src:url("AltoProM.OTF");
 }
-body {
-display: flex;
-justify-content: center;
-background-color: #e3e3e3 !important;}
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e3e3e3 !important;
+    line-height: unset !important;
+}
 
 .lsection{
   width: 1200px !important;
