@@ -86,6 +86,8 @@ jQuery(document).ready(function($){
 $('li').find('ul').addClass('hidden-xs hidden-md hidden-sm')
 });
 </script>
+
+<!-- hide dropdown list -->
 <script>
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
@@ -93,7 +95,7 @@ var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("nav").style.top = "0";
   } else {
-    document.getElementById("nav").style.top = "-135px";
+    document.getElementById("nav").style.top = "-185px";
   }
   prevScrollpos = currentScrollPos;
 }
