@@ -12,9 +12,8 @@
 --------------------------------------------------------------*/
 
 /*Navbar default   */
-#nav{
-top: 0;
- transition: top 0.8s;
+nav {
+transition: top 0.8s;
   }
     .navbar-default{
         background: #f2f2f2 !important;
@@ -25,7 +24,6 @@ top: 0;
         text-align: right !important;
         display: flex;
         justify-content: center;
-        top: 0;
         transition: top 0.8s;
     }
 
