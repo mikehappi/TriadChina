@@ -162,3 +162,4 @@
    echo '<p>Sorry, no posts matched your criteria.</p>';
  endif;
  ?>
+<?php get_footer ()?>
