@@ -80,7 +80,7 @@ width: 800px;
  .wsection{
    width: 1200px !important;
    font-family:AP !important;
-          padding-top: 150px !important;
+  padding-top: 90px !important;
 
  }
 
@@ -108,7 +108,7 @@ width: 800px;
    display: inline-flex;
     flex-direction: row ;
    justify-content: flex-end;
-   height: 700px;
+   height: 730px;
  }
 
   .iifitem {
@@ -213,7 +213,7 @@ width: 800px;
  .ssection{
    width: 1200px !important;
    font-family:AP !important;
-          padding-top: 150px !important;
+          padding-top: 90px !important;
 
  }
 
@@ -256,7 +256,7 @@ width: 800px;
  .scap{
    font-size:28px !important;
    text-align: center !important;
-   margin-top: 30px;
+   margin-top: 20px;
    margin-bottom: 47px;
 
  }
@@ -279,7 +279,7 @@ width: 800px;
  .clsection{
    width: 1200px !important;
    font-family:AP !important;
-       margin-top: 150px !important;
+       margin-top: 90px !important;
 
  }
 
@@ -357,7 +357,7 @@ width: 800px;
  .psection{
    width: 1200px !important;
    font-family:AP !important;
-       margin-top: 150px !important;
+       margin-top: 90px !important;
 
  }
 
@@ -426,7 +426,7 @@ font-size: 22px !important;
  .awsection{
    width: 1200px !important;
    font-family:AP !important;
-       margin-top: 150px !important;
+       margin-top: 90px !important;
 
  }
 
@@ -497,7 +497,7 @@ font-size: 22px !important;
    width: 1200px !important;
    font-family:AP !important;
    padding-top: 150px !important;
-    padding-bottom: 150px;
+    padding-bottom: 90px !important;
  }
 
  .page-title{
