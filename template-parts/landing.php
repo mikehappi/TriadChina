@@ -99,7 +99,6 @@ get_header(); ?>
 
 </div>
 </div>
-
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
