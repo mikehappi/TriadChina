@@ -22,12 +22,10 @@ flex-direction: column;
 /*height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
  justify-content: center;
  background-color: #e3e3e3 !important;
-  line-height: unset !important;
+line-height: unset !important;
  }
 
  .wsection{
-  flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-  padding: 20px;
    width: 1200px !important;
    font-family:AP !important;
    padding-top: 15em !important;
