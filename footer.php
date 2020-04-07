@@ -145,7 +145,7 @@ margin-left: 50px;
 
 <footer id="colophon" class="site-footer">
 
-  <nav class="footer navbar-fixed-bottom">
+  <nav class="footer navbar">
 
 		<div class="rfooter">
 
