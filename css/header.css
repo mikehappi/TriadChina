@@ -13,9 +13,9 @@
 
 /*Navbar default   */
 .navbar-default {
-     background:none;
-     box-shadow: none !important;
-      Display:block;
+box-shadow: none !important;
+top: 0;
+ transition: top 0.3s;
     }
     .navbar-default{
         background: #f2f2f2 !important;
