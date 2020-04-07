@@ -99,7 +99,7 @@ get_header(); ?>
 
 </div>
 </div>
-<?php get_footer ()?>
+
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -127,3 +127,5 @@ $(document).ready(function(){
   });
 });
 </script>
+
+<?php get_footer ()?>
