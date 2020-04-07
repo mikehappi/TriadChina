@@ -19,8 +19,6 @@
 ## Footer
 --------------------------------------------------------------*/
 .footer{
-  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
- padding: 20px;
     background: #F2F2F2!important;
     font-family:AP !important;
     font-size: 18px !important;
@@ -145,8 +143,9 @@ margin-left: 50px;
 
 </div><!-- #content -->
 
-<footer id="colophon" class="footer">
+<footer id="colophon" class="site-footer">
 
+  <nav class="footer navbar-fixed-bottom">
 
 		<div class="rfooter">
 
@@ -272,6 +271,8 @@ margin-left: 50px;
 </ul>
 </div>
 </div>
+
+  </nav>
 </footer><!-- #colophon -->
 </div><!-- #page -->
 
