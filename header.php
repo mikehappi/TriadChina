@@ -14,15 +14,12 @@
     <!doctype html>
     <html <?php language_attributes(); ?>>
    <meta name="viewport" content="width=device-width,initial-scale=1">
+   <meta charset="<?php bloginfo( 'charset' ); ?>">
+   <link rel="profile" href="http://gmpg.org/xfn/11">
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <head>
-        <meta charset="<?php bloginfo( 'charset' ); ?>">
-        <link rel="profile" href="http://gmpg.org/xfn/11">
-        <meta charset="utf-8">
-
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <?php wp_head(); ?>
+<?php wp_head(); ?>
 <header class="nav-down">
         <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 
@@ -130,4 +127,3 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 </script>
-    </head>
