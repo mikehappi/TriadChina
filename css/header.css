@@ -12,10 +12,10 @@
 --------------------------------------------------------------*/
 
 /*Navbar default   */
-.navbar-default {
+#nav{
 top: 0;
  transition: top 0.8s;
-    }
+  }
     .navbar-default{
         background: #f2f2f2 !important;
         font-family:AP !important;
