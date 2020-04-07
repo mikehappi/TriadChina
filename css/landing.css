@@ -5,7 +5,7 @@
 }
 @font-face{
     font-family:APM;
-     src:url("/css/AltoProM.OTF");
+     src:url("<?php bloginfo('template_url'); ?>/css/AltoProM.OTF");
 }
 body {
 display: flex;
