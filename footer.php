@@ -18,6 +18,8 @@
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/
+
+.navbar {margin-bottom: 0px !important;}
 .footer{
     background: #F2F2F2!important;
     font-family:AP !important;
@@ -29,7 +31,6 @@
     justify-content: center;
 
 }
-
 
 .footer a{
     color:black !important;
