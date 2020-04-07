@@ -1,11 +1,11 @@
 
 @font-face{
     font-family:AP;
-     src:url("/css/AltoPro.OTF");
+     src:url("AltoPro.OTF");
 }
 @font-face{
     font-family:APM;
-     src:url("<?php bloginfo('template_url'); ?>/css/AltoProM.OTF");
+     src:url("AltoProM.OTF");
 }
 body {
 display: flex;
