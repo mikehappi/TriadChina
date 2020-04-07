@@ -23,8 +23,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <?php wp_head(); ?>
-
-        <nav id=nav class="navbar navbar-default navbar-fixed-top nav-down" role="navigation">
+<header class="nav-down">
+        <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 
 <div class="row row-header-1">
 <div class="container-fluid">
@@ -83,6 +83,7 @@ c0.4-0.6,0.1-1.2-0.6-1.2L88.6,0z"/>
 </div>
 
         </nav>
+        </header>
 <!-- hide dropdown list -->
 <script>
 jQuery(document).ready(function($){
