@@ -138,8 +138,9 @@ margin-top: 0.5em;
 .navbar-nav > li > a {
    padding: 0px 0px 0px 50px !important;}
   }
-
-
+.navbar{
+     margin-bottom: 0px !important;}
+}
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
