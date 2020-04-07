@@ -83,7 +83,7 @@ margin-right: 115px;
 
 #fmenu {
   text-align: left;
-  margin-right: 165px;
+  margin-right: 145px;
 }
 
 .fbar-nav{
