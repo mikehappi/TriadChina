@@ -320,7 +320,7 @@ margin-left: 50px;
   		c83.1807,0,150.6025,56.1748,150.6025,125.4927C634.0195,489.6338,613.7393,523.668,581.9854,546.6797z"/>
   </g>
   </svg>
-<img id="myImg" src="<img class="alignnone size-full wp-image-343" src="https://triadchina.keyidev.com/wp-content/uploads/2020/04/wechat-qr.png" alt="" width="600" height="600" />" alt="Snow" style="width:100%;max-width:300px">
+<img id="myImg" src="<img class="alignnone size-full wp-image-343" src="https://triadchina.keyidev.com/wp-content/uploads/2020/04/wechat-qr.png"  alt="Snow" style="width:100%;max-width:300px">
   <!-- The Modal -->
   <div id="myModal" class="modal">
     <span class="close">&times;</span>
