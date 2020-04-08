@@ -292,7 +292,7 @@ margin-left: 50px;
 
 <div class="fsocialicon">
 
-  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  <svg id="myImg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve" style="
     margin-right: 2px;">
   <g>
@@ -320,7 +320,7 @@ margin-left: 50px;
   		c83.1807,0,150.6025,56.1748,150.6025,125.4927C634.0195,489.6338,613.7393,523.668,581.9854,546.6797z"/>
   </g>
   </svg>
-<img id="myImg" src="https://triadchina.keyidev.com/wp-content/uploads/2020/04/wechat-qr.png"  alt="Snow" style="width:100%;max-width:300px">
+<img  src="https://triadchina.keyidev.com/wp-content/uploads/2020/04/wechat-qr.png"  style="width:100%;max-width:300px">
   <!-- The Modal -->
   <div id="myModal" class="modal">
     <span class="close">&times;</span>
@@ -385,11 +385,9 @@ var modal = document.getElementById("myModal");
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById("myImg");
 var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
 }
 
 // Get the <span> element that closes the modal
