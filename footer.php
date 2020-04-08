@@ -151,7 +151,7 @@ margin-left: 50px;
 /* The actual popup */
 .popup .popuptext {
   visibility: hidden;
-  width: 150px;
+  width: 140px;
   color: #fff;
   text-align: center;
   position: absolute;
@@ -268,7 +268,7 @@ margin-left: 50px;
   		c-83.1748,0-150.5996-56.1885-150.5996-125.5059c0-69.3179,67.4248-125.4927,150.5996-125.4927
   		c83.1807,0,150.6025,56.1748,150.6025,125.4927C634.0195,489.6338,613.7393,523.668,581.9854,546.6797z"/>
   </g>
-</svg><span class="popuptext" id="myPopup"><img class="alignnone size-full wp-image-343" src="https://triadchina.keyidev.com/wp-content/uploads/2020/04/wechat-qr.png" alt="" width="150" height="150" /></span>
+</svg><span class="popuptext" id="myPopup"><img class="alignnone size-full wp-image-343" src="https://triadchina.keyidev.com/wp-content/uploads/2020/04/wechat-qr.png" alt="" width="140" height="140" /></span>
 </div>
   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve">
