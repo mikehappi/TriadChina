@@ -137,7 +137,49 @@ text-decoration: none !important;
 text-decoration: none !important;
 margin-left: 50px;
 }
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 150px;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  top: 80vh;
+  left: 120%;
+  margin-left: -80px;
+}
+
+
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
 
 </style>
 
@@ -199,7 +241,7 @@ margin-left: 50px;
 
 <div class="fsocialicon">
 
-  <svg class="popmake-348 popmake-wechat-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  <div class="popup" onclick="myFunction()"><svg  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve" style="
     margin-right: 2px;">
   <g>
@@ -226,7 +268,8 @@ margin-left: 50px;
   		c-83.1748,0-150.5996-56.1885-150.5996-125.5059c0-69.3179,67.4248-125.4927,150.5996-125.4927
   		c83.1807,0,150.6025,56.1748,150.6025,125.4927C634.0195,489.6338,613.7393,523.668,581.9854,546.6797z"/>
   </g>
-  </svg>
+</svg><span class="popuptext" id="myPopup"><img class="alignnone size-full wp-image-343" src="https://triadchina.keyidev.com/wp-content/uploads/2020/04/wechat-qr.png" alt="" width="150" height="150" /></span>
+</div>
   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve">
   <g>
@@ -277,7 +320,14 @@ margin-left: 50px;
   </nav>
 </footer><!-- #colophon -->
 </div><!-- #page -->
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
 
+</script>
 <?php wp_footer(); ?>
 </body>
 </html
