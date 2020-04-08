@@ -139,6 +139,42 @@ margin-left: 50px;
 }
 
 
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  top: 80%;
+  left: 20%;
+  width: 150px; /* Full width */
+  height: 150px; /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  border: 1px solid #888;
+  width: 150px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 </style>
 
@@ -173,7 +209,8 @@ margin-left: 50px;
 		<rect x="40.6" y="7.7" width="5.3" height="22.4"/>
 		</g>
 		</g>
-		</svg>
+  </svg>
+
 		                </a>
 						<div class="fmenutitle"> Discover</div>
 
@@ -200,7 +237,7 @@ margin-left: 50px;
 
 <div class="fsocialicon">
 
-  <svg  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  <div id="myBtn"><svg  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve" style="
     margin-right: 2px;">
   <g>
@@ -227,7 +264,18 @@ margin-left: 50px;
   		c-83.1748,0-150.5996-56.1885-150.5996-125.5059c0-69.3179,67.4248-125.4927,150.5996-125.4927
   		c83.1807,0,150.6025,56.1748,150.6025,125.4927C634.0195,489.6338,613.7393,523.668,581.9854,546.6797z"/>
   </g>
-  </svg>
+  </svg></div>
+  <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close"></span>
+
+    <img class="alignnone size-full wp-image-343" src="https://triadchina.keyidev.com/wp-content/uploads/2020/04/wechat-qr.png" alt="" width="150" height="150" />
+  </div>
+
+</div>
   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve">
   <g>
@@ -278,7 +326,33 @@ margin-left: 50px;
   </nav>
 </footer><!-- #colophon -->
 </div><!-- #page -->
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
 
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
 <?php wp_footer(); ?>
 </body>
 </html
