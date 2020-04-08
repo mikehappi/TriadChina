@@ -258,9 +258,9 @@ margin-left: 50px;
 
 <div class="fsocialicon">
 
-  <svg class="popup" onclick="myFunction()" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  <svg  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve" style="
-    margin-right: 2px;"><span class="popuptext" id="myPopup"><img class="alignnone size-full wp-image-343" src="https://triadchina.keyidev.com/wp-content/uploads/2020/04/wechat-qr.png" alt="" width="100" height="100" /></span>
+    margin-right: 2px;">
   <g>
   	<path d="M254.5127,266.0757c-13.3193,0-24.1064,10.7871-24.1064,24.0952c0,13.3076,10.7871,24.0947,24.1064,24.0947
   		c13.2959,0,24.083-10.7871,24.083-24.0947C278.5957,276.8628,267.8086,266.0757,254.5127,266.0757z"/>
