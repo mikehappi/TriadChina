@@ -139,6 +139,65 @@ margin-left: 50px;
 }
 
 
+
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
 </style>
 
 
@@ -199,9 +258,9 @@ margin-left: 50px;
 
 <div class="fsocialicon">
 
-  <svg class="popmake-348 popmake-wechat-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  <svg class="popup" onclick="myFunction()" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve" style="
-    margin-right: 2px;">
+    margin-right: 2px;"><span class="popuptext" id="myPopup"><img class="alignnone size-full wp-image-343" src="https://triadchina.keyidev.com/wp-content/uploads/2020/04/wechat-qr.png" alt="" width="100" height="100" /></span>
   <g>
   	<path d="M254.5127,266.0757c-13.3193,0-24.1064,10.7871-24.1064,24.0952c0,13.3076,10.7871,24.0947,24.1064,24.0947
   		c13.2959,0,24.083-10.7871,24.083-24.0947C278.5957,276.8628,267.8086,266.0757,254.5127,266.0757z"/>
@@ -277,7 +336,13 @@ margin-left: 50px;
   </nav>
 </footer><!-- #colophon -->
 </div><!-- #page -->
-
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
 <?php wp_footer(); ?>
 </body>
 </html
