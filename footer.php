@@ -198,7 +198,7 @@ margin-left: 50px;
 
 <div class="fsocialicon">
 
-  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  <svg class="popmake-348 popmake-wechat-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve" style="
     margin-right: 2px;">
   <g>
