@@ -156,8 +156,8 @@ margin-left: 50px;
   text-align: center;
   position: absolute;
   z-index: 1;
-  top: 80vh;
-  left: 120%;
+  top: 4vh;
+  left: 251%;
   margin-left: -80px;
 }
 
