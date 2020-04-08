@@ -279,6 +279,5 @@ margin-left: 50px;
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-<script src="<?php bloginfo('template_url'); ?>/js/jquery.fancybox.js"></script>
 </body>
 </html
