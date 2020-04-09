@@ -99,6 +99,7 @@ get_header(); ?>
 
 </div>
 </div>
+<script  src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
