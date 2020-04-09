@@ -13,7 +13,6 @@
 ?>
 <?php $upload_dir = wp_upload_dir(); ?>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/jquery.fancybox.css" type="text/css" media="screen" />
 <style type="text/css">
 
 /*--------------------------------------------------------------
