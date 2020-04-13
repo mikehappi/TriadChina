@@ -34,17 +34,19 @@ ul.bxslider {
   list-style: none;
 }
 .bx-viewport {
+      width: 100VW;
   /*fix other elements on the page moving (on Chrome)*/
   -webkit-transform: translatez(0);
 }
 /** THEME
 ===================================*/
 .bx-wrapper {
-  -moz-box-shadow: 0 0 5px #ccc;
+width: 100vw !important;
+/**  -moz-box-shadow: 0 0 5px #ccc;
   -webkit-box-shadow: 0 0 5px #ccc;
   box-shadow: 0 0 5px #ccc;
   border: 5px solid #fff;
-  background: #fff;
+  background: #fff;*/
 }
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
