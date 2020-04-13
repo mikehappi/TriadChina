@@ -1,3 +1,15 @@
+
+
+
+@font-face{
+    font-family:AP;
+     src:url("AltoPro.OTF");
+}
+@font-face{
+    font-family:APM;
+     src:url("AltoProM.OTF");
+}
+
 /** VARIABLES
 ===================================*/
 /** RESET AND LAYOUT
@@ -37,8 +49,9 @@ ul.bxslider {
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
   position: absolute;
-  bottom: -30px;
-  width: 100%;
+    bottom: 56px;
+    width: 100%;
+    left: 30%;
 }
 /* LOADER */
 .bx-wrapper .bx-loading {
@@ -53,19 +66,19 @@ ul.bxslider {
 }
 /* PAGER */
 .bx-wrapper .bx-pager {
-  text-align: center;
-  font-size: .85em;
-  font-family: Arial;
-  font-weight: bold;
-  color: #666;
-  padding-top: 20px;
-}
+  text-align: left;
+      font-size: .85em;
+      font-family: AP;
+      font-weight: bold;
+      color: #E74011;
+
+  }
 .bx-wrapper .bx-pager.bx-default-pager a {
-  background: #666;
+  background: #fff;
   text-indent: -9999px;
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 25px;
+   height: 4px;
   margin: 0 5px;
   outline: 0;
   -moz-border-radius: 5px;

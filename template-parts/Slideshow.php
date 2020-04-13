@@ -75,5 +75,21 @@ else:
 endif;
 ?>
 <script  src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
-<script  src="<?php echo get_template_directory_uri(); ?>/js/jquery.bxslider.min.js"></script>
+<script  src="<?php echo get_template_directory_uri(); ?>/js/jquery.bxslider.min.js"></script><script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    slideWidth: 1000,
+    minSlides: 2,
+    maxSlides: 3,
+    moveSlides: 1,
+    pager: true,
+    auto: true,
+moveSlides: 1,
+    displaySlideQty: 2,
+    responsive: false,
+    infiniteLoop: true,
+  });
+});
+
+</script>
  <?php get_footer ()?>
