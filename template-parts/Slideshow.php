@@ -49,8 +49,9 @@ div.bxslider {
 
   }
   div.slide {
-      margin-left: 10px;
-      margin-right: 10px;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 1000px !important;
   }
 
 
