@@ -54,16 +54,6 @@ div.bxslider {
       width: 1000px !important;
   }
 
-
-/*--------------------------------------------------------------
-# Media Qeries  Mobile CSSS adapation
-
---------------------------------------------------------------*/
-@media only screen and (max-width: 2560px) {
-  .bx-viewport {
-          padding: 0px 0px 0 24% !important;
-  }
-}
 </style>
 
 <?php
