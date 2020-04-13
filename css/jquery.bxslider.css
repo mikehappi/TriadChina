@@ -54,7 +54,7 @@ width: 100vw !important;
   position: relative;
 bottom: 56px;
 width: fit-content;
-/* left: 25%; */
+left: 26.4%;
 width: 1200px;
 }
 /* LOADER */
@@ -92,7 +92,7 @@ width: 1200px;
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-pager.bx-default-pager a:focus {
-  background: #000;
+  background: #E74011;
 }
 .bx-wrapper .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
@@ -201,5 +201,10 @@ width: 1200px;
 @media only screen and (max-width: 1920px) {
   .bx-viewport {
           padding: 0px 0px 0 14% !important;
+  }
+
+  .bx-wrapper .bx-pager,
+  .bx-wrapper .bx-controls-auto {
+left: 18.5%;
   }
 }
