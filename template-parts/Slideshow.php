@@ -29,9 +29,8 @@ line-height: unset !important;
 .sssection{
 display: flex;
 justify-content: center;
-width: 1200px !important;
 font-family:AP !important;
-padding-top: 15em !important;
+padding-top: 135px !important;
 padding-bottom: 150px !important;
 }
 
