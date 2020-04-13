@@ -193,6 +193,10 @@ width: 1200px;
   padding: 10px;
 }
 
+.bx-pager {
+  pointer-events: none !important;
+}
+
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 
