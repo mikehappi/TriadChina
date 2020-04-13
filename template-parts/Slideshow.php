@@ -31,11 +31,7 @@ background-color: #e3e3e3 !important;
 
 }
 
-.page-title{
-font-family:AP !important;
-font-size: 20px !important;
-margin-bottom: 80px !important;
-}
+
 
 .sscontent {
 display: inline-block !important;
@@ -59,3 +55,4 @@ else:
   echo '<p>Sorry, no posts matched your criteria.</p>';
 endif;
 ?>
+ <?php get_footer ()?>
