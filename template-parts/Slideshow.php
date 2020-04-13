@@ -18,17 +18,19 @@ get_header(); ?>
 }
 body {
 display: flex;
+flex-direction: column;
 justify-content: center;
 background-color: #e3e3e3 !important;
- line-height: unset !important;
+line-height: unset !important;
 }
 
 .sssection{
-  width: 1200px !important;
-  font-family:AP !important;
-  padding-top: 15em !important;
-  padding-bottom: 150px !important;
-
+display: flex;
+justify-content: center;
+width: 1200px !important;
+font-family:AP !important;
+padding-top: 15em !important;
+padding-bottom: 150px !important;
 }
 
 
