@@ -86,7 +86,7 @@ $(document).ready(function(){
     auto: true,
 moveSlides: 1,
     displaySlideQty: 2,
-    responsive: false,
+    responsive: true,
     infiniteLoop: true,
   });
 });
