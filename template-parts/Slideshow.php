@@ -60,8 +60,10 @@ div.bxslider {
 margin-left: 25%;
   margin-right: 25%;
 --------------------------------------------------------------*/
-@media only screen and (max-width: 500px) {
-
+@media only screen and (max-width: 2560px) {
+  .bx-viewport {
+          padding: 0px 0px 0 24%;
+  }
 }
 </style>
 
