@@ -188,4 +188,6 @@ else:
   echo '<p>Sorry, no posts matched your criteria.</p>';
 endif;
 ?>
+
+<script  src="<?php echo get_template_directory_uri(); ?>/js/slideshow.js"></script>
  <?php get_footer ()?>
