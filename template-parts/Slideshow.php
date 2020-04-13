@@ -39,136 +39,266 @@ padding-bottom: 150px !important;
 display: inline-block !important;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-html,
 body {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
+  letter-spacing: 0.05em;
 }
 
-body {
-  background-color: #000;
-  font-family: 'industry';
-}
+.btn {
+  display: inline-block;
+  padding: 13px 20px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  background: transparent;
+  border: 1px solid #e1e1e1;
+  font: 12px/1.2 "Oswald", sans-serif;
+  letter-spacing: 0.4em;
+  text-align: center;
+  text-indent: 2px;
+  text-transform: uppercase;
+  transition: color 0.1s linear 0.05s;
 
-.slideShow {
-  height: 100%;
-  width: 75%;
-  min-width: 750px;
-  margin: 0 auto;
-  overflow: visible;
-
-  &__container {
-    height: 100%;
-    width: 100%;
-    list-style: none;
+  &::before {
+    content: "";
     display: block;
-    margin: 0;
-    padding: 0;
-    white-space: nowrap;
-    font-size: 0;
-    line-height: 0;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #e1e1e1;
+    z-index: 1;
+    opacity: 0;
+    transition: height 0.2s ease, top 0.2s ease, opacity 0s linear 0.2s;
   }
 
-  &__slide {
-    height: 100%;
-    width: 100%;
-    display: inline-block;
-    position: relative;
+  &::after {
+    transition:border 0.1s linear 0.05s;
   }
 
-  &__image {
-    display: block;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
+  .btn-inner {
     position: relative;
-    transform: scale(0.8);
+    z-index: 2;
+  }
+
+  &:hover {
+    color: #373737;
+    transition: color 0.1s linear 0s;
+
+    &::before {
+      top: 0;
+      height: 100%;
+      opacity: 1;
+      transition: height 0.2s ease, top 0.2s ease, opacity 0s linear 0s;
+    }
 
     &::after {
-      content: '';
+      border-color: #373737;
+      transition:border 0.1s linear 0s;
+    }
+  }
+}
+
+.slideshow {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+
+  .slideshow-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .slide {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+    &.is-active {
+      display: block;
+    }
+
+    &.is-loaded{
+      opacity: 1;
+    }
+
+    .caption {
+      padding: 0 100px;
+    }
+
+    .image-container {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: linear-gradient(225deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.5) 100%);
+      background-position: center;
+      z-index: 1;
+      background-size: cover;
+      image-rendering: optimizeQuality;
+
+      &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+      }
+    }
+
+    .image {
+      width: 100%;
+      width: 100%;
+      object-fit: cover;
+      height: 100%;
+    }
+
+    &-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      color: #fff;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .title {
+      margin: 0 auto 15px;
+      max-width: 1000px;
+      font: 300 50px/1.2 "Oswald", sans-serif;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+    }
+
+    .text {
+      margin: 0 auto;
+      max-width: 1000px;
+      font-size: 18px;
+      line-height: 1.4;
+    }
+
+    .btn {
+      margin: 15px 0 0;
+      border-color: #fff;
+
+      &::before {
+        background:#fff
+      }
     }
   }
 
-  &__titleWrap {
-    font-size: 1rem;
+  .pagination {
     position: absolute;
-    left: 4rem;
-    bottom: 4rem;
-    padding-bottom: 2rem;
-    padding-left: 2rem;
-    color: #fff;
-  }
+    bottom: 35px;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    cursor: default;
+    z-index: 2;
+    text-align: center;
 
-  &__slideTitle {
-    font-weight: 300;
-    z-index: 500;
-    color: #fff;
-    font-size: 5em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    line-height: 1;
-    margin: 0 0 .5rem;
-    opacity: 0;
-  }
+    .item {
+      display: inline-block;
+      padding: 15px 5px;
+      position: relative;
+      width: 46px;
+      height: 32px;
+      cursor: pointer;
+      text-indent: -999em;
+      z-index: 1;
 
-  &__slideSubTitle {
-    font-size: 1.5em;
-    text-transform: uppercase;
-    font-family: sans-serif;
-    padding-left: .5rem;
-    font-weight: 300;
-    letter-spacing: 1px;
-    opacity: 0;
-  }
+      + .page {
+        margin-left: -2px;
+      }
 
-  &__next,
-  &__prev {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 5em;
-    line-height: 1em;
-    color: #fff;
+      &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 5px;
+        width: 36px;
+        height: 2px;
+        background: rgba(255, 255, 255, 0.5);
+        transition: background 0.2s ease;
+      }
 
-    i {
-      display: block;
-      float: left;
+      &::after {
+        width: 0;
+        background: #fff;
+        z-index: 2;
+        transition: width 0.2s ease;
+      }
+
+      &:hover::before,
+      &.is-active::before {
+        background-color: #fff;
+      }
     }
   }
 
-  &__next {
-    right: 1rem;
+  .arrows {
+    .arrow {
+      margin: -33px 0 0;padding: 20px;position: absolute;top: 50%;cursor: pointer;z-index: 3;
+    }
 
-    cursor: pointer;
-  }
+    .prev {
+      left: 30px;
 
-  &__prev {
-    left: 1rem;
-    cursor: pointer;
-    transition: opacity 0.3s ease;
-    transform-origin: center;
+      &:hover .svg {
+        left: -10px;
+      }
+    }
 
-    &.is-inactive {
-      opacity: 0.3;
-      cursor: default;
+    .next {
+      right: 30px;
+
+      &:hover .svg {
+        left: 10px;
+      }
+    }
+
+    .svg {
+      position: relative;
+      left: 0;
+      width: 14px;
+      height: 26px;
+      fill: #fff;
+      transition: left 0.2s ease;
     }
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
