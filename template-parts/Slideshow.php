@@ -47,8 +47,7 @@ body {
 div.bxslider {
     position: absolute;
     width:100%;
-      margin-left: 25%;
-      margin-right: 25%;
+
   }
   div.slide {
       margin-left: 10px;
@@ -58,6 +57,8 @@ div.bxslider {
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
+margin-left: 25%;
+  margin-right: 25%;
 --------------------------------------------------------------*/
 @media only screen and (max-width: 500px) {
 
