@@ -50,10 +50,11 @@ width: 100vw !important;
 }
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
-  position: absolute;
-    bottom: 56px;
-    width: 100%;
-    left: 16.5%;
+  position: relative;
+bottom: 56px;
+width: fit-content;
+/* left: 25%; */
+width: 1200px;
 }
 /* LOADER */
 .bx-wrapper .bx-loading {
