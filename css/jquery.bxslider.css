@@ -35,6 +35,7 @@ ul.bxslider {
 }
 .bx-viewport {
       width: 100VW;
+      padding: 0px 0px 0 14%;
   /*fix other elements on the page moving (on Chrome)*/
   -webkit-transform: translatez(0);
 }
