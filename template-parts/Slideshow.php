@@ -57,8 +57,7 @@ div.bxslider {
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
-margin-left: 25%;
-  margin-right: 25%;
+
 --------------------------------------------------------------*/
 @media only screen and (max-width: 2560px) {
   .bx-viewport {
