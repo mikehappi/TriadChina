@@ -193,7 +193,7 @@ width: 1200px;
   padding: 10px;
 }
 
-.bx-pager {
+.bx-has-pager {
   pointer-events: none !important;
 }
 
