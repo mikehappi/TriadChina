@@ -44,8 +44,10 @@ body {
   letter-spacing: 0.05em;}
 
 div.bxslider {
-    position: absolute;
-    width:100%;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
 
   }
   div.slide {
