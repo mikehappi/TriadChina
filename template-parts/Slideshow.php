@@ -63,6 +63,12 @@ div.bxslider {
     left: 100px!important;
 }
 
+.wp-caption {
+    margin-bottom: 1.5em !important;
+    max-width: 100% !important;
+    width: 1000px !important;
+}
+
 </style>
 
 <?php
