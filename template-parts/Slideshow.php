@@ -59,8 +59,8 @@ div.bxslider {
   .wp-caption-text {
     text-align: left!important;
     position: absolute!important;
-    top: 8px!important;
-    left: 16px!important;
+    top: 92px!important;
+    left: 100px!important;
 }
 
 </style>
