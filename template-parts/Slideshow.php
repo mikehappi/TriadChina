@@ -56,10 +56,14 @@ div.bxslider {
       width: 1000px !important;
   }
 
+  .wp-caption .wp-caption-text {
+      margin: 0 !important;}
+
+
   .wp-caption-text {
     text-align: left!important;
     position: absolute!important;
-    top: 92px!important;
+    top: 78px!important;
     left: 100px!important;
 }
 
