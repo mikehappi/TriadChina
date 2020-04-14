@@ -30,7 +30,7 @@ line-height: unset !important;
 display: flex;
 justify-content: center;
 font-family:AP !important;
-padding-top: 135px !important;
+padding-top: 180px !important;
 padding-bottom: 150px !important;
 }
 
