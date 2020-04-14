@@ -95,6 +95,7 @@ moveSlides: 1,
     responsive: true,
     infiniteLoop: true,
     controls:false,
+    hideControlOnEnd:true,
   });
 });
 
