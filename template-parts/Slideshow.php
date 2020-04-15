@@ -106,6 +106,7 @@ endif;
     infiniteLoop: true,
     controls:true,
     hideControlOnEnd:true,
+    touchEnabled:false;
     onSlideBefore: function($ele, from, to) {
             var $act = $ele.next();
             $act.addClass('act');
