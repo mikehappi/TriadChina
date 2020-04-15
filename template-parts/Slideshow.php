@@ -110,7 +110,7 @@ $(document).ready(function(){
     controls:true,
     hideControlOnEnd:true,
     onSlideBefore: function($ele, from, to) {
-            var $act = $ele.next();
+          
             $act.addClass('act');
             $act.siblings().removeClass('act');
           }
