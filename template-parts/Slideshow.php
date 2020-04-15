@@ -103,56 +103,6 @@ moveSlides: 1,
     hideControlOnEnd:true,
 
 
-// TOUCH
-		touchEnabled: true,
-		swipeThreshold: 50,
-		oneToOneTouch: true,
-		preventDefaultSwipeX: true,
-		preventDefaultSwipeY: false,
-
-		// PAGER
-		pager: true,
-		pagerType: 'full',
-		pagerShortSeparator: ' / ',
-		pagerSelector: null,
-		buildPager: null,
-		pagerCustom: null,
-
-		// CONTROLS
-		controls: true,
-		nextText: 'Next',
-		prevText: 'Prev',
-		nextSelector: null,
-		prevSelector: null,
-		autoControls: false,
-		startText: 'Start',
-		stopText: 'Stop',
-		autoControlsCombine: false,
-		autoControlsSelector: null,
-
-		// AUTO
-		auto: false,
-		pause: 4000,
-		autoStart: true,
-		autoDirection: 'next',
-		autoHover: false,
-		autoDelay: 0,
-		autoSlideForOnePage: false,
-
-		// CAROUSEL
-		minSlides: 1,
-		maxSlides: 1,
-		moveSlides: 0,
-		slideWidth: 0,
-
-		// CALLBACKS
-		onSliderLoad: function() {},
-		onSlideBefore: function() {},
-		onSlideAfter: function() {},
-		onSlideNext: function() {},
-		onSlidePrev: function() {},
-		onSliderResize: function() {}
-	}
 });
 });
 </script>
