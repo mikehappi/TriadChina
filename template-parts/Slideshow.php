@@ -106,7 +106,7 @@ endif;
     infiniteLoop: true,
     controls:true,
     hideControlOnEnd:true,
-    onSlideAfter: function($ele, from, to) {
+    onSlideBefore: function($ele, from, to) {
             var $act = $ele.next();
             $act.addClass('act');
             $act.siblings().removeClass('act');
