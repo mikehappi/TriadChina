@@ -72,17 +72,12 @@ div.bxslider {
     max-width: 100% !important;
     width: 1000px !important;
 }
-
 .act {
-  transition-duration: 1s;
-     transition-timing-function: ease-in;
-   var $act = $ele.next();
-   z-index: 9999999;
-  -ms-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
+      transition-duration: 1s;
+      transition-timing-function: ease-in;
+      transform: scale(2);
+
+    z-index: 9999999;
     }
 
 </style>
@@ -99,7 +94,6 @@ endif;
 <script  src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
 <script  src="<?php echo get_template_directory_uri(); ?>/js/jquery.bxslider.min.js"></script>
 <script>
-$(document).ready(function(){
   $('.bxslider').bxSlider({
     stopAutoOnClick: false,
     slideWidth: 1000,
@@ -114,12 +108,12 @@ $(document).ready(function(){
     controls:true,
     hideControlOnEnd:true,
     onSlideBefore: function($ele, from, to) {
-          var $act = $ele();
+            var $act = $ele.next();
             $act.addClass('act');
             $act.siblings().removeClass('act');
           }
 });
-});
+
 </script>
 
  <?php get_footer ()?>
