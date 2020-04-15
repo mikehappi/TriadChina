@@ -75,7 +75,7 @@ div.bxslider {
 .act {
       transition-duration: 1s;
       transition-timing-function: ease-in;
-      transform: scale(1.2);
+      transform: scale(1.14);
       z-index: 9999999;
     }
 
