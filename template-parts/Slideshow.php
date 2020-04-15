@@ -75,9 +75,8 @@ div.bxslider {
 .act {
       transition-duration: 1s;
       transition-timing-function: ease-in;
-      transform: scale(2);
-
-    z-index: 9999999;
+      transform: scale(1.2);
+      z-index: 9999999;
     }
 
 </style>
@@ -107,7 +106,7 @@ endif;
     infiniteLoop: true,
     controls:true,
     hideControlOnEnd:true,
-    onSlideBefore: function($ele, from, to) {
+    onSlideAfter: function($ele, from, to) {
             var $act = $ele.next();
             $act.addClass('act');
             $act.siblings().removeClass('act');
