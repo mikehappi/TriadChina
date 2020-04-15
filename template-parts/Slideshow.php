@@ -108,7 +108,7 @@ moveSlides: 1,
 </script>
 <script>
 $(document).ready(function(){
-    $('#slider').bxSlider({
+    $('.slider').bxSlider({
       -ms-transform: scale(1.2);
       -moz-transform: scale(1.2);
       -webkit-transform: scale(1.2);
