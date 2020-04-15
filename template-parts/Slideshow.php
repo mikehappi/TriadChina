@@ -73,6 +73,14 @@ div.bxslider {
     width: 1000px !important;
 }
 
+.act {
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+    }
+
 </style>
 
 <?php
@@ -101,7 +109,11 @@ $(document).ready(function(){
     infiniteLoop: true,
     controls:true,
     hideControlOnEnd:true,
-
+    onSlideBefore: function($ele, from, to) {
+            var $act = $ele.next();
+            $act.addClass('act');
+            $act.siblings().removeClass('act');
+          }
 });
 });
 </script>
