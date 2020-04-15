@@ -76,6 +76,7 @@ div.bxslider {
 .act {
   transition-duration: 1s;
      transition-timing-function: ease-in;
+   var $act = $ele.next();
    z-index: 9999999;
   -ms-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -113,7 +114,7 @@ $(document).ready(function(){
     controls:true,
     hideControlOnEnd:true,
     onSlideBefore: function($ele, from, to) {
-
+          var $act = $ele();
             $act.addClass('act');
             $act.siblings().removeClass('act');
           }
