@@ -11,9 +11,7 @@ get_header(); ?>
 <?php $upload_dir = wp_upload_dir(); ?>
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/landing.css" type="text/css" media="screen" />
 
-<?php echo do_shortcode('
-[BxSlider_for_WP]
-'); ?>
+
 <div class="section">
 <div class="lsection">
 
