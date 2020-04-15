@@ -109,7 +109,11 @@ moveSlides: 1,
 <script>
 $(document).ready(function(){
     $('#slider').bxSlider({
-    mode: 'fade',
+      -ms-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
     });
 });
 </script>
