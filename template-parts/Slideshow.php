@@ -96,9 +96,9 @@ endif;
   $('.bxslider').bxSlider({
     stopAutoOnClick: false,
     slideWidth: 1000,
-    minSlides: 2,
-    maxSlides: 3,
-    moveSlides: 1,
+    minSlides: 1,
+     maxSlides: 3,
+     moveSlides: 1,
     pager: true,
     auto: true,
     displaySlideQty: 2,
