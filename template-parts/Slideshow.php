@@ -96,26 +96,14 @@ $(document).ready(function(){
     moveSlides: 1,
     pager: true,
     auto: true,
-moveSlides: 1,
     displaySlideQty: 2,
     responsive: true,
     infiniteLoop: true,
-    controls:false,
+    controls:true,
     hideControlOnEnd:true,
 
+});
+});
+</script>
 
-});
-});
-</script>
-<script>
-$(document).ready(function(){
-    $('.slider').bxSlider({
-      -ms-transform: scale(1.2);
-      -moz-transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      transform: scale(1.2);
-    });
-});
-</script>
  <?php get_footer ()?>
