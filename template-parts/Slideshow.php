@@ -89,6 +89,7 @@ endif;
 <script>
 $(document).ready(function(){
   $('.bxslider').bxSlider({
+    stopAutoOnClick: false,
     slideWidth: 1000,
     minSlides: 2,
     maxSlides: 3,
