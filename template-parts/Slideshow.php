@@ -85,7 +85,8 @@ else:
 endif;
 ?>
 <script  src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
-<script  src="<?php echo get_template_directory_uri(); ?>/js/jquery.bxslider.min.js"></script><script>
+<script  src="<?php echo get_template_directory_uri(); ?>/js/jquery.bxslider.min.js"></script>
+<script>
 $(document).ready(function(){
   $('.bxslider').bxSlider({
     slideWidth: 1000,
@@ -100,8 +101,66 @@ moveSlides: 1,
     infiniteLoop: true,
     controls:false,
     hideControlOnEnd:true,
-  });
-});
 
+
+// TOUCH
+		touchEnabled: true,
+		swipeThreshold: 50,
+		oneToOneTouch: true,
+		preventDefaultSwipeX: true,
+		preventDefaultSwipeY: false,
+
+		// PAGER
+		pager: true,
+		pagerType: 'full',
+		pagerShortSeparator: ' / ',
+		pagerSelector: null,
+		buildPager: null,
+		pagerCustom: null,
+
+		// CONTROLS
+		controls: true,
+		nextText: 'Next',
+		prevText: 'Prev',
+		nextSelector: null,
+		prevSelector: null,
+		autoControls: false,
+		startText: 'Start',
+		stopText: 'Stop',
+		autoControlsCombine: false,
+		autoControlsSelector: null,
+
+		// AUTO
+		auto: false,
+		pause: 4000,
+		autoStart: true,
+		autoDirection: 'next',
+		autoHover: false,
+		autoDelay: 0,
+		autoSlideForOnePage: false,
+
+		// CAROUSEL
+		minSlides: 1,
+		maxSlides: 1,
+		moveSlides: 0,
+		slideWidth: 0,
+
+		// CALLBACKS
+		onSliderLoad: function() {},
+		onSlideBefore: function() {},
+		onSlideAfter: function() {},
+		onSlideNext: function() {},
+		onSlidePrev: function() {},
+		onSliderResize: function() {}
+	}
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+    $('#slider').bxSlider({
+    mode: 'fade',
+    });
+});
 </script>
  <?php get_footer ()?>
