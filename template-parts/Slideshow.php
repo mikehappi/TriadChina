@@ -103,17 +103,8 @@ endif;
     auto: true,
     displaySlideQty: 2,
     responsive: true,
-    infiniteLoop: true,
-    controls:true,
-    hideControlOnEnd:true,
-    touchEnabled:false;
-    onSlideBefore: function($ele, from, to) {
-            var $act = $ele.next();
-            $act.addClass('act');
-            $act.siblings().removeClass('act');
-          }
-});
 
+});
 </script>
 
  <?php get_footer ()?>
