@@ -105,6 +105,30 @@ endif;
     responsive: true,
 
 });
+
+
+$(document).ready(function(){
+
+    $('.bxslider').bxSlider({
+        /*
+        To add class on the first visible slide you have to call onSliderLoad. Then you continue adding and removing active-slide class with onSlideAfter call.
+        */
+        onSlideAfter: function (currentSlideNumber, totalSlideQty, currentSlideHtmlObject) {
+            console.log(currentSlideHtmlObject);
+            $('.act').removeClass('active-slide');
+            $('.bxslider > div').eq(currentSlideHtmlObject + 1).addClass('act')
+        },
+        onSliderLoad: function () {
+            $('.bxslider > div').eq(1).addClass('act')
+        },
+
+     // otherOption: true,
+     // anotherOption: 5,
+     // slideWidtrh: 100
+
+    });
+
+});
 </script>
 
  <?php get_footer ()?>
