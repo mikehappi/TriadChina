@@ -108,5 +108,15 @@ endif;
 
 
 </script>
-
+<script>
+$('.top-slider').bxSlider({
+  onSliderLoad: function(currentIndex) {
+    $('.top-slider').children().eq(currentIndex).addClass('active-slide');
+  },
+  onSlideAfter: function($slideElement){
+    $('.top-slider').children().removeClass('active-slide');
+    $slideElement.addClass('active-slide');
+  }
+});
+</script>
  <?php get_footer ()?>
