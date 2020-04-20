@@ -72,7 +72,7 @@ div.bxslider {
     max-width: 100% !important;
     width: 1000px !important;
 }
-.act {
+.active-slide {
       transition-duration: 1s;
       transition-timing-function: ease-in;
       transform: scale(1.14);
