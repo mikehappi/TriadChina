@@ -115,7 +115,7 @@ $(document).ready(function(){
         */
         onSlideAfter: function (currentSlideNumber, totalSlideQty, currentSlideHtmlObject) {
             console.log(currentSlideHtmlObject);
-            $('.act').removeClass('active-slide');
+            $('.act').removeClass('act');
             $('.bxslider > div').eq(currentSlideHtmlObject + 1).addClass('act')
         },
         onSliderLoad: function () {
