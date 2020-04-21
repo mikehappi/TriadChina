@@ -190,16 +190,25 @@ margin-top: 0.5em;
 }
 
 
+}/*--------------------------------------------------------------
+# Media Qeries  Mobile CSSS adapation
+
+--------------------------------------------------------------*/
+
+@media only screen and (max-width: 1920px) {
+
+
 }
 
 @media screen and (max-width: 769px) {
-  .navbar-brand {
-
-    padding:0.5em 0em 0em 1.5em;
-
+  .navbar-default {
+    text-decoration: none;
+    height: 72px;}
+  .row-header-1 {
+    width: 768px !important;
+    height: 72px !important;
+    padding-top: 0px;
+    bottom:24px;
 }
-.navitem {
-    list-style: none;
-    padding-top: 0.3em;
-    margin-right: 0em;}
+
 }
