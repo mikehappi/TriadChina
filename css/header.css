@@ -200,10 +200,11 @@ margin-top: 0.5em;
 
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .navbar-default {
     text-decoration: none;
     height: 72px;}
+
   .row-header-1 {
     width: 768px !important;
     padding-top: 9px;
