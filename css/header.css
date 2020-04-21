@@ -206,9 +206,7 @@ margin-top: 0.5em;
     height: 72px;}
   .row-header-1 {
     width: 768px !important;
-    height: 72px !important;
-    padding-top: 0px;
-    bottom:24px;
+    padding-top: 9px;
 }
 
 }
