@@ -200,9 +200,35 @@ margin-top: 0.5em;
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .navbar-default {
     width: 100VW !important;
     text-decoration: none;
     height: 72px!important;}
+
+.navbar-brand {
+    padding: 0em 0em 0em 30px;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: none !important;
+
+}
+.navbar-toggle {
+margin-top: 0px;
+margin-right: 32px;
+margin-bottom: 0px
+}
+
+.row-header-1 {
+    width: 100VW !important;
+    padding-top: 13px!important
+}
+
+
+
+
 }
