@@ -611,6 +611,20 @@ font-size: 22px !important;
  /*--------------------------------------------------------------
  # Media Qeries  Mobile CSSS adapation
  --------------------------------------------------------------*/
- @media only screen and (max-width: 500px) {
 
+   @@media screen and(max-width: 768px) {
+     body {
+     display: grid;
+     grid-template-areas: "header" 'body' "footer";
+     /* justify-content: center;
+     background-color: #e3e3e3 !important;} */
+   }
+ }
+ @@media screen and(max-width:768px) {
+    #nav{
+      grid-area: header;
+    }
+    .navbar{
+      margin-bottom: unset
+    }
  }
