@@ -69,9 +69,10 @@ padding-right: 0px;
 }
 /*Menu */
 .navbar-collapse {
-  float: right;
-    padding-right: 0px;
-padding-left: 0px;}
+float: right;
+padding-right: 0px;
+padding-left: 0px;
+padding-top: 11px;}
 
 /*toggle button Hmabuger */
 
