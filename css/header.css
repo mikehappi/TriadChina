@@ -54,11 +54,7 @@ header{
     text-decoration: none !important;
     }
 
-
-
-
-
-    .navbar-nav {
+.navbar-nav {
         float: right;
         margin: 0;
     }
