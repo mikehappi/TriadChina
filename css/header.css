@@ -60,60 +60,8 @@ header{
         margin: 0;
     }
 
+
 /*--------------------------------------------------------------
-# Media Qeries  Mobile CSSS adapation
---------------------------------------------------------------*/
-@media (min-width: 1200px)
-
-}
-
-@media only screen and (max-width: 500px) {
-
-.navbar-default {
-
-      height: 180px !important;
-  }
-
-  .navbar-default .navbar-toggle .icon-bar {
-    background-color: #000;
-}
-.navbar-toggle .icon-bar {
-    display: block;
-    width: 22px;
-    height: 3px;
-    border-radius: 1px;
-
-  .navbar-default .navbar-toggle {
-  border-color: none !important;
-  }
-
-
-.navbar-toggle {
-  background-color: transparent!important ;
-    background-image: none !important;
-     border: none!important;
-     border-radius: 0px !important;
-  }
-
-
-  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-       border-color: none !important;
-  }
-
-  .navbar-collapse.in {
-      overflow-y: initial !important;
-  }
-
-
-
-
-
-.navbar-brand {
-    padding:0.5em 0em 0em 1.5em;
-}
-
-
-}/*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 
 --------------------------------------------------------------*/
