@@ -66,3 +66,17 @@ header{
       width: 1200px;
   }
 }
+
+@media (min-width: 992px)
+{
+  .container {
+      width: 992px;
+  }
+}
+
+@media (min-width: 768px)
+{
+  .container {
+      width: 768px;
+  }
+}
