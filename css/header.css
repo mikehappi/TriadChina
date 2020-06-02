@@ -72,11 +72,7 @@ height: 30px;
 }
 /*Menu */
 .navbar-collapse {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    -ms-flex-align: center;
-    align-items: center;
-    display: flex!important;
+  
 }
 
 /*toggle button Hmabuger */
