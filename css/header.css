@@ -39,7 +39,7 @@ header{
 #lang {
     text-align: right;
     padding-top: 0.6em !important;
-    padding-right: 6em !important; }
+    }
 
 #hitem{
     font-size: 11.5px!important;
@@ -49,6 +49,14 @@ header{
     text-decoration: none !important;
     }
 
+
+
+
+
+    .navbar-nav {
+        float: right;
+        margin: 0;
+    }
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
