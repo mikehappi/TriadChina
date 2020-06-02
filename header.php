@@ -73,7 +73,7 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarNav">
-        <ul id="imenu">
+        <ul class="navbar-nav ml-auto">
             <?php wp_nav_menu( array(
                 'menu'              => 'primary',
                 'theme_location'    => 'primary',
@@ -101,9 +101,6 @@ jQuery(document).ready(function($){
 $('li').find('ul').addClass('hidden-xs hidden-md hidden-sm')
 });
 </script>
-<script src="js/bundle.js"></script>
-<script src="assets-theme/js/fury.js"></script>
-<script src="assets/vendor/parallax.js/parallax.min.js"></script>
 <!-- Hide Menu on Scroll -->
 <script>
 var prevScrollpos = window.pageYOffset;

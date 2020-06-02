@@ -11,6 +11,47 @@
 # Navigation
 --------------------------------------------------------------*/
 
+
+.bg-gray-v1 {  background: #f2f2f2;}
+
+header{
+    display: block;
+}
+
+
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+/*langage   */
+#lang {
+    text-align: right;
+    padding-top: 0.6em !important;
+    padding-right: 6em !important; }
+
+#hitem{
+    font-size: 11.5px!important;
+  text-decoration: none !important;}
+#hitems{
+    margin-left: 10px;
+    text-decoration: none !important;
+    }
+
 /*Navbar default   */
 nav {
 transition: top 0.8s;
@@ -195,14 +236,19 @@ margin-top: 0.5em;
 
 --------------------------------------------------------------*/
 
-@media only screen and (max-width: 1920px) {
-
-
+@media (min-width: 1200px)
+.container {
+    max-width: 1200px;
 }
-
-@media screen and (max-width: 769px) {
-
-
-
-
+@media (min-width: 992px)
+.container {
+    max-width: 960px;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
 }
