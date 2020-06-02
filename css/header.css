@@ -15,6 +15,7 @@
 {height: 55px;}
 .header
 {height: 70px;}
+
 .bg-gray-v1 {
   background: #f2f2f2;
   font-family:AP;
@@ -85,6 +86,14 @@ padding-top: 11px;}
 
   .nav > li > a {
     padding: 0px 0px 0px 50px;}
+
+    /*styling navbar active menu item   */
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
