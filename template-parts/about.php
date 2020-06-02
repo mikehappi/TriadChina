@@ -21,7 +21,7 @@ justify-content: center;
 background-color: #e3e3e3 !important;}
 
 .asection{
-  width: 1200px !important;
+  max-width: 1200px;
   font-family:AP !important;
   padding-top: 15em !important;
   padding-bottom: 150px !important;
