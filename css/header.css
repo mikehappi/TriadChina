@@ -89,9 +89,8 @@ float: right;
 }
 
 
-@media (min-width: 992px){}
+@media (min-width: 992px){
 .navbar-expand-lg .navbar-collapse {
-    display: -ms-flexbox!important;
-    display: flex!important;
+
 }
 }
