@@ -13,10 +13,9 @@
 .bg-gray-v1 {
   background: #f2f2f2;
   height: 67.5px;
-    font-family:AP;
-    font-family:AP;
-    font-size: 24px;
-    text-decoration: none;
+  font-family:AP;
+  font-size: 24px;
+  text-decoration: none;
   }
 
 header{
@@ -29,7 +28,6 @@ header{
     padding-right: 0px;
     padding-left: 0px;
     max-width: 100%;
-    font-family:AP;
 }
 
 .container a{
