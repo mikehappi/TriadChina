@@ -44,6 +44,9 @@ header{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
+.col-md-6 {
+padding-right: 0px;
+    padding-left: 0px;}
 
 /*langage   */
 #lang {
