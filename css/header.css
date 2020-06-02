@@ -61,10 +61,7 @@ padding-right: 0px;
     margin-left: 10px;
     text-decoration: none !important;
     }
-.navbar-nav {
-        float: right;
-        margin: 0;
-    }
+
 /*logo  */
 
 .navbar-brand {
@@ -72,7 +69,7 @@ padding-right: 0px;
 }
 /*Menu */
 .navbar-collapse {
-
+float: right;
 }
 
 /*toggle button Hmabuger */
