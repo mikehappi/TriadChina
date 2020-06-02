@@ -68,17 +68,20 @@ padding-right: 0px;
 /*logo  */
 
 .navbar-brand {
-    position: relative;
-    display: inline-block;
-
-    /* display: inline-block; */
-    /* padding-top: .3125rem; */
-    /* padding-bottom: .3125rem; */
-    /* margin-right: 1rem; */
-    /* font-size: 1.25rem; */
-    /* line-height: inherit; */
+height: 30px;
+}
+/*Menu */
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-align: center;
+    align-items: center;
+    display: flex!important;
 }
 
+/*toggle button Hmabuger */
+.navbar-toggler {
+  display: none;}
 
 
 /*--------------------------------------------------------------
@@ -90,4 +93,12 @@ padding-right: 0px;
   .container {
       width: 1200px;
   }
+}
+
+
+@media (min-width: 992px){}
+.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
 }
