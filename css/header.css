@@ -88,11 +88,10 @@ padding-top: 5px;}
     padding: 0px 0px 0px 50px;}
 
     /*styling navbar active menu item   */
-nav:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+    .nav > li > a:hover, .nav > li > a:focus {
+        text-decoration: none;
+        background-color: none; 
+    }
 
 
 /*--------------------------------------------------------------
