@@ -10,9 +10,13 @@
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
+
+.header-top
+{height: 55px;}
+.header
+{height: 70px;}
 .bg-gray-v1 {
   background: #f2f2f2;
-  height: 67.5px;
   font-family:AP;
   font-size: 24px;
   text-decoration: none;
