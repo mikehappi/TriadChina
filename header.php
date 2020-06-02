@@ -101,6 +101,10 @@ jQuery(document).ready(function($){
 $('li').find('ul').addClass('hidden-xs hidden-md hidden-sm')
 });
 </script>
+
+<script src="js/bundle.js"></script>
+<script src="js/fury.js"></script>
+<script src="js/parallax.min.js"></script>
 <!-- Hide Menu on Scroll -->
 <script>
 var prevScrollpos = window.pageYOffset;
