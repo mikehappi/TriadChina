@@ -23,9 +23,8 @@ header{
 .container {
     margin-right: auto;
     margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
-    width: 100%;
+    padding-right: 0px;
+    max-width: 100%;
 }
 
 .row {
@@ -111,19 +110,23 @@ header{
 
 --------------------------------------------------------------*/
 
-@media (min-width: 1200px)
-.container {
-    max-width: 1200px;
+@media (min-width: 1200px){
+  .container {
+      width: 1170px;
+  }
 }
-@media (min-width: 992px)
+@media (min-width: 992px){
 .container {
     max-width: 960px;
 }
-@media (min-width: 768px)
+}
+@media (min-width: 768px) {
 .container {
     max-width: 720px;
-}
-@media (min-width: 576px)
+  }
+  }
+@media (min-width: 576px){
 .container {
     max-width: 540px;
+}
 }
