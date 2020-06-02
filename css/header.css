@@ -69,13 +69,17 @@ padding-right: 0px;
 }
 /*Menu */
 .navbar-collapse {
-float: right;
-}
+  float: right;
+    padding-right: 0px;
+padding-left: 0px;
 
 /*toggle button Hmabuger */
+
 .navbar-toggler {
   display: none;}
 
+  .nav > li > a {
+    padding: 0px 0px 0px 50px;}
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
