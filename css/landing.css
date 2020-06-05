@@ -37,12 +37,8 @@ p{ color: black;}
 
 h1 span {
   border-bottom: 2px solid #E74011 !important;
-  display: grid;
   padding-bottom: 20px;
-  position: relative;
-  border-bottom-width: thin;
   right: -25%;
-  position: relative;
   padding: 0 0 0 50vw;
   width: 54vw;
   box-sizing: border-box;
@@ -55,7 +51,7 @@ h1 span {
 
 .page-title{
 font-size: 20px !important;
-margin-bottom: 80px !important;
+margin-bottom: 60px !important;
 }
 
 
