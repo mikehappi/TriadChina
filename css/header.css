@@ -78,3 +78,17 @@ float: right;
 padding-right: 0px;
 padding-left: 0px;
 padding-top: 5px;}
+
+
+
+
+/*--------------------------------------------------------------
+# Media Qeries  Mobile CSSS adapation
+
+--------------------------------------------------------------*/
+@media (min-width: 1200px)
+{
+  .container {
+      width: 1200px;
+  }
+}
