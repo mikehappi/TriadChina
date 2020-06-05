@@ -389,6 +389,18 @@ width:  100%;
      padding-top: 8%;
  }
 
+
+.pcontent :after {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100vw;
+    height: 100%;
+    background-color: blue;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
  .pcontainer{
    display: flex;
    align-items: center;
