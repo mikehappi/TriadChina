@@ -1049,14 +1049,14 @@ color: #434C9B; }
   width: 100% !important;
   height: 100% !important; }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: transparent;
-  left: 0;
-  z-index: -1; }
+  .overlay {
+    /*! position: absolute; */
+    /*! top: 0; */
+    /*! width: 100%; */
+    /*! height: 100%; */
+    /*! background-color: transparent; */
+    /*! left: 0; */
+    /*! z-index: -1; */ }
 
 .u-ff-dosis {
   font-family: "Dosis", sans-serif; }
@@ -1275,16 +1275,16 @@ color: #434C9B; }
 
 .box-shadow-v1 {
   -webkit-box-shadow: 0 5px 50px 0 rgba(0, 81, 178, 0.1);
-  box-shadow: 0 5px 50px 0 rgba(0, 81, 178, 0.1); 
+  box-shadow: 0 5px 50px 0 rgba(0, 81, 178, 0.1);
   border-radius: 6px; }
   .box-shadow-v1--onHover {
     -webkit-transition: .3s;
     -o-transition: .3s;
-    transition: .3s; 
+    transition: .3s;
 	 border-radius: 6px; }
     .box-shadow-v1--onHover:hover {
       -webkit-box-shadow: 0 5px 50px 0 rgba(0, 81, 178, 0.1);
-      box-shadow: 0 5px 50px 0 rgba(0, 81, 178, 0.1); 
+      box-shadow: 0 5px 50px 0 rgba(0, 81, 178, 0.1);
 	   border-radius: 6px; }
 
 .box-shadow-v2 {
@@ -3857,7 +3857,7 @@ color: #434C9B; }
 
 .color-heading {
   color: #273f5b; }
-  
+
 .text-footer {
   color: #fff; }
 section.bg-gray-v3:hover {
@@ -3915,10 +3915,10 @@ section.bg-gray-v3:hover {
 
 .bg-gray-v3 {
   background: #a0a4a7; }
-  
+
  .bg-gray-v4 {
   background: #FBFCFD; }
-  
+
  .bg-gray-v5 {
   background: #000;; }
 
@@ -4948,7 +4948,7 @@ section.bg-gray-v3:hover {
     background: rgba(44, 212, 74, 0.7); }
   .slick-dots.dots-green > li.slick-active span {
     background: #2CD44A; }
-	
+
 .bgred,.bggreen,.bgblue,.bgorange{border-radius:4px;box-shadow:0 1px 0 #FFF inset, 0 2px 4px rgba(0,0,0,0.08);margin:15px 0;padding:10px;position:relative}
 .bgred p,.bggreen p,.bgblue p,.bgorange p{color:#fff;margin:0 10px 0 0;text-shadow:1px 1px 0 rgba(0,0,0,0.2)}
 .bgblue{background:#4FC1E9;border:1px solid #4FC1E9}
@@ -4964,14 +4964,14 @@ div.bgred ul.error{color:#fff;margin-left:35px}
 .orangetip{background:#FFCE54;border-color:#FFCE54;color:#fff;text-shadow:1px 1px 0 rgba(0,0,0,0.2)}
 .bluetip{background:#4FC1E9;border-color:#4FC1E9;color:#fff;text-shadow:1px 1px 0 rgba(0,0,0,0.2)}
 
-/* == DB Backup == */		  
+/* == DB Backup == */
 .db-backup{background-color:#fcfcfc;text-align:left;border-bottom:1px solid #f6f6f6;margin:10px;padding:10px}
 .db-backup span{font-size:24px;font-weight:400}
 .db-backup small{font-size:14px;width:auto;height:24px;line-height:24px;margin-left:5px;color:#fcfcfc!important;border-radius:3px;display:block;text-align:center;position:relative;float:right;padding:0 10px}
 .sdelet{background-color:#ee5f5b}
 .sdown{background-color:#5bb75b}
 .srestore{background-color:#faa732}
-.db-latest{background-color:#CCC;color:#fff} 		
+.db-latest{background-color:#CCC;color:#fff}
 
 /* ==============================================================
    TRACKING SHIPMENT
@@ -4993,7 +4993,7 @@ div.bgred ul.error{color:#fff;margin-left:35px}
   .payment-title h4 {
     display: inline-block;
     margin: 0; }
-	
+
 .track-title {
   border-bottom: 1px solid #ccc;
   padding: 6px 0;
@@ -5018,7 +5018,7 @@ div.bgred ul.error{color:#fff;margin-left:35px}
     margin: 0 8px 0 0; }
   .trackstatus-title h4 {
     display: inline-block;
-    margin: 0; }		
+    margin: 0; }
 
 .card-header:hover {
   text-decoration: none; }
@@ -5056,7 +5056,7 @@ div.bgred ul.error{color:#fff;margin-left:35px}
 
 .min-height-block {
   min-height: 500px; }
-  
+
 .mintrack-height-block {
   min-height: 250px; }
 
@@ -5070,7 +5070,7 @@ div.bgred ul.error{color:#fff;margin-left:35px}
     line-height: 1.8; }
     .booking-cost p span {
       float: right; }
-	  
+
 .track-cost {
   margin: 0px 0 0; }
   .track-cost span {
@@ -5078,9 +5078,9 @@ div.bgred ul.error{color:#fff;margin-left:35px}
   .track-cost p {
     font-size: 15px;
     margin: 10px 0 0;
-    line-height: 1; }	  
-	  
-	  
+    line-height: 1; }
+
+
 
 .payment-method-collapse .card-header {
   cursor: pointer; }
@@ -5116,7 +5116,7 @@ div.bgred ul.error{color:#fff;margin-left:35px}
 .param dd {
     margin: 0;
     vertical-align: baseline;
-} 
+}
 
 .shopping-cart-wrap .price {
     font-size: 18px;
@@ -5132,7 +5132,7 @@ div.bgred ul.error{color:#fff;margin-left:35px}
     border-radius: 8px;
 	border-color: #ff6b6b;
 	border-radius: .35rem;
-	-webkit-font-smoothing: antialiased; 
+	-webkit-font-smoothing: antialiased;
 	color: #737373;'
 }
 
@@ -5219,7 +5219,7 @@ h5.form_sub {
 #items td, #items th {
     border: 1px solid #ddd;
     padding:  25px;
-   
+
 }
 
 
@@ -5244,7 +5244,3 @@ h5.form_sub {
     border-radius: 4px;
     font-size: 75%;
 }
-
-
-  
-	
