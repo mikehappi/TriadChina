@@ -36,9 +36,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 p{ color: black;}
 
 h1 span {
-    border-bottom: 2px solid #E74011 !important;
-    display: inline;
-    padding-bottom: 20px;
+    
 }
 h1 span :after {
   background: none repeat scroll 0 0 transparent;
@@ -50,10 +48,6 @@ h1 span :after {
   position: absolute;
   background: #E74011
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-
-h1 span hover:after {
   width: 100%;
   left: 0;
 }
