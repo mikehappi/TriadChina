@@ -30,9 +30,7 @@ margin-right: auto;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    color: black;
-    line-height: 1.37em;
-    font-weight: 600;
+    color: black!important;
     font-family:AP !important;
 }
 p{ color: black;}
