@@ -237,11 +237,16 @@ width:  100%;
 
 
  .scontent {
- display: inline-block !important;
- height: 840px;
- width:  100%;
- background-color: white;
- padding-top: 110px;
+   display: inline-block !important;
+  height: 840px;
+  background-color: white;
+  width: 100%;
+  background-color: white;
+  padding: 8% 75%;
+  width: 250%;
+  box-sizing: border-box;
+  left: -75%;
+  position: relative;
  }
 
  .scontainer{
