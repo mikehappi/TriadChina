@@ -20,7 +20,7 @@ display: flex;
 justify-content: center;
 }
 .lsection{
-  width: 1200px !important;
+  width: 100% ;
   font-family:AP !important;
 }
 
@@ -30,12 +30,10 @@ justify-content: center;
 
 
 .asection{
-  width: 1200px !important;
-  font-family:AP !important;
+
   padding-top: 155px !important;
 }
 .page-title{
-  font-family:AP !important;
 font-size: 20px !important;
 margin-bottom: 80px !important;
 }
@@ -78,14 +76,11 @@ width: 800px;
 --------------------------------------------------------------*/
 
  .wsection{
-   width: 1200px !important;
-   font-family:AP !important;
   padding-top: 90px !important;
 
  }
 
  .page-title{
- font-family:AP !important;
  font-size: 20px !important;
  margin-bottom: 80px !important;
  }
@@ -277,14 +272,12 @@ width: 800px;
  --------------------------------------------------------------*/
 
  .clsection{
-   width: 1200px !important;
    font-family:AP !important;
        margin-top: 90px !important;
 
  }
 
  .page-title{
- font-family:AP !important;
  font-size: 20px !important;
  margin-bottom: 80px !important;
  }
@@ -300,7 +293,6 @@ width: 800px;
  .clcontent {
  display: inline-block !important;
  height: 720px;
- width:  1200px;
  }
 
  .clcontainer{
@@ -355,16 +347,16 @@ width: 800px;
  --------------------------------------------------------------*/
 
  .psection{
-   width: 1200px !important;
+
    font-family:AP !important;
-       margin-top: 90px !important;
+       margin-top: 90px ;
 
  }
 
  .page-title{
  font-family:AP !important;
  font-size: 20px !important;
- margin-bottom: 80px !important;
+ margin-bottom: 80px ;
  }
 
  /*underline title */
@@ -376,7 +368,7 @@ width: 800px;
 
 
  .pcontent {
- display: inline-block !important;
+ display: inline-block t;
  height: 510px;
  width:  1200px;
  background-color: white;
@@ -424,14 +416,13 @@ font-size: 22px !important;
    --------------------------------------------------------------*/
 
  .awsection{
-   width: 1200px !important;
+
    font-family:AP !important;
-       margin-top: 90px !important;
+       margin-top: 90px;
 
  }
 
  .page-title{
- font-family:AP !important;
  font-size: 20px !important;
  margin-bottom: 80px !important;
  }
@@ -494,14 +485,11 @@ font-size: 22px !important;
  --------------------------------------------------------------*/
 
  .csection{
-   width: 1200px !important;
-   font-family:AP !important;
    padding-top: 90px !important;
     padding-bottom: 150px !important;
  }
 
  .page-title{
- font-family:AP !important;
  font-size: 20px !important;
  margin-bottom: 80px !important;
  }
@@ -611,20 +599,3 @@ font-size: 22px !important;
  /*--------------------------------------------------------------
  # Media Qeries  Mobile CSSS adapation
  --------------------------------------------------------------*/
-
-   @@media screen and(max-width: 768px) {
-     body {
-     display: grid;
-     grid-template-areas: "header" 'body' "footer";
-     /* justify-content: center;
-     background-color: #e3e3e3 !important;} */
-   }
- }
- @@media screen and(max-width:768px) {
-    #nav{
-      grid-area: header;
-    }
-    .navbar{
-      margin-bottom: unset
-    }
- }
