@@ -18,15 +18,15 @@ font-family:AP !important;
 
 .section{
 display: flex;
-justify-content: center;
 margin-left: auto;
 margin-right: auto;
-
+max-width: 1200px;
 
 }
 .lsection{
   width: 100% ;
   color:black;
+
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -36,21 +36,22 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 p{ color: black;}
 
 h1 span {
+  border-bottom: 2px solid #E74011 !important;
+  display: grid;
+  padding-bottom: 20px;
+  position: relative;
+  border-bottom-width: thin;
+  right: -25%;
+  position: relative;
+  padding: 0 0 0 50vw;
+  width: 54vw;
+  box-sizing: border-box;
+  left: -50vw;
+  position: relative;
+
 
 }
-h1 span :after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: #E74011;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 100%;
-  left: 0;
-}
+
 
 .page-title{
 font-size: 20px !important;
@@ -471,7 +472,7 @@ font-size: 22px !important;
     padding-bottom: 150px !important;
  }
 
- 
+
 
  .ccontent {
  display: inline-block !important;
