@@ -47,7 +47,6 @@ padding-bottom: 20px;
 }
 
 .Acontent h3 {
-  font-family:AP ;
   font-size:38px ;
   margin-bottom: 38px;
 }
@@ -206,13 +205,12 @@ width: 800px;
 
  .ssection{
 width:  100%;
-   font-family:AP ;
-  padding-top: 90px ;
+padding-top: 90px ;
 
  }
 
  .page-title{
- font-family:AP ;
+
  font-size: 20px ;
  margin-bottom: 80px ;
  }
@@ -271,7 +269,6 @@ width:  100%;
  --------------------------------------------------------------*/
 
  .clsection{
-   font-family:AP ;
   margin-top: 90px ;
 
  }
@@ -347,14 +344,11 @@ width:  100%;
  --------------------------------------------------------------*/
 
  .psection{
-
-   font-family:AP ;
-       margin-top: 90px ;
+margin-top: 90px ;
 
  }
 
  .page-title{
- font-family:AP ;
  font-size: 20px ;
  margin-bottom: 80px ;
  }
@@ -416,9 +410,7 @@ font-size: 22px ;
    --------------------------------------------------------------*/
 
  .awsection{
-
-   font-family:AP ;
-       margin-top: 90px;
+ margin-top: 90px;
 
  }
 
