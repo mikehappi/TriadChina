@@ -11,19 +11,17 @@ body {
 display: flex;
 flex-direction: column;
 justify-content: center;
-background-color: #e3e3e3 ;
-line-height: unset ;
+background-color: #e3e3e3 !important;
+line-height: unset !important;
 }
 
 .section{
 display: flex;
 justify-content: center;
-margin-left: auto;
-margin-right: auto;
 }
 .lsection{
   width: 100% ;
-  font-family:AP ;
+  font-family:AP !important;
 }
 
 /*--------------------------------------------------------------
@@ -32,36 +30,37 @@ margin-right: auto;
 
 
 .asection{
-padding-top: 155px ;
+padding-top: 155px !important;
 }
 .page-title{
-font-size: 20px ;
-margin-bottom: 80px ;
+font-size: 20px !important;
+margin-bottom: 80px !important;
 }
 h1 span {
-border-bottom: 2px solid #E74011 ;
+border-bottom: 2px solid #E74011 !important;
 display: inline;
 padding-bottom: 20px;
 }
 .asection p {
-  margin:0px ;
+  margin:0px !important;
 
 }
 
 .Acontent h3 {
-  font-size:38px ;
-  margin-bottom: 38px;
+  font-family:AP !important;
+  font-size:38px !important;
+  margin-bottom: 38px!important;
 }
 
 .Acontent p {
-  font-size:30Px ;
+  font-size:30Px !important;
 
 }
 
 .Acontent img {
 width: 800px;
     height: auto;
-  margin: 45px 0 0 0 ;}
+  margin: 45px 0 0 0 !important;}
 
 
 /*--------------------------------------------------------------
@@ -76,21 +75,21 @@ width: 800px;
 --------------------------------------------------------------*/
 
  .wsection{
-  padding-top: 90px ;
+  padding-top: 90px !important;
 
  }
 
  .page-title{
- font-size: 20px ;
- margin-bottom: 80px ;
+ font-size: 20px !important;
+ margin-bottom: 80px !important;
  }
 
  .wcontent {
- display: inline-block ;
+ display: inline-block !important;
  }
 
  h1 span {
- border-bottom: 2px solid #E74011 ;
+ border-bottom: 2px solid #E74011 !important;
  display: inline;
  padding-bottom: 20px;
  }
@@ -115,8 +114,8 @@ width: 800px;
   background-color: #F2F2F2;}
 
   .iifitem img{
-  width:592px ;
-  height:333px ;
+  width:592px !important;
+  height:333px !important;
 
   }
   .iifitemR {
@@ -124,27 +123,27 @@ width: 800px;
      margin-left: 15px;
   }
   .iifitemR img{
-  width:592px ;
-  height:333px ;
+  width:592px !important;
+  height:333px !important;
 
   }
 
   .iicat {
-  font-size:14px ;
-  color:#E74011;
+  font-size:14px !important;
+  color:#E74011!important;
   margin-bottom: 7px;
   }
   .iipr {
-  line-height: 40.8px ;
-  font-size:34px ;
+  line-height: 40.8px !important;
+  font-size:34px !important;
   }
   .iipd {
-  line-height: 26.4px ;
-  font-size:22px ;
+  line-height: 26.4px !important;
+  font-size:22px !important;
   }
   .iilo{
-  font-size:14px ;
-  line-height: 16.8px ;
+  font-size:14px !important;
+  line-height: 16.8px !important;
   margin-top: 20px;
   }
 
@@ -159,8 +158,8 @@ width: 800px;
    margin-bottom: 15px;
  }
  .iiifitems  img{
-   width:390px ;
-   height:220px ;
+   width:390px !important;
+   height:220px !important;
  }
 
  .iiifitems {
@@ -187,8 +186,8 @@ width: 800px;
         /* Make the caption a block so it occupies its own line. */
        display: block;
         text-align: left;
-        height: 400px;
-        width: 330px;
+        height: 400px!important;
+        width: 330px!important;
         margin-left: 60px;
         margin-top: 40px;
       }
@@ -207,26 +206,27 @@ width: 800px;
 
  .ssection{
 width:  100%;
-padding-top: 90px ;
+   font-family:AP !important;
+  padding-top: 90px !important;
 
  }
 
  .page-title{
-
- font-size: 20px ;
- margin-bottom: 80px ;
+ font-family:AP !important;
+ font-size: 20px !important;
+ margin-bottom: 80px !important;
  }
 
  /*underline title */
  h1 span {
- border-bottom: 2px solid #E74011 ;
+ border-bottom: 2px solid #E74011 !important;
  display: inline;
  padding-bottom: 20px;
  }
 
 
  .scontent {
- display: inline-block ;
+ display: inline-block !important;
  height: 840px;
  width:  100%;
  background-color: white;
@@ -248,8 +248,8 @@ padding-top: 90px ;
  }
 
  .scap{
-   font-size:28px ;
-   text-align: center ;
+   font-size:28px !important;
+   text-align: center !important;
    margin-top: 20px;
    margin-bottom: 47px;
 
@@ -271,6 +271,7 @@ padding-top: 90px ;
  --------------------------------------------------------------*/
 
  .clsection{
+   font-family:AP !important;
   margin-top: 90px ;
 
  }
@@ -282,7 +283,7 @@ padding-top: 90px ;
 
  /*underline title */
  h1 span {
- border-bottom: 2px solid #E74011 ;
+ border-bottom: 2px solid #E74011 !important;
  display: inline;
  padding-bottom: 20px;
  }
@@ -306,14 +307,14 @@ padding-top: 90px ;
      width: 100px;
  }
  .clitem p {
-   margin:0 ;
+   margin:0 !important;
  }
 
  .clcontent hr {
-   margin-top: 40px;
-   margin-bottom: 40px;
-   border: 0 ;
-   border-top: 1px solid #FFF;
+   margin-top: 40px!important;
+   margin-bottom: 40px!important;
+   border: 0 !important;
+   border-top: 1px solid #FFF!important;
  }
 
  .clitem .blackwhite{
@@ -346,18 +347,21 @@ padding-top: 90px ;
  --------------------------------------------------------------*/
 
  .psection{
-margin-top: 90px ;
+
+   font-family:AP !important;
+       margin-top: 90px ;
 
  }
 
  .page-title{
- font-size: 20px ;
+ font-family:AP !important;
+ font-size: 20px !important;
  margin-bottom: 80px ;
  }
 
  /*underline title */
  h1 span {
- border-bottom: 2px solid #E74011 ;
+ border-bottom: 2px solid #E74011 !important;
  display: inline;
  padding-bottom: 20px;
  }
@@ -386,15 +390,15 @@ margin-top: 90px ;
  }
 
  .pcap{
-   font-size:28px ;
-   text-align: center ;
+   font-size:28px !important;
+   text-align: center !important;
    margin-top: 30px;
    margin-bottom: 47px;
 
  }
 
  .pcap h6 {
-font-size: 22px ;
+font-size: 22px !important;
 
  }
 
@@ -412,25 +416,27 @@ font-size: 22px ;
    --------------------------------------------------------------*/
 
  .awsection{
- margin-top: 90px;
+
+   font-family:AP !important;
+       margin-top: 90px;
 
  }
 
  .page-title{
- font-size: 20px ;
- margin-bottom: 80px ;
+ font-size: 20px !important;
+ margin-bottom: 80px !important;
  }
 
  /*underline title */
  h1 span {
- border-bottom: 2px solid #E74011 ;
+ border-bottom: 2px solid #E74011 !important;
  display: inline;
  padding-bottom: 20px;
  }
 
 
  .awcontent {
- display: inline-block ;
+ display: inline-block !important;
  height: 360px;
  }
 
@@ -446,14 +452,14 @@ font-size: 22px ;
      width: 100px;
  }
  .awitem p {
-   margin:0 ;
+   margin:0 !important;
  }
 
  .awcontent hr {
-   margin-top: 40px;
-   margin-bottom: 40px;
-   border: 0 ;
-   border-top: 1px solid #FFF;
+   margin-top: 40px!important;
+   margin-bottom: 40px!important;
+   border: 0 !important;
+   border-top: 1px solid #FFF!important;
  }
 
  .awitem .blackwhite{
@@ -478,21 +484,21 @@ font-size: 22px ;
  --------------------------------------------------------------*/
 
  .csection{
-   padding-top: 90px ;
-    padding-bottom: 150px ;
+   padding-top: 90px !important;
+    padding-bottom: 150px !important;
  }
 
  .page-title{
- font-size: 20px ;
- margin-bottom: 80px ;
+ font-size: 20px !important;
+ margin-bottom: 80px !important;
  }
 
  .ccontent {
- display: inline-block ;
+ display: inline-block !important;
  }
 
  h1 span {
- border-bottom: 2px solid #E74011 ;
+ border-bottom: 2px solid #E74011 !important;
  display: inline;
  padding-bottom: 20px;
  }
@@ -517,22 +523,22 @@ font-size: 22px ;
   background-color: #F2F2F2;}
 
   .cfitem img{
-  width:592px ;
-  height:333px ;
+  width:592px !important;
+  height:333px !important;
   }
   .cfitemR {
  background-color: #F2F2F2;
      margin-left: 15px;
   }
   .cfitemR img{
-  width:592px ;
-  height:333px ;
+  width:592px !important;
+  height:333px !important;
 
   }
  .cop{
    position: relative;
-   width: 592px ;
-   height: 333px ;
+   width: 592px !important;
+   height: 333px !important;
 
  }
 
@@ -545,8 +551,8 @@ font-size: 22px ;
      bottom: 0;
      background-color: rgba(0,0,0,0.5);
      z-index: 0;
-     width: 592px ;
-     height: 333px ;
+     width: 592px !important;
+     height: 333px !important;
  }
   .center {
    position: absolute;
@@ -554,7 +560,7 @@ font-size: 22px ;
    left: 50%;
    transform: translate(-50%, -50%);
    font-size: 38px;
-   color: white ;
+   color: white !important;
  }
 
   .ccaption {
@@ -570,22 +576,22 @@ font-size: 22px ;
 
 
   .ccd {
-  line-height: 33.6px ;
-  font-size:28px ;
+  line-height: 33.6px !important;
+  font-size:28px !important;
   }
   .cmail{
-  font-size:22px ;
-  line-height: 26.4px ;
+  font-size:22px !important;
+  line-height: 26.4px !important;
   margin-top: 20px;
   }
 
   .ccaption a{
-      color:black ;
-      text-decoration: none ;
+      color:black !important;
+      text-decoration: none !important;
       }
 
     .ccaption a:hover {
-      color: #E74011 ;
+      color: #E74011 !important;
       }
 
 
