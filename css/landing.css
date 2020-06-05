@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: balck;
     line-height: 1.37em;
     font-weight: 600;
+    font-family:AP !important;
 }
 p{ color: black;}
 
@@ -304,6 +305,7 @@ width:  100%;
  .clcontent {
  display: inline-block ;
  height: 720px;
+ width: 100%;
  }
 
  .clcontainer{
@@ -450,6 +452,7 @@ font-size: 22px !important;
  .awcontent {
  display: inline-block !important;
  height: 360px;
+ width: 100%;
  }
 
  .awcontainer{
