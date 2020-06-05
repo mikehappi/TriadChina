@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 p{ color: black;}
 
 h1 span {
-    
+
 }
 h1 span :after {
   background: none repeat scroll 0 0 transparent;
@@ -46,10 +46,15 @@ h1 span :after {
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #E74011
+  background: #E74011;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 100%;
   left: 0;
+}
+
+.page-title{
+font-size: 20px !important;
+margin-bottom: 80px !important;
 }
 
 
@@ -61,10 +66,7 @@ h1 span :after {
 .asection{
 padding-top: 155px !important;
 }
-.page-title{
-font-size: 20px !important;
-margin-bottom: 80px !important;
-}
+
 
 .asection p {
   margin:0px !important;
@@ -104,10 +106,7 @@ width: 800px;
 
  }
 
- .page-title{
- font-size: 20px !important;
- margin-bottom: 80px !important;
- }
+
 
  .wcontent {
  display: inline-block !important;
@@ -230,12 +229,6 @@ width:  100%;
 
  }
 
- .page-title{
- font-family:AP !important;
- font-size: 20px !important;
- margin-bottom: 80px !important;
- }
-
 
  .scontent {
    display: inline-block !important;
@@ -293,10 +286,6 @@ width:  100%;
 
  }
 
- .page-title{
- font-size: 20px ;
- margin-bottom: 80px;
- }
 
 
 
@@ -365,13 +354,6 @@ width:  100%;
 
  }
 
- .page-title{
- font-family:AP !important;
- font-size: 20px !important;
- margin-bottom: 80px ;
- }
-
-
 
  .pcontent {
    display: inline-block;
@@ -433,10 +415,6 @@ font-size: 22px !important;
 
  }
 
- .page-title{
- font-size: 20px !important;
- margin-bottom: 80px !important;
- }
 
 
  .awcontent {
@@ -493,10 +471,7 @@ font-size: 22px !important;
     padding-bottom: 150px !important;
  }
 
- .page-title{
- font-size: 20px !important;
- margin-bottom: 80px !important;
- }
+ 
 
  .ccontent {
  display: inline-block !important;
