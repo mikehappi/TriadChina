@@ -35,10 +35,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 p{ color: black;}
 
-h1 span {
-    border-bottom: 2px solid #E74011 !important;
-    display: inline;
-    padding-bottom: 20px;
+
+h1 ::after {
+  top: 65%;
+  height: 2px;
+  width: 90%;
+  left: 5%;
+  background-color: #E74011 !important;
 }
 
 /*--------------------------------------------------------------
