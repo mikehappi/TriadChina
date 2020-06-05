@@ -38,12 +38,13 @@ p{ color: black;}
 h1 span {
   border-bottom: 2px solid #E74011 !important;
   padding-bottom: 20px;
-  right: -25%;
-  padding: 0 0 0 50vw;
-  width: 54vw;
-  box-sizing: border-box;
-  left: -50vw;
-  position: relative;
+  /*Two  frame blocks
+  right: -25vw;
+padding: 0 0 0 50vw;
+width: 54vw;
+box-sizing: border-box;
+left: -50vw;
+position: relative;*/
 
 
 }
