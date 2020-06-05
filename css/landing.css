@@ -18,6 +18,10 @@ line-height: unset !important;
 .section{
 display: flex;
 justify-content: center;
+display: flex;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
 }
 .lsection{
   width: 100% ;
