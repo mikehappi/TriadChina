@@ -206,9 +206,9 @@ width: 800px;
  --------------------------------------------------------------*/
 
  .ssection{
-   width: 1200px !important;
+width:  100%;
    font-family:AP !important;
-          padding-top: 90px !important;
+  padding-top: 90px !important;
 
  }
 
@@ -229,7 +229,7 @@ width: 800px;
  .scontent {
  display: inline-block !important;
  height: 840px;
- width:  1200px;
+ width:  100%;
  background-color: white;
  padding-top: 110px;
  }
@@ -238,6 +238,7 @@ width: 800px;
    display: flex;
    align-items: center;
    justify-content: space-around;
+   max-width: 1200px;
  }
  .sitem img{
    border: 1px;
