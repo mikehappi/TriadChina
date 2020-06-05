@@ -13,6 +13,7 @@ flex-direction: column;
 justify-content: center;
 background-color: #e3e3e3 !important;
 line-height: unset !important;
+font-family:AP !important;
 }
 
 .section{
@@ -20,7 +21,7 @@ display: flex;
 justify-content: center;
 margin-left: auto;
 margin-right: auto;
-font-family:AP !important;
+
 
 }
 .lsection{
@@ -51,7 +52,6 @@ h1 span {
 border-bottom: 2px solid #E74011 !important;
 display: inline;
 padding-bottom: 20px;
-color:black;
 }
 .asection p {
   margin:0px !important;
