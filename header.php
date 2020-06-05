@@ -101,11 +101,11 @@ jQuery(document).ready(function($){
 $('li').find('ul').addClass('hidden-xs hidden-md hidden-sm')
 });
 </script>
-
+<!--
 <script src="<?php bloginfo('template_url'); ?>/js/bundle.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/fury.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/parallax.min.js"></script>
-<!-- Hide Menu on Scroll -->
+ Hide Menu on Scroll -->
 <script>
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
