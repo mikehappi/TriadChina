@@ -238,7 +238,6 @@ width:  100%;
    display: flex;
    align-items: center;
    justify-content: space-around;
-   max-width: 1200px;
  }
  .sitem img{
    border: 1px;
@@ -274,13 +273,13 @@ width:  100%;
 
  .clsection{
    font-family:AP !important;
-       margin-top: 90px !important;
+  margin-top: 90px ;
 
  }
 
  .page-title{
- font-size: 20px !important;
- margin-bottom: 80px !important;
+ font-size: 20px ;
+ margin-bottom: 80px;
  }
 
  /*underline title */
@@ -292,7 +291,7 @@ width:  100%;
 
 
  .clcontent {
- display: inline-block !important;
+ display: inline-block ;
  height: 720px;
  }
 
@@ -301,6 +300,7 @@ width:  100%;
    align-items: center;
    justify-content: space-between;
    margin-top: 40px;
+
  }
  .clitem img{
    border: 1px;
@@ -439,7 +439,6 @@ font-size: 22px !important;
  .awcontent {
  display: inline-block !important;
  height: 360px;
- max-width:  1200px;
  }
 
  .awcontainer{
