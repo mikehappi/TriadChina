@@ -371,7 +371,7 @@ width:  100%;
  .pcontent {
  display: inline-block t;
  height: 510px;
- width:  1200px;
+ width: 100%;
  background-color: white;
  padding-top: 110px;
  }
@@ -439,7 +439,7 @@ font-size: 22px !important;
  .awcontent {
  display: inline-block !important;
  height: 360px;
- width:  1200px;
+ max-width:  1200px;
  }
 
  .awcontainer{
