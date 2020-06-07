@@ -235,7 +235,6 @@ width:  100%;
   width: 100%;
   padding-top: 8%;
    /*
-
   width: 250%;
   box-sizing: border-box;
   left: -75%;
@@ -359,11 +358,7 @@ width:  100%;
       height: 510px;
       width: 100%;
       background-color: white;
-      padding: 8% 75%;
-      width: 250%;
-      box-sizing: border-box;
-      left: -75%;
-      position: relative;
+      padding-top: 8%;
  }
 
 
