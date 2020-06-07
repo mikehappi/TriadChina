@@ -17,16 +17,11 @@ font-family:AP !important;
 }
 
 .section{
-display: flex;
-margin-left: auto;
-margin-right: auto;
-max-width: 1200px;
 
 }
 .lsection{
   width: 100% ;
   color:black;
-
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -38,15 +33,6 @@ p{ color: black;}
 h1 span {
   border-bottom: 2px solid #E74011 !important;
   padding-bottom: 20px;
-  /*Two  frame blocks
-  right: -25vw;
-padding: 0 0 0 50vw;
-width: 54vw;
-box-sizing: border-box;
-left: -50vw;
-position: relative;*/
-
-
 }
 
 
@@ -63,6 +49,9 @@ margin-bottom: 60px !important;
 
 .asection{
 padding-top: 155px !important;
+margin-left: auto;
+margin-right: auto;
+max-width: 1200px;
 }
 
 
@@ -88,12 +77,6 @@ width: 800px;
   margin: 45px 0 0 0 !important;}
 
 
-/*--------------------------------------------------------------
-# Media Qeries  Mobile CSSS adapation
---------------------------------------------------------------*/
-@media only screen and (max-width: 500px) {
-
-}
 
 /*--------------------------------------------------------------
 # Our Work
@@ -101,7 +84,9 @@ width: 800px;
 
  .wsection{
   padding-top: 90px !important;
-
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
  }
 
 
@@ -227,6 +212,10 @@ width:  100%;
 
  }
 
+.ssection .page-title{
+ margin-left: auto;
+ margin-right: auto;
+ max-width: 1200px;}
 
  .scontent {
    display: inline-block !important;
@@ -245,6 +234,9 @@ width:  100%;
    display: flex;
    align-items: center;
    justify-content: space-around;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 1200px;
  }
  .sitem img{
    border: 1px;
