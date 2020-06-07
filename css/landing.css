@@ -16,7 +16,6 @@ background-color: #e3e3e3 !important;
 line-height: unset !important;
 font-family:AP !important;
 --small--width-gutter: 1.25%;
---small-height-gutter:15px;
 --card-height-gutter: 40px;
 --card-width-gutter:60px;
 }
@@ -115,7 +114,7 @@ width: 800px;
    height: 730px; */
    display: grid;
    height: 730px;
-   gap: var(--small-height-gutter) var(--small-width-gutter);
+   gap:0 1.25%;
  }
  .iifcontent-double{
    grid-template-columns: repeat(auto-fill, minmax(48.75%,1fr));
