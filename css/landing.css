@@ -15,6 +15,9 @@ justify-content: center;
 background-color: #e3e3e3 !important;
 line-height: unset !important;
 font-family:AP !important;
+--desktop-width: 1200px;
+--tablet-width: 1024px;
+--mobile-width: 414px;
 --small--width-gutter: 1.25%;
 --card-height-gutter: 40px;
 --card-width-gutter:60px;
@@ -48,11 +51,11 @@ margin-bottom: 60px !important;
 
 .default-width {
   margin: 0 auto;
-  width: 1200px;
+  width: var(--desktop-width);
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: var(--tablet-width)) {
   .default-width{
-    width: 75vw;
+    width: calc(var(--tablet-width)*0.75);
   }
 }
 
@@ -115,7 +118,9 @@ width: 800px;
    display: grid;
    height: 730px;
    gap:0 1.25%;
+   margin-top:15px;
  }
+
  .iifcontent-double{
    grid-template-columns: repeat(auto-fill, minmax(48.75%,1fr));
 
