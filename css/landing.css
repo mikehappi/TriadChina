@@ -7,6 +7,11 @@
     font-family:APM;
      src:url("AltoProM.OTF");
 }
+:root{
+  --small--width-gutter: 1.25%;
+  --card-height-gutter: 40px;
+  --card-width-gutter:60px;
+}
 body {
 display: flex;
 flex-direction: column;
@@ -14,6 +19,7 @@ justify-content: center;
 background-color: #e3e3e3 !important;
 line-height: unset !important;
 font-family:AP !important;
+
 }
 
 .section{
@@ -109,15 +115,15 @@ width: 800px;
    justify-content: flex-end;
    height: 730px; */
    display: grid;
-   height: 730px
-   gap:0 2%;
+   height: 730px;
+   gap:0 var(--small-width-gutter);
  }
  .iifcontent-double{
-   grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+   grid-template-columns: repeat(auto-fill,  1fr);
 
  }
  .iifcontent-three{
-   grid-template-columns: repeat(auto-fill, minmax(32%, 1fr));
+   grid-template-columns: repeat(auto-fill,  1fr);
  }
 
   .iifitem {
