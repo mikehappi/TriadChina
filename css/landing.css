@@ -116,14 +116,14 @@ width: 800px;
    height: 730px; */
    display: grid;
    height: 730px;
-   gap:0 var(--small-width-gutter);
+   gap:0 1.25%;
  }
  .iifcontent-double{
-   grid-template-columns: repeat(auto-fill,  1fr);
+   grid-template-columns: repeat(auto-fill, minmax(48.75%,1fr));
 
  }
  .iifcontent-three{
-   grid-template-columns: repeat(auto-fill,  1fr);
+   grid-template-columns: repeat(auto-fill, minmax(32.5%,1fr));
  }
 
   .iifitem {
