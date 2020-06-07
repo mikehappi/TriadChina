@@ -46,6 +46,11 @@ margin-bottom: 60px !important;
   margin: 0 auto;
   width: 1200px;
 }
+@media screen and (max-width: 1024px) {
+  .default-width{
+    width: 75vw;
+  }
+}
 
 /*--------------------------------------------------------------
 # About us
