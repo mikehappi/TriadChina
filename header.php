@@ -16,7 +16,7 @@
    <meta name="viewport" content="width=device-width,initial-scale=1">
    <meta charset="<?php bloginfo( 'charset' ); ?>">
    <link rel="profile" href="http://gmpg.org/xfn/11">
-   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>dist/hamburgers.css" type="text/css" media="screen" />
+   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/dist/hamburgers.css" type="text/css" media="screen" />
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
