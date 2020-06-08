@@ -22,7 +22,7 @@
 <?php wp_head(); ?>
 
 <header class="header-top bg-gray-v1">
-	<div class="container">
+	<div class="container default-width">
 		<div class="row align-items-center">
 			<div class="col-md-6 mb-3 mb-md-0 text-center text-md-left">
 
@@ -39,7 +39,7 @@
 </header>
 
 <header class="header header-shrink sticky-top bg-gray-v1">
-  <div class="container .default-width">
+  <div class="container default-width">
     <nav class="navbar navbar-expand-lg px-md-0">
 
 
