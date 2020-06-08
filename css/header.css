@@ -10,7 +10,8 @@
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
-
+.navbar{
+border: none;}
 .header-top
 {height: 55px;}
 .header
@@ -26,6 +27,7 @@
 header{
     display: block;
 }
+
 
 .container {
     margin-right: auto;
