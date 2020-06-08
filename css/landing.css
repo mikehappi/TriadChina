@@ -242,7 +242,7 @@ width:  100%;
   height: 840px;
   background-color: white;
   width: 100%;
-  padding-top: 4%;
+  padding-top: 25VH;
    /*
   width: 250%;
   box-sizing: border-box;
@@ -368,7 +368,7 @@ width:  100%;
       height: 510px;
       width: 100%;
       background-color: white;
-      padding-top: 4%;
+      padding-top: 22VH;
  }
 
 
