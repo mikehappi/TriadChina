@@ -12,6 +12,14 @@
 --------------------------------------------------------------*/
 .navbar{
 border: none;}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.navitemf > a {padding-right: 0px;}
+
 .header-top
 {height: 55px;}
 .header
