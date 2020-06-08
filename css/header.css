@@ -11,7 +11,9 @@
 # Navigation
 --------------------------------------------------------------*/
 .navbar{
-border: none;}
+border: none;
+min-height: 0;
+padding: 0;}
 
 .navbar-nav > li > a {
 padding-top: 10px !important;
@@ -43,7 +45,7 @@ header{
     margin-left: auto;
     padding-right: 0px!important;
     padding-left: 0px!important;
-    max-width: 100%;
+
 }
 
 .container a{
@@ -97,24 +99,16 @@ padding-left: 0px;}
 
 --------------------------------------------------------------*/
 
-@media only screen and (max-width: 1200px) {{
-.container {
-    width: 1200px;
-}
+@media only screen and (max-width: 1200px) {
+
 }
 
  @media only screen and (max-width: 992px) {
-.container {
-    max-width: 992px;
-}
-}
- @media only screen and (max-width: 768px){
-.container {
 
 }
+ @media only screen and (max-width: 768px){
+
 }
 @media only screen and (max-width: 576px){
-.container {
-    width: 576px;
-}
+
 }

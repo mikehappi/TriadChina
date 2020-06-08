@@ -28,7 +28,7 @@
 
 			</div> <!-- END col-md-6 -->
 			<div class="col-md-6 mb-3 mb-md-0">
-        <div id=lang class="hidden-xs hidden-md hidden-sm" style="font-size:10px;">
+        <div id=lang  style="font-size:10px;">
           <a id="hitem" href="">DE</a>
           <a id="hitems" href="">中文</a>
           <a id="hitems" href="">한국어</a>
@@ -39,7 +39,7 @@
 </header>
 
 <header class="header header-shrink sticky-top bg-gray-v1">
-  <div class="container">
+  <div class="container .default-width">
     <nav class="navbar navbar-expand-lg px-md-0">
 
 
