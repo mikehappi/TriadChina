@@ -184,13 +184,12 @@ margin-left: 50px;
 
 
 
-</div><!-- #content -->
 
-<footer id="colophon" class="site-footer">
+
 
   <nav class="footer navbar">
 
-		<div class="rfooter">
+		<div class="rfooter default-width">
 
 
 		 <div class="fheader">
@@ -317,7 +316,6 @@ margin-left: 50px;
 </div>
 
   </nav>
-</footer><!-- #colophon -->
 </div><!-- #page -->
 <script>
 // When the user clicks on div, open the popup
