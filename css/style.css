@@ -219,7 +219,7 @@ input, textarea {
   top: 50%;
   margin-top: -1px; }
 
-.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+.hamburger-inner, .hamburger-inner::after {
   width: 30px;
   height: 2px;
   background-color: #212529;
@@ -237,10 +237,10 @@ input, textarea {
   -o-transition-timing-function: ease;
   transition-timing-function: ease; }
 
-.is-scrolling .hamburger-inner, .is-scrolling .hamburger-inner::before, .is-scrolling .hamburger-inner::after {
+.is-scrolling .hamburger-inner, .is-scrolling .hamburger-inner::after {
   background-color: #54667a; }
 
-.hamburger-inner::before, .hamburger-inner::after {
+.hamburger-inner::after {
   content: "";
   display: block; }
 
