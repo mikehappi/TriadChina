@@ -76,8 +76,7 @@ height: 30px;
 .navbar-collapse {
 float: right;
 padding-right: 0px;
-padding-left: 0px;
-padding-top: 5px;}
+padding-left: 0px;}
 
 
 
@@ -87,25 +86,24 @@ padding-top: 5px;}
 
 --------------------------------------------------------------*/
 
-@media (min-width: 1200px){
+@media only screen and (max-width: 1200px) {{
 .container {
-    max-width: 1200px;
+    width: 1200px;
 }
 }
 
-@media (min-width: 992px){}
+ @media only screen and (max-width: 992px) {
 .container {
     max-width: 992px;
 }
 }
+ @media only screen and (max-width: 768px){
+.container {
 
-@media (min-width: 768px){
-.container {
-    max-width: 768px;
 }
 }
-@media (min-width: 576px){
+@media only screen and (max-width: 576px){
 .container {
-    max-width: 576px;
+    width: 576px;
 }
 }
