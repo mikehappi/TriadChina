@@ -352,8 +352,8 @@ padding-top: 90px !important;
  }
 
  .clcontent hr {
-   margin-top: 40px!important;
-   margin-bottom: 40px!important;
+   margin-top: 15px!important;
+   margin-bottom: 15px!important;
    border: 0 !important;
    border-top: 1px solid #FFF!important;
  }
@@ -385,7 +385,7 @@ padding-top: 90px !important;
    height: auto;
    }
    .clcontainer{
-     margin-top: 32px;
+     margin-top: 12px;
 
    }
    .clitem img{
