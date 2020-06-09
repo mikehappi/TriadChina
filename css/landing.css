@@ -331,7 +331,7 @@ padding-top: 90px !important;
 
  .clcontent {
  display: inline-block ;
- height: 720px;
+ height: auto;
  width: 100%;
  }
 
@@ -380,7 +380,24 @@ padding-top: 90px !important;
  /*--------------------------------------------------------------
  # Media Qeries  Mobile CSSS adapation
  --------------------------------------------------------------*/
+ @media only screen and (max-width: 1024px) {
+   .clcontent {
+   height: auto;
+   }
+   .clcontainer{
+     margin-top: 32px;
 
+   }
+   .clitem img{
+       height: 50px;
+       width: 50px;
+   }
+   .clcontent hr {
+     margin-top: 8px!important;
+     margin-bottom: 8px!important;
+
+   }
+ }
  /*--------------------------------------------------------------
  # People
  --------------------------------------------------------------*/
