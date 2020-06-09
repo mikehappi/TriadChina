@@ -43,9 +43,6 @@ h1 span {
   padding-bottom: 20px;
 }
 
-
-
-
 .page-title{
 font-size: 20px !important;
 margin-bottom: 60px !important;
@@ -66,14 +63,30 @@ padding-top: 110px;}
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
-@media screen and (max-width: var(--tablet-width)) {
-  .default-width{
-    width: calc(var(--tablet-width)*0.75);
+@media only screen and (max-width: 1920px) {
+  .default-width {
+    margin: 0 auto;
+    width: 1200px;
   }
 }
 
-@media only screen and (max-width: 500px) {
-
+ @media only screen and (max-width: 1024px) {
+   .default-width {
+     margin: 0 auto;
+     width: 768px;
+   }
+}
+ @media only screen and (max-width: 768px){
+   .default-width {
+     margin: 0 auto;
+     width: 672px;
+   }
+}
+@media only screen and (max-width: 576px){
+  .default-width {
+    margin: 0 auto;
+    width: 350px;
+  }
 }
 
 
