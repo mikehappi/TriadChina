@@ -661,3 +661,13 @@ font-size: 22px !important;
 /*--------------------------------------------------------------
       # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+
+  .center {
+   font-size: 26px;
+  }
+  .ccd {
+  font-size:18px !important;
+  }
+
+}
