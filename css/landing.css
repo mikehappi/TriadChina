@@ -286,9 +286,27 @@ width: 100%;
  /*--------------------------------------------------------------
  # Media Qeries  Mobile CSSS adapation
  --------------------------------------------------------------*/
- @media only screen and (max-width: 500px) {
+ @media only screen and (max-width: 1024px) {
+   .iicat {
+   font-size:12px !important;
+   margin-bottom: 7px;
+   }
+   .iipr {
+   line-height: 40.8px !important;
+   font-size:23px !important;
+   }
+   .iipd {
+   line-height: 26.4px !important;
+   font-size:116px !important;
+   }
+   .iilo{
+   font-size:12px !important;
+   line-height: 16.8px !important;
+   margin-top: 20px;
+   }
 
- }
+
+}
 
  /*--------------------------------------------------------------
  # Our services
