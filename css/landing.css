@@ -434,7 +434,7 @@ font-size: 22px !important;
         height: 244px;
    }
    .pitem img{
-       height: 100px;
+       height:100px;
        width: 100px;
    }
    .pcap h6 {
@@ -443,15 +443,7 @@ font-size: 22px !important;
    }
 
 }
- @media only screen and (max-width: 768px){
 
-}
-@media only screen and (max-width: 576px){
-
-}
-@media only screen and (max-width: 375px){
-
-}
 
 
 /*--------------------------------------------------------------
@@ -463,8 +455,6 @@ font-size: 22px !important;
        margin-top: 90px;
 
  }
-
-
 
  .awcontent {
  display: inline-block !important;
@@ -514,6 +504,13 @@ font-size: 22px !important;
  /*--------------------------------------------------------------
  # Media Qeries  Mobile CSSS adapation
  --------------------------------------------------------------*/
+ @media only screen and (max-width: 1024px) {
+   .awitem img{
+       height: 50px;
+       width: 50px;
+   }
+
+}
 
  /*--------------------------------------------------------------
  # Contact us
