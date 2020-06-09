@@ -429,7 +429,29 @@ font-size: 22px !important;
  /*--------------------------------------------------------------
  # Media Qeries  Mobile CSSS adapation
  --------------------------------------------------------------*/
+ @media only screen and (max-width: 1024px) {
+   .pcontent {
+        height: 244px;
+   }
+   .pitem img{
+       height: 100px;
+       width: 100px;
+   }
+   .pcap h6 {
+  font-size: 16px !important;
 
+   }
+
+}
+ @media only screen and (max-width: 768px){
+
+}
+@media only screen and (max-width: 576px){
+
+}
+@media only screen and (max-width: 375px){
+
+}
 
 
 /*--------------------------------------------------------------
