@@ -381,7 +381,7 @@ padding-top: 90px !important;
  # Media Qeries  Mobile CSSS adapation
  --------------------------------------------------------------*/
  @media only screen and (max-width: 1024px) {
-  
+
    .clcontainer{
      margin-top: 12px;
 
@@ -544,7 +544,7 @@ font-size: 22px !important;
 
    .awcontent hr {
      margin-top: 27px!important;
-     margin-bottom: 427px!important;
+     margin-bottom: 27px!important;
    }
 
 }
