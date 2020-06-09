@@ -434,7 +434,19 @@ width:  100%;
  /*--------------------------------------------------------------
  # Media Qeries  Mobile CSSS adapation
  --------------------------------------------------------------*/
- 
+ @media only screen and (max-width: 1024px) {
+
+
+}
+ @media only screen and (max-width: 768px){
+  }
+}
+@media only screen and (max-width: 576px){
+
+}
+@media only screen and (max-width: 375px){
+
+}
  /*--------------------------------------------------------------
  # People
  --------------------------------------------------------------*/
@@ -485,10 +497,19 @@ font-size: 22px !important;
  /*--------------------------------------------------------------
  # Media Qeries  Mobile CSSS adapation
  --------------------------------------------------------------*/
- @media only screen and (max-width: 500px) {
+ @media only screen and (max-width: 1024px) {
 
- }
 
+}
+ @media only screen and (max-width: 768px){
+  }
+}
+@media only screen and (max-width: 576px){
+
+}
+@media only screen and (max-width: 375px){
+
+}
 
    /*--------------------------------------------------------------
    # Our Awards
@@ -551,9 +572,19 @@ font-size: 22px !important;
  /*--------------------------------------------------------------
  # Media Qeries  Mobile CSSS adapation
  --------------------------------------------------------------*/
- @media only screen and (max-width: 500px) {
+ @media only screen and (max-width: 1024px) {
 
- }
+
+}
+ @media only screen and (max-width: 768px){
+  }
+}
+@media only screen and (max-width: 576px){
+
+}
+@media only screen and (max-width: 375px){
+
+}
  /*--------------------------------------------------------------
  # Contact us
  --------------------------------------------------------------*/
@@ -661,6 +692,16 @@ font-size: 22px !important;
       /*--------------------------------------------------------------
       # Media Qeries  Mobile CSSS adapation
       --------------------------------------------------------------*/
-      @media only screen and (max-width: 500px) {
+      @media only screen and (max-width: 1024px) {
 
-      }
+
+     }
+      @media only screen and (max-width: 768px){
+       }
+     }
+     @media only screen and (max-width: 576px){
+
+     }
+     @media only screen and (max-width: 375px){
+
+     }
