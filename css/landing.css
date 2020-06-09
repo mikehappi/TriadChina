@@ -272,7 +272,7 @@ width: 100%;
     }
 
 
-    /* .iiicaption { */
+    .iiicaption {
         /* Make the caption a block so it occupies its own line. */
        /* display: block;
         text-align: left;
@@ -280,7 +280,7 @@ width: 100%;
         width: 330px!important;
         margin-left: 60px;
         margin-top: 40px;
-      } */
+      }
 
 
  /*--------------------------------------------------------------
@@ -307,7 +307,12 @@ width: 100%;
    line-height: auto !important;
    margin-top: 20px;
    }
-
+   .iicaption {
+       height: 310px;
+       width: 472.5px;
+       margin-left: 60px;
+       margin-top: 40px;
+     }
 
 }
 
@@ -429,9 +434,7 @@ width:  100%;
  /*--------------------------------------------------------------
  # Media Qeries  Mobile CSSS adapation
  --------------------------------------------------------------*/
- @media only screen and (max-width: 500px) {
-
- }
+ 
  /*--------------------------------------------------------------
  # People
  --------------------------------------------------------------*/
