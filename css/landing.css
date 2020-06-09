@@ -51,7 +51,7 @@ margin-bottom: 60px !important;
 
 .default-width {
   margin: 0 auto;
-  width: var(--desktop-width);
+  width: 1200px;
 }
 
 .default-ptop{
