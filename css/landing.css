@@ -68,12 +68,20 @@ padding-top: 110px;}
     margin: 0 auto;
     width: 1200px;
   }
+  .page-title{
+  font-size: 20px !important;
+  margin-bottom: 60px !important;
+  }
 }
 
  @media only screen and (max-width: 1024px) {
    .default-width {
      margin: 0 auto;
      width: 768px;
+   }
+   .page-title{
+   font-size: 16px !important;
+   margin-bottom: 48px !important;
    }
 }
  @media only screen and (max-width: 768px){
@@ -117,7 +125,7 @@ padding-top: 155px !important;
 }
 
 .Acontent p {
-  font-size:30Px !important;
+  font-size:30px !important;
 
 }
 
@@ -126,7 +134,31 @@ width: 100%;
     height: auto;
   margin: 45px 0 0 0 !important;}
 
+  /*--------------------------------------------------------------
+  # Media Qeries  Mobile CSSS adapation
+  --------------------------------------------------------------*/
 
+   @media only screen and (max-width: 1024px) {
+     .Acontent h3 {
+       font-family:AP !important;
+       font-size:26px !important;
+       margin-bottom: 38px!important;
+     }
+     .Acontent p {
+       font-size:26px !important;
+
+     }
+
+  }
+   @media only screen and (max-width: 768px){
+    }
+  }
+  @media only screen and (max-width: 576px){
+
+  }
+  @media only screen and (max-width: 375px){
+
+  }
 
 /*--------------------------------------------------------------
 # Our Work
