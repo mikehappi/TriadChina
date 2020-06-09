@@ -79,6 +79,8 @@ padding-top: 110px;}
      margin: 0 auto;
      width: 768px;
    }
+   .default-ptop{
+   padding-top: 48px;}
    .page-title{
    font-size: 16px !important;
    margin-bottom: 48px !important;
@@ -437,8 +439,14 @@ font-size: 22px !important;
        height:100px;
        width: 100px;
    }
-   .pcap h6 {
+   .pcap {
   font-size: 16px !important;
+  margin-top: 30px;
+  margin-bottom: 47px;
+
+   }
+   .pcap h6 {
+  font-size: 12px !important;
 
    }
 
