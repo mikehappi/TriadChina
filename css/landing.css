@@ -182,7 +182,7 @@ width: 100%;
    justify-content: flex-end;
    height: 730px; */
    display: grid;
-   height: 730px;
+   height: 683px;
    gap:0 1.25%;
    margin-top:15px;
  }
@@ -287,21 +287,24 @@ width: 100%;
  # Media Qeries  Mobile CSSS adapation
  --------------------------------------------------------------*/
  @media only screen and (max-width: 1024px) {
+   .iifcont {
+     height: 450px;
+   }
    .iicat {
    font-size:12px !important;
    margin-bottom: 7px;
    }
    .iipr {
-   line-height: 40.8px !important;
+   line-height: auto !important;
    font-size:23px !important;
    }
    .iipd {
-   line-height: 26.4px !important;
+   line-height: auto !important;
    font-size:16px !important;
    }
    .iilo{
    font-size:12px !important;
-   line-height: 16.8px !important;
+   line-height: auto !important;
    margin-top: 20px;
    }
 
