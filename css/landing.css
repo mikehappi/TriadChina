@@ -117,7 +117,7 @@ padding-top: 155px !important;
 }
 
 .Acontent img {
-width: 800px;
+width: 100%;
     height: auto;
   margin: 45px 0 0 0 !important;}
 
@@ -557,8 +557,8 @@ font-size: 22px !important;
      bottom: 0;
      background-color: rgba(0,0,0,0.5);
      z-index: 0;
-     width: 592px !important;
-     height: 333px !important;
+     width: 100%;
+     height: 100%;
  }
   .center {
    position: absolute;
