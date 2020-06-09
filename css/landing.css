@@ -509,6 +509,11 @@ font-size: 22px !important;
        height: 50px;
        width: 50px;
    }
+   .awcontent {
+   display: inline-block !important;
+   height: 208px;
+   width: 100%;
+   }
 
 }
 
