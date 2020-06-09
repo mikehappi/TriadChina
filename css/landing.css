@@ -381,9 +381,7 @@ padding-top: 90px !important;
  # Media Qeries  Mobile CSSS adapation
  --------------------------------------------------------------*/
  @media only screen and (max-width: 1024px) {
-   .clcontent {
-   height: auto;
-   }
+  
    .clcontainer{
      margin-top: 12px;
 
@@ -483,7 +481,7 @@ font-size: 22px !important;
 
  .awcontent {
  display: inline-block !important;
- height: 360px;
+ height: auto;
  width: 100%;
  }
 
@@ -530,6 +528,10 @@ font-size: 22px !important;
  # Media Qeries  Mobile CSSS adapation
  --------------------------------------------------------------*/
  @media only screen and (max-width: 1024px) {
+
+   .awcontainer{
+  margin-top: 12px;
+   }
    .awitem img{
        height: 50px;
        width: 50px;
@@ -538,6 +540,11 @@ font-size: 22px !important;
    display: inline-block !important;
    height: 208px;
    width: 100%;
+   }
+
+   .awcontent hr {
+     margin-top: 27px!important;
+     margin-bottom: 427px!important;
    }
 
 }
