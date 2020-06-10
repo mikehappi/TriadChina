@@ -122,9 +122,12 @@ padding-top: 155px !important;
 }
 
 .Acontent{
+  width: 600px;
+  height:350px
 overflow-wrap: break-word;
   word-wrap: break-word;
-  hyphens: auto;}
+  hyphens: auto;
+}
 
 .Acontent h3 {
 font-size:38px !important;
