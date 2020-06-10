@@ -172,7 +172,7 @@ width: 100%;
  }
  .iifcont {
    display: grid;
-   height: 730px;
+   height: 650px;
    gap:0 1.25%;
    margin-top:15px;
  }
@@ -247,7 +247,7 @@ width: 100%;
  @media only screen and (max-width: 1024px) {
    .iifcont {
      display: grid;
-     height: 400px;
+     height: 432px;
      gap:0 1.25%;
      margin-top:15px;
    }
@@ -256,19 +256,25 @@ width: 100%;
    margin-bottom: 7px;
    }
    .iipr {
-   line-height: 40.8px !important;
+   line-height: 0px !important;
    font-size:23px !important;
    }
    .iipd {
-   line-height: 26.4px !important;
+   line-height: 0px !important;
    font-size:16px !important;
    }
    .iilo{
    font-size:12px !important;
-   line-height: 16.8px !important;
+   line-height: 0px !important;
    margin-top: 20px;
    }
 
+
+   .iicaption {
+     margin-left: 32px;
+     margin-top: 24px;
+     height: 216px;
+     width: 312.5px;}
 
 }
 
@@ -671,4 +677,10 @@ font-size: 22px !important;
   .cmail{
   font-size:16px !important;
   }
+
+  .ccaption {
+    margin-left: 32px;
+    margin-top: 24px;
+    height: 216px;
+    width: 312.5px;}
 }
