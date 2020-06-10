@@ -101,7 +101,7 @@ padding-top: 110px;}
 @media only screen and (max-width: 375px){
   .default-width {
     margin: 0 auto;
-    width: 227px;
+    width: 350px;
   }
 }
 
@@ -302,7 +302,14 @@ width: 100%;
        }
 
 }
+@media only screen and (max-width: 414px) {
+.iifcont {
+  display: initial;}
+.iifitem {
+display: inline-grid;
+}
 
+}
  /*--------------------------------------------------------------
  # Our services
  --------------------------------------------------------------*/
