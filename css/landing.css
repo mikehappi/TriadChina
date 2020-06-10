@@ -119,6 +119,11 @@ padding-top: 155px !important;
 
 }
 
+.Acontent{
+overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;}
+
 .Acontent h3 {
 font-size:38px !important;
 margin-bottom: 38px!important;
@@ -149,15 +154,7 @@ width: 100%;
      }
 
   }
-   @media only screen and (max-width: 768px){
 
-  }
-  @media only screen and (max-width: 576px){
-
-  }
-  @media only screen and (max-width: 375px){
-
-  }
 
 /*--------------------------------------------------------------
 # Our Work
@@ -307,6 +304,7 @@ width: 100%;
   display: initial;}
 .iifitem {
 display: inline-grid;
+margin-bottom: 16px;
 }
 
 }
