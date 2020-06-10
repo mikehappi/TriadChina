@@ -129,4 +129,4 @@ $(document).ready(function(){
 });
 </script>
 
-<?php get_footer (X)?>
+<?php get_footer ()?>
