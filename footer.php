@@ -67,13 +67,13 @@ margin-right: 115px;
 }
 .fcontent{
   margin-top: 32px!important;
-  width: 1200px !important;
+  width: 100%;
   height: 200px !important;
 }
 
 .fcontent:before {
   content: '';
-  width: 1200px;
+  width: 100%;
   border-bottom: solid 1px #000;
   position: absolute;
   left: 0;
@@ -112,7 +112,7 @@ margin-right: 115px;
 }
 
 .ficp{
-  width: 1200px !important;
+  width: 100% !important;
   height:auto;
   position: absolute!important;
 bottom: 40px!important;
