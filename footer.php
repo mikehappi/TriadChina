@@ -41,7 +41,7 @@
     }
 
 .rfooter{
-  width: 1200px !important;
+  width: 100%;
   padding-top: 100px;
   position: relative;
 }
