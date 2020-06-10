@@ -239,6 +239,9 @@ width: 100%;
         width: 472.5px;
         padding-left: 60px;
         padding-top: 40px;
+        overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
       }
 
       .iiicaption {
@@ -249,6 +252,9 @@ width: 100%;
           width: 270px;
           padding-left: 60px;
           padding-top: 40px;
+          overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
         }
  /*--------------------------------------------------------------
  # Media Qeries  Mobile CSSS adapation
@@ -265,11 +271,11 @@ width: 100%;
    margin-bottom: 7px;
    }
    .iipr {
-   line-height: 0px !important;
+   line-height: 27.6px !important;
    font-size:23px !important;
    }
    .iipd {
-   line-height: 0px !important;
+   line-height:19.2px !important;
    font-size:16px !important;
    }
    .iilo{
@@ -663,6 +669,9 @@ font-size: 22px !important;
       width: 472.5px;
       padding-left: 60px;
       padding-top: 40px;
+      overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
     }
 
   .ccd {
@@ -691,15 +700,17 @@ font-size: 22px !important;
    font-size: 26px;
   }
   .ccd {
+  line-height: 21.6px !important;
   font-size:18px !important;
   }
   .cmail{
-  font-size:16px !important;
+  font-size: 16px !important;
+  line-height: 19.2px !important;
   }
 
   .ccaption {
     padding-left: 32px;
-padding-top: 24px;
+    padding-top: 24px;
     height: 216px;
     width: 312.5px;}
 }
