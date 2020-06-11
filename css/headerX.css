@@ -1,0 +1,114 @@
+@font-face{
+    font-family:AP;
+     src:url("AltoPro.OTF");
+}
+@font-face{
+    font-family:APM;
+     src:url("AltoProM.OTF");
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+.navbar{
+border: none;
+min-height: 0;
+padding: 0;}
+
+.navbar-nav > li > a {
+padding-top: 10px !important;
+padding-bottom: 0px!important;
+padding-left: 50px!important;
+padding-right: 0px!important;
+}
+
+
+.header-top
+{height: 55px;}
+.header
+{height: 70px;}
+
+.bg-gray-v1 {
+  background: #f2f2f2;
+  font-family:AP;
+  font-size: 24px;
+  text-decoration: none;
+  }
+
+header{
+    display: block;
+}
+
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+
+}
+
+.container a{
+       color:black !important;
+       }
+
+.container a:hover {
+       color: #E74011 !important;
+       }
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.col-md-6 {
+padding-right: 0px;
+    padding-left: 0px;}
+
+/*langage   */
+#lang {
+    text-align: right;
+    padding-top: 0.6em !important;
+    }
+
+#hitem{
+    font-size: 11.5px!important;
+  text-decoration: none !important;}
+#hitems{
+    margin-left: 10px;
+    text-decoration: none !important;
+    }
+
+/*logo  */
+
+.navbar-brand {
+height: 30px;
+}
+/*Menu */
+.navbar-collapse {
+float: right;
+padding-right: 0px;
+padding-left: 0px;}
+
+
+
+
+/*--------------------------------------------------------------
+# Media Qeries  Mobile CSSS adapation
+
+--------------------------------------------------------------*/
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+ @media only screen and (max-width: 992px) {
+
+}
+ @media only screen and (max-width: 768px){
+
+}
+@media only screen and (max-width: 576px){
+
+}
