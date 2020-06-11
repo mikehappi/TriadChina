@@ -107,6 +107,49 @@ p {
   }
 }
 
+
+
+/*--------------------------------------------------------------
+# Slideshow
+--------------------------------------------------------------*/
+
+
+div.bxslider {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 60px;
+
+  }
+  div.slide {
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 1000px !important;
+  }
+
+  .wp-caption .wp-caption-text {
+      margin: 0 !important;}
+
+
+  .wp-caption-text {
+    text-align: left!important;
+    position: absolute!important;
+    top: 78px!important;
+    left: 100px!important;
+}
+
+.wp-caption {
+    margin-bottom: 1.5em !important;
+    max-width: 100% !important;
+    width: 1000px !important;
+}
+.active-slide {
+      transition-duration: 1s;
+      transition-timing-function: ease-in;
+      transform: scale(1.14);
+      z-index: 9999999;
+    }
+
 /*--------------------------------------------------------------
 # About us
 --------------------------------------------------------------*/

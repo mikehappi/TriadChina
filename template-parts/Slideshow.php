@@ -24,6 +24,7 @@ flex-direction: column;
 justify-content: center;
 background-color: #e3e3e3 !important;
 line-height: unset !important;
+letter-spacing: 0.05em;
 }
 
 .sssection{
@@ -39,9 +40,6 @@ padding-bottom: 150px !important;
 .sscontent {
 display: inline-block !important;
 }
-
-body {
-  letter-spacing: 0.05em;}
 
 div.bxslider {
   position: relative;
