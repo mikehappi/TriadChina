@@ -132,6 +132,10 @@ div.bxslider {
   font-size: 60px;
 
   }
+
+.bx-viewport {
+   height: auto;
+}
   div.slide {
       margin-left: 5px;
       margin-right: 5px;
@@ -150,9 +154,8 @@ div.bxslider {
 }
 
 .wp-caption {
-    margin-bottom: 1.5em !important;
+    margin-bottom: 0px !important;
     max-width: 100% !important;
-    width: 1000px !important;
 }
 .active-slide {
       transition-duration: 1s;
@@ -166,7 +169,7 @@ div.bxslider {
 --------------------------------------------------------------*/
 
  .asection{
-padding-top: 155px !important;
+padding-top: 90px !important;
 }
 
 
