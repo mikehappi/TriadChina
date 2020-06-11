@@ -112,7 +112,19 @@ p {
 /*--------------------------------------------------------------
 # Slideshow
 --------------------------------------------------------------*/
+.sssection{
+display: flex;
+justify-content: center;
+font-family:AP !important;
+padding-top: 180px !important;
+padding-bottom: 150px !important;
+}
 
+
+
+.sscontent {
+display: inline-block !important;
+}
 
 div.bxslider {
   position: relative;
