@@ -14,6 +14,10 @@ get_header(); ?>
 <div class="section">
 <div class="lsection">
 
+  <?php echo do_shortcode('
+[BxSlider_for_WP]
+'); ?>
+
 <?php
     // query for the about page
     $your_query = new WP_Query( 'pagename=about-us' );
