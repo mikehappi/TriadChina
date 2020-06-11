@@ -16,7 +16,7 @@ get_header(); ?>
 <div class="lsection">
   <?php
       // query for the about page
-      $your_query = new WP_Query( 'pagename=slideshow );
+      $your_query = new WP_Query( 'pagename=slideshow' );
       // "loop" through query (even though it's just one page)
       while ( $your_query->have_posts() ) : $your_query->the_post();
           the_content();
@@ -24,6 +24,7 @@ get_header(); ?>
       // reset post data (important!)
       wp_reset_postdata();
   ?>
+
 
 <?php
     // query for the about page
