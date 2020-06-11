@@ -141,5 +141,34 @@ $(document).ready(function(){
   });
 });
 </script>
+<script  src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
+<script  src="<?php echo get_template_directory_uri(); ?>/js/jquery.bxslider.min.js"></script>
+<script>
+  $('.bxslider').bxSlider({
+    stopAutoOnClick: false,
+    slideWidth: 1000,
+    minSlides: 1,
+     maxSlides: 3,
+     moveSlides: 1,
+    pager: true,
+    auto: true,
+    displaySlideQty: 2,
+    responsive: true,
+
+});
+
+
+</script>
+<script>
+$('.top-slider').bxSlider({
+  onSliderLoad: function(currentIndex) {
+    $('.top-slider').children().eq(currentIndex).addClass('active-slide');
+  },
+  onSlideAfter: function($slideElement){
+    $('.top-slider').children().removeClass('active-slide');
+    $slideElement.addClass('active-slide');
+  }
+});
+</script>
 </body>
 </html
