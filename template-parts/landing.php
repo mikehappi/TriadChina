@@ -10,7 +10,7 @@ get_header(); ?>
 
 <?php $upload_dir = wp_upload_dir(); ?>
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/landing.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bundle.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/dist/hamburgers.css" type="text/css" media="screen" />
 <div class="section">
 <div class="lsection">
 
