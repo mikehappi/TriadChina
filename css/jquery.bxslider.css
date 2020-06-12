@@ -26,6 +26,18 @@
   max-width: 100%;
   display: block;
 }
+
+.bx-wrapper::after {
+ background-color: #E74011;
+  opacity: 0.2;
+  background-position: center center;
+  background-size: cover;
+  height: 39px;
+  width: 300px;
+  position: absolute;
+  right: 10px;
+  z-index: 0;
+}
 .bx-wrapper img ::after{
   background-color: #E74011;
   opacity: 0.2;}
