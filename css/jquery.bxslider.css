@@ -26,6 +26,11 @@
   max-width: 100%;
   display: block;
 }
+.bx-wrapper img ::after{
+border: 1px white solid;
+  background-color:orange;
+  opacity:80%;}
+
 .bxslider {
   margin: 0;
   padding: 0;
