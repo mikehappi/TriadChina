@@ -206,7 +206,7 @@ width: 1200px;
 
   .bx-wrapper .bx-pager,
   .bx-wrapper .bx-controls-auto {
-left: 18.5%;
+padding-left: 18.5%;
   }
 }
   @media only screen and (max-width: 1024px) {
@@ -216,5 +216,5 @@ left: 18.5%;
 
     .bx-wrapper .bx-pager,
     .bx-wrapper .bx-controls-auto {
-  left: 18.5%;
+padding-left: 53px;
   }
