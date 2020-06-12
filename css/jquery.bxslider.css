@@ -27,7 +27,7 @@
   display: block;
 }
 
-.bx-wrapper::after {
+.bx-wrapper img::after {
  background-color: #E74011;
   opacity: 0.2;
   background-position: center center;
