@@ -30,6 +30,7 @@ font-family:AP !important;
 .lsection{
   width: 100% ;
   color:black;
+overflow-x: hidden    /*  no scroll to axis x */
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -182,7 +183,7 @@ div.bxslider {
           padding: 0px 0px 0 0px !important;
       }
       div.slide {
-          margin-left: 5px;
+          margin-left: 0px;
           margin-right: 5px;
           width: 1000px !important;
       }
@@ -203,6 +204,17 @@ div.bxslider {
         width: 100vw !important;
     }
   }
+
+  @media only screen and (max-width: 414px) {
+
+
+    }
+
+    @media only screen and (max-width: 375px) {
+
+
+      }
+
 
 
 /*--------------------------------------------------------------
