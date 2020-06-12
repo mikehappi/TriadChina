@@ -155,7 +155,7 @@ $(document).ready(function(){
     displaySlideQty: 2,
     responsive: true,
     pause:5000,
-    speed:100,
+    speed:500,
 });
 
 

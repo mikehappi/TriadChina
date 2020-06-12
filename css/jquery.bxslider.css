@@ -45,6 +45,11 @@ figure::before {
 .bxslider {
   margin: 0;
   padding: 0;
+  transition: transform 5s;
+  transition-duration: 0.1s;
+  -ms-transform: scale(1.1) translate3d(-3030px, 0px, 0px); /* IE 9 */
+  -webkit-transform: scale(1.1) translate3d(-3030px, 0px, 0px); /* Safari 3-8 */
+  transform: scale(1.1) translate3d(-3030px, 0px, 0px);
 }
 ul.bxslider {
   list-style: none;
