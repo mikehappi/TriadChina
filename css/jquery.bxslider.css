@@ -238,4 +238,30 @@ padding-left: 53px;
   .bx-wrapper img {
     object-fit: cover;
 }
+
+figure::before {
+    margin-left: -500px;
+
+}
+}
+
+@media only screen and (max-width: 414px) {
+.bx-wrapper img {
+  object-fit: cover;
+}
+
+figure::before {
+  margin-left: -300px;
+}
+}
+
+
+@media only screen and (max-width: 375px) {
+.bx-wrapper img {
+  object-fit: cover;
+}
+
+figure::before {
+  margin-left: -200px;
+}
 }
