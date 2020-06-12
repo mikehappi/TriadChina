@@ -13,7 +13,7 @@ get_header(); ?>
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/jquery.bxslider.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/dist/hamburgers.css" type="text/css" media="screen" />
 <div class="section">
-<div class="lsection">
+<div class="lsection" style="overflow-x: hidden;">
   <?php
       // query for the about page
       $your_query = new WP_Query( 'pagename=slideshow' );
