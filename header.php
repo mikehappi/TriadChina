@@ -23,7 +23,7 @@
 
         <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 
-<div class="row row-header-1">
+<div class="row row-header-1 default-width">
 <div class="container-fluid">
             <div id=lang class="hidden-xs hidden-md hidden-sm" style="font-size:10px;">
               <a id="hitem" href="">DE</a>

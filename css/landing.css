@@ -164,6 +164,23 @@ div.bxslider {
       z-index: 9999999;
     }
 
+
+    /*--------------------------------------------------------------
+    # Media Qeries  Mobile CSSS adapation
+    --------------------------------------------------------------*/
+    @media only screen and (max-width: 1920px) {
+      div.slide {
+          margin-left: 5px;
+          margin-right: 5px;
+          width: 83vw;
+      }
+      .slive figure {width: 83vw;}
+      .wp-caption-text {
+        top: 36px!important;
+        left: 48px!important;
+    }
+    }
+
 /*--------------------------------------------------------------
 # About us
 --------------------------------------------------------------*/
