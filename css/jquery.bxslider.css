@@ -28,9 +28,20 @@
 }
 
 
-.wp-caption .wp-caption-text::before{
+.wp-caption .wp-caption-text::after{
+  z-index: 0;
+  position:absolute;
+  content: '';
   background-color: #E74011;
-  opacity: 0.2;}
+  opacity: 0.2;
+}
+
+  .wp-caption .wp-caption-text::before{
+     position:absolute;
+     z-index: 0;
+     content: '';
+     background-color: #E74011;
+     opacity: 0.2;}
 
 .bxslider {
   margin: 0;
