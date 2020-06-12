@@ -173,9 +173,7 @@ div.bxslider {
       .bx-wrapper {
         max-width: 100vw;
       }
-      .bx-viewport {
-        height: 360px;
-      }
+    
       div.slide {
           margin-left: 5px;
           margin-right: 5px;
