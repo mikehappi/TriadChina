@@ -170,12 +170,20 @@ div.bxslider {
     --------------------------------------------------------------*/
     @media only screen and (max-width: 1024px) {
       .sssection {
-    
+
           padding-top: 108px !important;
       }
       .bx-wrapper {
         max-width: 100vw !important;
       }
+
+    div.bxslider  {
+   width: 100vw;
+   position: relative;
+   transition-duration: 0.5s;
+   transform: translate3d(-17vw, 0px, 0px);
+   font-size: 50px;
+}
 
       div.slide {
           margin-left: 5px;
