@@ -186,9 +186,9 @@ div.bxslider {
 }
 
       div.slide {
-          margin-left: 5px;
-          margin-right: 5px;
-          width: 83vw;
+          margin-left: 5px !important;
+          margin-right: 5px!important;
+          width: 83vw !important;
       }
       .slive figure {width: 83vw;}
       .wp-caption-text {
