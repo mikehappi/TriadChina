@@ -181,20 +181,12 @@ div.bxslider {
       .bx-viewport {
           padding: 0px 0px 0 0px !important;
       }
-
-    /* div.bxslider  {
-   width: 100vw !important;
-   position: relative !important;
-   transition-duration: 0.5s!important;
-   transform: translate3d(0, 0px, 0px)!important;
-   font-size: 50px!important;
-} */
-
       div.slide {
-          margin-left: 0px !important;
-          margin-right: 0px!important;
-          width: 100vw !important;
+          margin-left: 5px;
+          margin-right: 5px;
+          width: 1000px !important;
       }
+
       .slive figure {
         width: 100vw;
       }
@@ -203,11 +195,15 @@ div.bxslider {
         left: 48px!important;
     }
     }
+@media only screen and (max-width: 768px) {
 
+    div.slide {
+        margin-left: 0px !important;
+        margin-right: 0px!important;
+        width: 100vw !important;
+    }
+  }
 
-    .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
-    width: 100vw !important;
-}
 
 /*--------------------------------------------------------------
 # About us
