@@ -168,7 +168,14 @@ div.bxslider {
     /*--------------------------------------------------------------
     # Media Qeries  Mobile CSSS adapation
     --------------------------------------------------------------*/
-    @media only screen and (max-width: 1920px) {
+    @media only screen and (max-width: 1024px) {
+
+      .bx-wrapper {
+        max-width: 100vw;
+      }
+      .bx-viewport {
+        height: 360px;
+      }
       div.slide {
           margin-left: 5px;
           margin-right: 5px;
