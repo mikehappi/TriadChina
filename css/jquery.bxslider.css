@@ -217,3 +217,9 @@ padding-left: 18.5%;
     .bx-wrapper .bx-controls-auto {
 padding-left: 53px;
   }
+
+  @media only screen and (max-width: 768px) {
+  .bx-wrapper img {
+    object-fit: cover;
+}
+}
