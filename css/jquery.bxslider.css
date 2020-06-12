@@ -28,20 +28,28 @@
 }
 
 
-.wp-caption .wp-caption-text::after{
+figure ::after{
+  position: absolute;
   z-index: 0;
-  position:absolute;
   content: '';
   background-color: #E74011;
   opacity: 0.2;
+  height: 39px;
+  margin: -10px;
+  width: 100VW;
+  height: 100VH;
 }
-
-  .wp-caption .wp-caption-text::before{
-     position:absolute;
-     z-index: 0;
-     content: '';
-     background-color: #E74011;
-     opacity: 0.2;}
+figure::before{
+  position: absolute;
+z-index: 0;
+content: '';
+background-color: #E74011;
+opacity: 0.2;
+height: 39px;
+margin: -10px;
+width: 100VW;
+height: 100VH;
+}
 
 .bxslider {
   margin: 0;
