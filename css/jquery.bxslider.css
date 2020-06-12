@@ -27,9 +27,8 @@
   display: block;
 }
 .bx-wrapper img ::after{
-border: 1px white solid;
-  background-color:orange;
-  opacity:80%;}
+  background-color: #E74011;
+  opacity: 0.2;}
 
 .bxslider {
   margin: 0;
