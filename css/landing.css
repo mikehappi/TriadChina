@@ -26,7 +26,6 @@ font-family:AP !important;
 /*--------------------------------------------------------------
 # Default
 --------------------------------------------------------------*/
-}
 .lsection{
   width: 100% ;
   color:black;
@@ -67,6 +66,12 @@ p {
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
 @media only screen and (max-width: 1920px) {
+
+  .lsection{
+    width: 100% ;
+    color:black;
+    overflow-x:hidden;    /*  no scroll to axis x */
+  }
   .default-width {
     margin: 0 auto;
     width: 1200px;
