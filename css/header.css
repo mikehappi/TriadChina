@@ -189,19 +189,11 @@ margin-top: 0.5em;
     padding:0.5em 0em 0em 1.5em;
 }
 
-
-}/*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 
 --------------------------------------------------------------*/
-
-@media only screen and (max-width: 1920px) {
-
-
-}
-
 @media screen and (max-width: 769px) {
-
 
   .navbar-default{
     width: 100VW !important;
