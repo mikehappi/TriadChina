@@ -181,22 +181,18 @@ div.bxslider {
 
     /* Animation */
 
-    .bx-clone .wp-caption-text{
+  .wp-caption-text{
     display: none;
   }
 
-
-    .wp-caption-text {
-    animation: myslidecaption 5.1s 1;
+  div.slide  .wp-caption-text {
+    position: relative;
+    animation: myslidecaption 2.1s 1;
   }
-
-    @keyframes myslidecaption {
-  0%   {left: 0px;}
-  50%  {left: 200px;}
-
-}
-
-
+  @keyframes myslidecaption {
+  0% { transform: translate3d(-100%,0, 0); }
+  25% { transform: translate3d(0, 0, 0); }
+  }
 
     /*--------------------------------------------------------------
     # Media Qeries  Mobile CSSS adapation
