@@ -182,7 +182,7 @@ div.bxslider {
     /* Animation */
 
   .wp-caption-text{
-    display: none;
+    /* display: none; */
   }
 
   div.slide  .wp-caption-text {
