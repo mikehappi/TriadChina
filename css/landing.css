@@ -165,6 +165,10 @@ div.bxslider {
     left: 100px!important;
 }
 
+    .bx-clone .wp-caption-text{
+    display: none;
+  }
+
 .wp-caption {
     margin-bottom: 0px !important;
     max-width: 100% !important;
