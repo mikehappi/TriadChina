@@ -220,6 +220,10 @@ margin-bottom: 0px
 }
 
 @media screen and (max-width: 768px) {
+.navbar-default {
+  height:72px;
+}
+
 .navbar-nav > li > a {
     padding: 0px 0px 0px 25px !important;
 }
