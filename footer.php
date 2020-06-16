@@ -188,15 +188,18 @@ margin-left: 50px;
 @media only screen and (max-width: 1024px) {
 
   .rfooter {
-      padding-top: 100px;
+      padding-top: 64px;
 
   }
   .footer{
     height:624px;
-  text-align: start;}
+text-align: left;}
 
   .fsocialicon {
-      text-align: start;}
+      text-align: left;
+      float: left;
+      margin-right: 0;
+    }
 
 
   #fmenulist{
