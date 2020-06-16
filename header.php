@@ -87,7 +87,7 @@ $('li').find('ul').addClass('hidden-xs hidden-md hidden-sm')
 });
 </script>
 
-<!-- Hide Menu on Scroll -->
+<!-- Hide Menu on Scroll
 <script>
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
@@ -99,4 +99,4 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
-</script>
+</script> -->
