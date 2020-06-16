@@ -503,7 +503,6 @@ width: 100%;
   }
 
   .iicaption {
-    height: auto;
     width: 312.5px;}
 
     .iiicaption {
@@ -515,7 +514,6 @@ width: 100%;
 
 @media only screen and (max-width: 769px) {
   .iicaption {
-    height: auto;
     width: 312.5px;}
 
     .iiicaption {
