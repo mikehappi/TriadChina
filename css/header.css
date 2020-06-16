@@ -158,7 +158,7 @@ margin-top: 0.5em;
 .navbar-brand {
 padding: 0em 0em 0em 48px;
 }
-.navbar-brand  svg {width: 100%; height: 24px;}
+.navbar-brand  svg { height: 24px;}
 
 
 .navbar-default{
@@ -166,13 +166,6 @@ padding: 0em 0em 0em 48px;
   }
 button,input[type="button"],input[type="reset"],input[type="submit"] {
 	border: none !important;}
-
-
-.navbar-toggle {
-margin-top: 0px;
-margin-right: 32px;
-margin-bottom: 0px
-}
 
 .row-header-1 {
   width: 100VW !important;
