@@ -58,9 +58,11 @@ svg:hover {
 
 .fmenutitle {
 font-size:26px ;
+padding-bottom: 28px;
 }
 .fsocialtitle {
 font-size:26px ;
+padding-bottom: 28px;
 }
 .fcontent{
   margin-top: 32px;
@@ -184,22 +186,22 @@ margin-left: 50px;
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
 @media only screen and (max-width: 1024px) {
-.footer{
-  height:624px;
-text-align: start;}
 
-.fsocialicon {
-    text-align: start;}
-}
+  .rfooter {
+      padding-top: 100px;
 
-@media only screen and (max-width: 769px) {
-
+  }
   .footer{
     height:624px;
   text-align: start;}
 
   .fsocialicon {
       text-align: start;}
+  }
+
+  #fmenulist{
+    margin:0;
+    padding-bottom: 46px;
   }
 
 }
