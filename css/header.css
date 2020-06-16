@@ -219,7 +219,16 @@ margin-bottom: 0px
     padding-top: 13px!important
 }
 
+@media screen and (max-width: 768px) {
+.navbar-nav > li > a {
+    padding: 0px 0px 0px 25px !important;
+}
+}
 
 
+@media screen and (max-width: 414px) {
+
+.navbar-toggle {
+display: none;}
 
 }
