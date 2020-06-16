@@ -288,6 +288,7 @@ margin-left: 50px;
   </g>
 </svg><span class="popuptext" id="myPopup"><img class="alignnone size-full wp-image-343" src="https://triadchina.keyidev.com/wp-content/uploads/2020/04/wechat-qr.png" alt="" width="140" height="140" /></span>
 </div>
+<a id=logo class="fbrand" href="https://www.instagram.com/triadshanghai/">
   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve">
   <g>
@@ -320,7 +321,7 @@ margin-left: 50px;
   		C540.9131,271.7939,528.0176,284.6865,512.1123,284.6865z"/>
   </g>
   </svg>
-
+ </a>
 </div>
 
 </div>
