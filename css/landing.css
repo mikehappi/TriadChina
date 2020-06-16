@@ -237,7 +237,7 @@ div.bxslider {
 
     }
 
-    @media only screen and (max-width: 896px) { {
+    @media only screen and (max-width: 896px)  {
         .wp-caption-text {
         left: 6.5% !important;
         }
@@ -247,7 +247,7 @@ div.bxslider {
 
        }
 
-  @media only screen and (max-width: 834px) { {
+  @media only screen and (max-width: 834px) {
       .wp-caption-text {
       left: 3.5% !important;
       }
