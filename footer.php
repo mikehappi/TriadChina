@@ -237,7 +237,8 @@ margin-left: 50px;
 				</div>
 
         <div class="fcontent">
-          <div class="fsocialtitle"> Follow us on</div>
+          <div class="fmenutitle"> Discover</div>
+
 		        <ul id="fmenu">
 		            <?php wp_nav_menu( array(
 		                'menu'              => 'primary',
@@ -255,7 +256,7 @@ margin-left: 50px;
 		        </ul>
 
 <div class="fsocialicon">
-<div class="fmenutitle"> Discover</div>
+<div class="fsocialtitle"> Follow us on</div>
   <div class="popup" onclick="myFunction()"><svg  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve" style="
     margin-right: 2px;">
