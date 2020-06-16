@@ -190,6 +190,10 @@ margin-bottom: 0px
     display: none;
     }
     .navbar-brand {
-        padding: 0.5em 0em 0em 35px;
+        padding: 0em 0em 0em 50px;
     }
+
+    .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    padding-left: 31px;
+}
 }
