@@ -43,6 +43,7 @@
   padding-top: 100px;
   position: relative;
   display: inline-flex;
+  justify-content: space-between;
 }
 
 svg:hover {
@@ -81,8 +82,9 @@ margin-top: 7px;
   z-index: 1;
 }
 .navbar-collapse {
-  margin:0;}
-
+    padding-right: 0px;
+    }
+    
   .fmenu{
 padding-right: 150px;
   }
