@@ -404,7 +404,7 @@ width: 100%;
           padding-top: 40px;
           overflow-wrap: break-word;
   word-wrap: break-word;
-  hyphens: auto;
+  /* hyphens: auto; */
         }
  /*--------------------------------------------------------------
  # Media Qeries  Mobile CSSS adapation
@@ -450,6 +450,18 @@ width: 100%;
          padding-left: 32px;
          padding-top: 24px;
        }
+
+}
+
+@media only screen and (max-width: 769px) {
+  .iicaption {
+    height: auto;
+    width: auto;}
+
+    .iiicaption {
+        height: auto;
+        width: auto;
+      }
 
 }
 @media only screen and (max-width: 414px) {
