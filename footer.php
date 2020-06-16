@@ -328,7 +328,7 @@ margin-left: 50px;
 <div class="ficp">
 <span style="float: left;">   © 2020 Triad China Ltd. All rights reserved.</span>
 <ul>
-  <li class="fitemsicp"><a id="fitems" href="" >京ICP备XXXXXXXX号</a></li>
+  <!-- <li class="fitemsicp"><a id="fitems" href="" >京ICP备XXXXXXXX号</a></li> -->
   <li class="fitemsicp"><a id="fitems" href="" >Imprint</a></li>
 <li class="fitemsicp"><a id="fitem" href="" >Privacy policy</a></li>
 </ul>
