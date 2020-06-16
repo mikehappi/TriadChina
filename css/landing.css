@@ -461,6 +461,25 @@ width: 100%;
 
 }
 
+@media only screen and (max-width: 896px) {
+  .iifcont {
+    display: initial;}
+  .iifitem {
+  display: inline-grid;
+  margin-bottom: 16px;
+  }
+
+  .iicaption {
+    height: auto;
+    width: 312.5px;}
+
+    .iiicaption {
+      height: 229px;
+      width: auto;
+      }
+
+}
+
 @media only screen and (max-width: 769px) {
   .iicaption {
     height: auto;
