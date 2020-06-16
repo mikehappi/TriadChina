@@ -119,7 +119,7 @@ padding-right: 150px;
   width: 100% !important;
   height:auto;
   position: absolute!important;
-bottom: 40px!important;
+bottom: 20px!important;
 }
 
 .ficp > ul {
@@ -230,6 +230,7 @@ padding-right: 0px;
 
   .ficp > ul {
       float: left;
+      padding-top: 20px;
 }
 
 
