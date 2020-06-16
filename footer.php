@@ -203,7 +203,10 @@ margin-left: 50px;
     margin:0;
     padding-bottom: 46px;
   }
-
+  .fcontent {
+    margin-top: 64px;}
+.popup {
+  margin-right: 16px}
 }
 
 @media only screen and (max-width: 375px) {
