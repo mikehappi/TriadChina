@@ -80,7 +80,12 @@ margin-top: 7px;
   bottom: 100px;
   z-index: 1;
 }
+.navbar-collapse {
+  margin:0;}
 
+  .fmenu{
+padding-right: 150px;
+  }
 
 #fmenulist {
   text-align: left;
@@ -199,7 +204,9 @@ display: block;
 
     display: block;
   }
-
+  .fmenu{
+padding-right: 0px;
+  }
 
   .fsocialicon {
       text-align: left;
