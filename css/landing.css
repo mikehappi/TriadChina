@@ -181,8 +181,8 @@ div.bxslider {
 
     /* Animation */
 
-  .wp-caption-text{
-    /* display: none; */
+  /* .wp-caption-text{
+    display: none;
   }
 
   div.slide  .wp-caption-text {
@@ -192,7 +192,7 @@ div.bxslider {
   @keyframes myslidecaption {
   0% { transform: translate3d(-100%,0, 0); }
   25% { transform: translate3d(0, 0, 0); }
-  }
+  } */
 
     /*--------------------------------------------------------------
     # Media Qeries  Mobile CSSS adapation
