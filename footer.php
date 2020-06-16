@@ -113,7 +113,7 @@ padding-right: 150px;
   width: auto;
   height: 30px !important;
   float: right;
-  margin-right: 185px;
+  margin-right: 110px;
 }
 
 .ficp{
