@@ -94,6 +94,14 @@ p {
    margin-bottom: 48px !important;
    }
 }
+
+@media only screen and (max-width: 768px){
+  .default-width {
+    margin: 0 auto;
+    width: 672px;
+  }
+}
+
  @media only screen and (max-width: 768px){
    .default-width {
      margin: 0 auto;
