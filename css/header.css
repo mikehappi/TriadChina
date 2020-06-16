@@ -105,8 +105,8 @@ langague
 /*Logo */
   #logo {
     display: inline-block;
-    float: left;
-    vertical-align: middle;
+    /* float: left;
+    vertical-align: middle; */
   }
 
   svg:hover {
