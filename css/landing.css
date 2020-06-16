@@ -239,7 +239,7 @@ div.bxslider {
 
     @media only screen and (max-width: 896px)  {
         .wp-caption-text {
-        left: 6.5% !important;
+        left: 6.5% ;
         }
         .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
         padding-left: 6.8%;
@@ -249,7 +249,7 @@ div.bxslider {
 
   @media only screen and (max-width: 834px) {
       .wp-caption-text {
-      left: 3.5% !important;
+      left: 3.5%;
       }
       .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
       padding-left: 3.8%;
