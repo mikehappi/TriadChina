@@ -119,7 +119,7 @@ padding-right: 150px;
   width: 100% !important;
   height:auto;
   position: absolute!important;
-bottom: 20px!important;
+bottom: 40px;
 }
 
 .ficp > ul {
@@ -232,13 +232,19 @@ padding-right: 0px;
       float: left;
       padding-top: 20px;
 }
+.ficp{
+width: 50% !important;
+bottom: 20px;
+}
 
 
 
 }
 
-@media only screen and (max-width: 375px) {
-
+@media only screen and (max-width: 736px) {
+  .ficp{
+    width: 100% !important;
+  }
 
   }
 
