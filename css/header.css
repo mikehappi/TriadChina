@@ -232,8 +232,8 @@ margin-bottom: 0px
   .row-header-1 {
       padding-top: 24px;
   }
-.navbar-toggle {
-display: none;
-}
+  .navbar-toggle {
+    display: none;
+    }
 
 }
