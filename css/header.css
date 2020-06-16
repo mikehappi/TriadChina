@@ -219,22 +219,16 @@ margin-bottom: 0px
 }
 
 .row-header-1 {
-    width: 100VW !important;
-    padding-top: 13px!important
-}
-}
-@media screen and (max-width: 768px) {
-.navbar-default {
-  height:72px;
-}
-
-.navbar-nav > li > a {
-    padding: 0px 0px 0px 25px !important;
+  width: 100VW !important;
+  padding-top: 13px!important
 }
 }
 
 
 @media screen and (max-width: 414px) {
+  .navbar-default {
+    height:72px;
+  }
 
 .navbar-toggle {
 display: none;}
