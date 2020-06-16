@@ -67,9 +67,8 @@ padding-bottom: 28px;
 }
 .fcontent{
 margin-top: 7px;
-  width: 100%;
-  height: 200px ;
-  display: inline-flex;
+height: 200px ;
+display: inline-flex;
 }
 
 .fcontent:before {
