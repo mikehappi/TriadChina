@@ -84,7 +84,7 @@ margin-top: 7px;
 .navbar-collapse {
     padding-right: 0px;
     }
-    
+
   .fmenu{
 padding-right: 150px;
   }
@@ -110,7 +110,6 @@ padding-right: 150px;
 }
 
 .fsocialicon {
-  text-align: right;
   width: auto;
   height: 30px !important;
   float: right;
