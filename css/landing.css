@@ -229,13 +229,35 @@ div.bxslider {
       }
       .wp-caption-text {
         top: 92px!important;
-        left: 8% !important;
+        left: 12.8%;
     }
     .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
-        padding-left: 6.8%;
+      padding-left: 12.2%;
     }
 
     }
+
+    @media only screen and (max-width: 896px) { {
+        .wp-caption-text {
+        left: 6.5% !important;
+        }
+        .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+        padding-left: 6.8%;
+        }
+
+       }
+
+  @media only screen and (max-width: 834px) { {
+      .wp-caption-text {
+      left: 3.5% !important;
+      }
+      .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+      padding-left: 3.8%;
+      }
+
+     }
+
+
 @media only screen and (max-width: 769px) {
   .sssection {
       padding-top: 85px;
