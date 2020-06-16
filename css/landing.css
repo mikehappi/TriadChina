@@ -199,7 +199,6 @@ div.bxslider {
     --------------------------------------------------------------*/
     @media only screen and (max-width: 1024px) {
       .sssection {
-
           padding-top: 108px;
       }
       .bx-wrapper {
@@ -229,7 +228,7 @@ div.bxslider {
     }
 
     }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
   .sssection {
       padding-top: 85px;
   }
@@ -240,20 +239,18 @@ div.bxslider {
     }
 
     .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
-        padding-left: 36px;
+        padding-left: 45px;
     }
 
   }
-
-  @media only screen and (max-width: 414px) {
-
-
 
     }
 
     @media only screen and (max-width: 375px) {
 
-
+      .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+        padding-left: 9px;
+      }
       }
 
 
