@@ -227,6 +227,13 @@ padding-right: 0px;
   top: -9vh;
   margin-left: 25vw;
   }
+
+  .ficp > ul {
+      float: left;
+}
+
+
+
 }
 
 @media only screen and (max-width: 375px) {
