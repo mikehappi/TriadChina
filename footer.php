@@ -51,23 +51,21 @@ svg:hover {
 
 .fheader {
     display: flex;
-		height: 30px !important;
+		height: 30px ;
 		align-items: baseline;
 		justify-content: space-between;
 }
 
 .fmenutitle {
-font-size:26px !important;
-margin-left: 430px;
+font-size:26px ;
 }
 .fsocialtitle {
-font-size:26px !important;
-margin-right: 115px;
+font-size:26px ;
 }
 .fcontent{
-  margin-top: 32px!important;
+  margin-top: 32px;
   width: 100%;
-  height: 200px !important;
+  height: 200px ;
 }
 
 .fcontent:before {
@@ -186,7 +184,8 @@ margin-left: 50px;
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
 @media only screen and (max-width: 1024px) {
-
+.footer{
+  height:624px;}
 
 }
 
