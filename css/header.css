@@ -154,6 +154,10 @@ margin-top: 0.5em;
 
 }
 
+.sssection {
+    padding-top: 85px !important;
+}
+
 .navbar-brand {
     padding: 0em 0em 0em 20px;
 }
