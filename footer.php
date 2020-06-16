@@ -26,7 +26,7 @@
     font-size: 18px !important;
     text-decoration: none;
     height: 550px;
-    text-align: right !important;
+    text-align: right;
     display: flex;
     justify-content: center;
 
@@ -117,7 +117,7 @@ bottom: 40px!important;
 
 .ficp > ul {
       display: inline!important;
-      float:right !important;
+      float:right ;
     list-style: none!important;}
 
    .ficp li {
@@ -185,13 +185,22 @@ margin-left: 50px;
 --------------------------------------------------------------*/
 @media only screen and (max-width: 1024px) {
 .footer{
-  height:624px;}
+  height:624px;
+text-align: start;}
 
+.fsocialicon {
+    text-align: start;}
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 769px) {
 
+  .footer{
+    height:624px;
+  text-align: start;}
 
+  .fsocialicon {
+      text-align: start;}
+  }
 
 }
 
