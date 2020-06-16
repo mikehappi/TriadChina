@@ -197,7 +197,7 @@ margin-left: 50px;
 
   .fsocialicon {
       text-align: start;}
-  }
+
 
   #fmenulist{
     margin:0;
@@ -207,6 +207,11 @@ margin-left: 50px;
     margin-top: 64px;}
 .popup {
   margin-right: 16px}
+
+  .popup .popuptext {
+  top: -9vh;
+  margin-left: 25vw;
+  }
 }
 
 @media only screen and (max-width: 375px) {
