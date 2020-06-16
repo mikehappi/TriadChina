@@ -205,7 +205,7 @@ margin-top: 0.5em;
 }
 
 .navbar-brand {
-    padding: 0em 0em 0em 30px;
+    padding: 0em 0em 0em 20px;
 }
 
 button,input[type="button"],input[type="reset"],input[type="submit"] {
@@ -222,7 +222,7 @@ margin-bottom: 0px
     width: 100VW !important;
     padding-top: 13px!important
 }
-
+}
 @media screen and (max-width: 768px) {
 .navbar-default {
   height:72px;
