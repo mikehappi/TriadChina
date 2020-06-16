@@ -229,7 +229,9 @@ margin-bottom: 0px
   .navbar-default {
     height:72px;
   }
-
+  .row-header-1 {
+      padding-top: 24px;
+  }
 .navbar-toggle {
 display: none;}
 
