@@ -89,7 +89,6 @@ padding-right: 150px;
 
 #fmenulist {
   text-align: left;
-  margin-right: 145px;
 }
 
 .fbar-nav{
