@@ -101,7 +101,7 @@ font-size:26px ;
 }
 
 .fsocialicon {
-  text-align: right; */
+  text-align: right;
   width: auto;
   height: 30px !important;
   float: right;
