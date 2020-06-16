@@ -162,6 +162,11 @@ div.bxslider {
       width: 1000px !important;
   }
 
+
+  .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    padding-left: 12.2%;
+  }
+
   .wp-caption .wp-caption-text {
       margin: 0 !important;}
 
