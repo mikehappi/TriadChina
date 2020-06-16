@@ -216,19 +216,13 @@ width: 1200px;
           padding: 0px 0px 0 14%;
   }
 
-  .bx-wrapper .bx-pager,
-  .bx-wrapper .bx-controls-auto {
-padding-left:20.1%;;
-  }
+
 }
   @media only screen and (max-width: 1024px) {
     .bx-viewport {
             padding: 0px 0px 0px 0px;
     }
 
-    .bx-wrapper .bx-pager,
-    .bx-wrapper .bx-controls-auto {
-padding-left: 53px;
   }
 
   @media only screen and (max-width: 768px) {

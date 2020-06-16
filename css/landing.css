@@ -273,13 +273,22 @@ div.bxslider {
     }
 
   }
-
+  @media only screen and (max-width: 414px) {
+    .wp-caption-text {
+    left: 8.2%;
+    }
+    .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    padding-left: 7.1%;
+    }
+    }
 
 
     @media only screen and (max-width: 375px) {
-
+      .wp-caption-text {
+      left: 8.5%;
+      }
       .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
-        padding-left: 9px;
+        padding-left: 7.4%;
       }
       }
 
