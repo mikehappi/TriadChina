@@ -399,7 +399,7 @@ width: 100%;
         padding-top: 40px;
         overflow-wrap: break-word;
   word-wrap: break-word;
-  /* hyphens: auto; */
+  hyphens: auto;
       }
 
       .iiicaption {
@@ -439,7 +439,7 @@ width: 100%;
    .iilo{
    font-size:12px !important;
    line-height: 0px !important;
-   margin-top: 20px;
+   margin-top: 0px;
    }
 
 
