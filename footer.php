@@ -79,7 +79,7 @@ font-size:26px ;
 }
 
 
-#fmenu {
+#fmenulist {
   text-align: left;
   margin-right: 145px;
 }
@@ -237,9 +237,11 @@ margin-left: 50px;
 				</div>
 
         <div class="fcontent">
-          <div class="fmenutitle"> Discover</div>
 
-		        <ul id="fmenu">
+
+		        <div class="fmenu">
+              <div class="fmenutitle"> Discover</div>
+              <ul id="fmenulist">
 		            <?php wp_nav_menu( array(
 		                'menu'              => 'primary',
 		                'theme_location'    => 'primary',
@@ -254,7 +256,7 @@ margin-left: 50px;
 		        ?>
 
 		        </ul>
-
+</div>
 <div class="fsocialicon">
 <div class="fsocialtitle"> Follow us on</div>
   <div class="popup" onclick="myFunction()"><svg  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
