@@ -26,7 +26,6 @@
     font-size: 18px !important;
     text-decoration: none;
     height: 550px;
-    text-align: right;
     display: flex;
     justify-content: center;
 
@@ -43,6 +42,7 @@
 .rfooter{
   padding-top: 100px;
   position: relative;
+  display: inline-flex;
 }
 
 svg:hover {
@@ -65,9 +65,10 @@ font-size:26px ;
 padding-bottom: 28px;
 }
 .fcontent{
-  margin-top: 32px;
+margin-top: 7px;
   width: 100%;
   height: 200px ;
+  display: inline-flex;
 }
 
 .fcontent:before {
@@ -186,14 +187,19 @@ margin-left: 50px;
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
 @media only screen and (max-width: 1024px) {
+  .footer{
+    height:624px;
+  text-align: left;}
 
   .rfooter {
       padding-top: 64px;
-
+display: block;
   }
-  .footer{
-    height:624px;
-text-align: left;}
+  .fcontent{
+
+    display: block;
+  }
+
 
   .fsocialicon {
       text-align: left;
