@@ -21,6 +21,7 @@ font-family:AP !important;
 --small--width-gutter: 1.25%;
 --card-height-gutter: 40px;
 --card-width-gutter:60px;
+margin: 0;
 }
 
 /*--------------------------------------------------------------
