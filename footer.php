@@ -199,6 +199,10 @@ margin-left: 50px;
       padding-top: 64px;
 display: block;
   }
+
+.fbrand  svg { height: 24px;}
+
+
   .fcontent{
 
     display: block;
