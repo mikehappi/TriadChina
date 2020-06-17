@@ -8,7 +8,7 @@
      src:url("AltoProM.OTF");
 }
 
-body, html { position: fixed; }
+html { position: fixed; }
 body {
 display: flex;
 flex-direction: column;
