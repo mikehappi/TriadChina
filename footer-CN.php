@@ -80,6 +80,7 @@ display: inline-flex;
 }
 .navbar-collapse {
     padding-right: 0px;
+    padding-left: 0px;
     }
 
   .fmenu{
@@ -290,7 +291,7 @@ bottom: 20px;
 
 
 		        <div class="fmenu">
-              <div class="fmenutitle menutitlecn"> 发现</div>
+              <div class="fmenutitle menutitlecn">发现</div>
               <ul id="fmenulist">
 		            <?php wp_nav_menu( array(
 		                'menu'              => 'primary',
@@ -308,7 +309,7 @@ bottom: 20px;
 		        </ul>
 </div>
 <div class="fsocialicon">
-<div class="fsocialtitle menutitlecn"> 关注我们</div>
+<div class="fsocialtitle menutitlecn">关注我们</div>
   <div class="popup" onclick="myFunction()"><svg  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   	 width="30px" height="30px" viewBox="0 0 768 768" enable-background="new 0 0 768 768" xml:space="preserve" style="
     margin-right: 2px;">
