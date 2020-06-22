@@ -26,7 +26,7 @@
 <div class="row row-header-1 default-width">
 <div class="container-fluid">
             <div id=lang class="hidden-xs hidden-md hidden-sm" style="font-size:10px;">
-              <!-- <a id="hitem" href="">DE</a> -->
+              <a id="hitem" href="">EN</a>
               <a id="hitems" href="https://triadchina.keyidev.com/zh/">中文</a>
               <!-- <a id="hitems" href="">한국어</a> -->
             </div>
