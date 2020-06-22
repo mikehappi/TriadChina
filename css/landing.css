@@ -924,7 +924,7 @@ font-size: 22px !important;
       padding-top: 40px;
       overflow-wrap: break-word;
   word-wrap: break-word;
-  hyphens: auto;
+  hyphens: none;
     }
 
   .ccd {
