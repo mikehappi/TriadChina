@@ -12,7 +12,7 @@ get_header(); ?>
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/landingcn.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/jquery.bxslider.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/dist/hamburgers.css" type="text/css" media="screen" />
-<div class="section">
+<div class="section mainwrapper">
 <div class="lsection" style="overflow-x: hidden;overflow-y: hidden;">
   <?php
       // query for the about page
