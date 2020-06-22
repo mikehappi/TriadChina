@@ -87,7 +87,7 @@ $('li').find('ul').addClass('hidden-xs hidden-md hidden-sm')
 });
 </script>
 
- <!--Hide Menu on Scroll
+ <!--Hide Menu on Scroll-->
 <script>
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
@@ -95,27 +95,8 @@ var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("nav").style.top = "0px";
   } else {
-    document.getElementById("nav").style.top = "-135px";
+    document.getElementById("nav").style.top = "-75px";
   }
   prevScrollpos = currentScrollPos;
 }
-</script> -->
-
-<script>
-
-	var previousScroll = 0;
-	$(window).scroll(function () {
-		var currentScroll = $(this).scrollTop();
-		if (currentScroll < 135) {
-			showTopNav();
-		} else if (currentScroll > 0 && currentScroll < $(document).height() - $(window).height()) {
-			if (currentScroll > previousScroll) {
-				document.getElementById("nav").style.top = "0px";
-			} else {
-			document.getElementById("nav").style.top = "-135px";
-			}
-			previousScroll = currentScroll;
-		}
-	}
-
 </script>
