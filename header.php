@@ -102,7 +102,7 @@ var currentScrollPos = window.pageYOffset;
 </script> -->
 
 <script>
-$(document).ready(function () {
+
 	var previousScroll = 0;
 	$(window).scroll(function () {
 		var currentScroll = $(this).scrollTop();
@@ -110,21 +110,12 @@ $(document).ready(function () {
 			showTopNav();
 		} else if (currentScroll > 0 && currentScroll < $(document).height() - $(window).height()) {
 			if (currentScroll > previousScroll) {
-				hideNav();
+				document.getElementById("nav").style.top = "0px";
 			} else {
-				showNav();
+			document.getElementById("nav").style.top = "-135px";
 			}
 			previousScroll = currentScroll;
 		}
-	});
-
-	function hideNav() {
-		$(".navbar").removeClass("is-visible").addClass("is-hidden");
 	}
-
-	function showNav() {
-		$(".navbar").removeClass("is-hidden").addClass("is-visible").addClass("scrolling");
-	}
-});
 
 </script>
