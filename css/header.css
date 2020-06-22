@@ -12,7 +12,7 @@
 --------------------------------------------------------------*/
 /*Navbar scroll css   */
 
-nav {
+/* nav {
   transition: background 0.4s ease-in-out;
   background: #010101;
 }
@@ -31,7 +31,7 @@ nav {
 .navbar-hide {
   pointer-events: none;
   opacity: 0;
-}
+} */
 
 
 
