@@ -157,9 +157,8 @@ $(document).ready(function(){
     pause:5000,
     speed:500,
 });
-
-
 </script>
+
 <script>
 $('.top-slider').bxSlider({
   onSliderLoad: function(currentIndex) {
