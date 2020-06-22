@@ -171,6 +171,13 @@ $('.top-slider').bxSlider({
   }
 });
 </script>
+
+<script>
+window.addEventListener("orientationchange", function() {
+        console.log(screen.orientation);
+}, false);
+</script>
+
 </body>
 </html
 <?php get_footer ()?>
