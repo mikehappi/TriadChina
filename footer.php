@@ -82,6 +82,7 @@ display: inline-flex;
 }
 .navbar-collapse {
     padding-right: 0px;
+      padding-left: 0px;
     }
 
   .fmenu{
