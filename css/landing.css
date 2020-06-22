@@ -210,6 +210,26 @@ div.bxslider {
     /*--------------------------------------------------------------
     # Media Qeries  Mobile CSSS adapation
     --------------------------------------------------------------*/
+    @media only screen and (max-width: 2520px)  {
+        .wp-caption-text {
+        left: 100px ;
+        }
+        .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+        padding-left: 26.8%;
+        }
+
+       }
+
+       @media only screen and (max-width: 1920px)  {
+           .wp-caption-text {
+           left: 100px ;
+           }
+           .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+           padding-left: 19.4%;
+           }
+
+          }
+
     @media only screen and (max-width: 1024px) {
       .sssection {
           padding-top: 108px;
