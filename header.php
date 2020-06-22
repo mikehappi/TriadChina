@@ -95,7 +95,7 @@ var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("nav").style.top = "0px";
   } else {
-    document.getElementById("nav").style.top = "-75px";
+    document.getElementById("nav").style.top = "-95px";
   }
   prevScrollpos = currentScrollPos;
 }
