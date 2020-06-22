@@ -41,7 +41,7 @@ get_header(); ?>
 
 <?php
     // query for the about page
-    $your_query = new WP_Query( 'pagename=our-work' );
+    $your_query = new WP_Query( 'pagename=ourworkcn' );
     // "loop" through query (even though it's just one page)
     while ( $your_query->have_posts() ) : $your_query->the_post();
         the_content();
@@ -53,7 +53,7 @@ get_header(); ?>
 
 <?php
     // query for the about page
-    $your_query = new WP_Query( 'pagename=our-services' );
+    $your_query = new WP_Query( 'pagename=ourservicescn' );
     // "loop" through query (even though it's just one page)
     while ( $your_query->have_posts() ) : $your_query->the_post();
         the_content();
