@@ -21,7 +21,7 @@
 
 <?php wp_head(); ?>
 
-        <nav id=nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <nav id=nav class="navbar h-navbar p-0 fixed-top navbar-default navbar-fixed-top" role="navigation">
 
 <div class="row row-header-1 default-width">
 <div class="container-fluid">
@@ -87,7 +87,7 @@ $('li').find('ul').addClass('hidden-xs hidden-md hidden-sm')
 });
 </script>
 
- <!--Hide Menu on Scroll  -->
+ <!--Hide Menu on Scroll
 <script>
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
@@ -99,4 +99,32 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+</script> -->
+
+<script>
+$(document).ready(function () {
+	var previousScroll = 0;
+	$(window).scroll(function () {
+		var currentScroll = $(this).scrollTop();
+		if (currentScroll < 135) {
+			showTopNav();
+		} else if (currentScroll > 0 && currentScroll < $(document).height() - $(window).height()) {
+			if (currentScroll > previousScroll) {
+				hideNav();
+			} else {
+				showNav();
+			}
+			previousScroll = currentScroll;
+		}
+	});
+
+	function hideNav() {
+		$(".navbar").removeClass("is-visible").addClass("is-hidden");
+	}
+
+	function showNav() {
+		$(".navbar").removeClass("is-hidden").addClass("is-visible").addClass("scrolling");
+	}
+});
+
 </script>
