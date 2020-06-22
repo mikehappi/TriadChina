@@ -7,6 +7,11 @@
      src:url("AltoProM.OTF");
 }
 
+@font-face{
+    font-family:CN;
+     src:url("FZLTCHJW.TTF");
+}
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -106,6 +111,7 @@ langague
     font-size: 11.5px!important;
   text-decoration: none !important;}
 #hitems{
+  font-family: CN !important;
     margin-left: 10px;
     text-decoration: none !important;
     }
