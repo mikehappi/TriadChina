@@ -77,7 +77,7 @@ get_header(); ?>
 
 <?php
     // query for the about page
-    $your_query = new WP_Query( 'pagename=people' );
+    $your_query = new WP_Query( 'pagename=peoplecn' );
     // "loop" through query (even though it's just one page)
     while ( $your_query->have_posts() ) : $your_query->the_post();
         the_content();
@@ -90,7 +90,7 @@ get_header(); ?>
 
 <?php
     // query for the about page
-    $your_query = new WP_Query( 'pagename=our-awards' );
+    $your_query = new WP_Query( 'pagename=ourawardscn' );
     // "loop" through query (even though it's just one page)
     while ( $your_query->have_posts() ) : $your_query->the_post();
         the_content();
@@ -103,7 +103,7 @@ get_header(); ?>
 
 <?php
     // query for the about page
-    $your_query = new WP_Query( 'pagename=contact-us' );
+    $your_query = new WP_Query( 'pagename=contactuscn' );
     // "loop" through query (even though it's just one page)
     while ( $your_query->have_posts() ) : $your_query->the_post();
         the_content();
