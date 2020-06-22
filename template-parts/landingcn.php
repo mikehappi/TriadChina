@@ -180,4 +180,4 @@ window.addEventListener("orientationchange", function() {
 
 </body>
 </html
-<?php get_footer ()?>
+<?php get_footer (CN)?>
