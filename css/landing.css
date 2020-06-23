@@ -492,6 +492,7 @@ width: 100%;
    .iipr {
    line-height: 27.6px !important;
    font-size:23px !important;
+   hyphens: none;
    }
    .iipd {
    line-height:19.2px !important;

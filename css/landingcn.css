@@ -355,8 +355,8 @@ margin-bottom: 38px!important;
 }
 
 .Acontent p {
-  font-size:30px !important;
-
+  font-size:26px !important;
+hyphens: none;
 }
 
 .Acontent img {
@@ -493,6 +493,7 @@ width: 100%;
    .iicat {
    font-size:12px !important;
    margin-bottom: 7px;
+   hyphens: none;
    }
    .iipr {
    line-height: 27.6px !important;
