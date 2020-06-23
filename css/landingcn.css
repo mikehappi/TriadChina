@@ -384,12 +384,20 @@ max-width: 384px;
      .asection{
      padding-top: 60px !important;
      }
+     .asection img {
+     width: 512px;
+     margin: 45px 0 0 0;}
+  }
   }
   @media only screen and (max-width: 414px) {
     .Acontent p {
    max-width: 350px;
 
     }
+    .asection img {
+    width: 350px;
+    margin: 45px 0 0 0;}
+ }
   }
 
 /*--------------------------------------------------------------

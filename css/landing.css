@@ -357,9 +357,9 @@ max-width: 600px;
 }
 
 .asection img {
-width: 100%;
+width: 800px;
 height: auto;
-margin: 45px 0 0 0 !important;}
+margin: 45px 0 0 0;}
 
   /*--------------------------------------------------------------
   # Media Qeries  Mobile CSSS adapation
@@ -381,6 +381,9 @@ margin: 45px 0 0 0 !important;}
      .asection{
      padding-top: 60px !important;
      }
+     .asection img {
+     width: 512px;
+     margin: 45px 0 0 0;}
   }
 
   @media only screen and (max-width: 414px) {
@@ -388,6 +391,10 @@ margin: 45px 0 0 0 !important;}
    max-width: 350px;
 
     }
+    .asection img {
+    width: 350px;
+    margin: 45px 0 0 0;}
+ }
   }
 
 /*--------------------------------------------------------------
