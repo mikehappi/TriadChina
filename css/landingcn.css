@@ -345,8 +345,8 @@ padding-top: 90px !important;
 
 .Acontent{
 overflow-wrap: break-word;
-  word-wrap: break-word;
-  hyphens: auto;
+word-wrap: break-word;
+hyphens: none;
 }
 
 .Acontent h3 {
@@ -361,7 +361,7 @@ line-height: 49px;
 max-width: 600px;
 }
 
-.Acontent img {
+.asection img {
 width: 100%;
     height: auto;
   margin: 45px 0 0 0 !important;}
