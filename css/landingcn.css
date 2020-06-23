@@ -335,6 +335,7 @@ div.bxslider {
 
  .asection{
 padding-top: 90px !important;
+padding-bottom: 90px !important;
 }
 
 
@@ -383,6 +384,7 @@ width: 800px;
      }
      .asection{
      padding-top: 60px !important;
+     padding-bottom: 60px !important;
      }
      .asection img {
      width: 512px;
