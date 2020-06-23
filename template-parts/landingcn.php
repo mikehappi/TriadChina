@@ -172,6 +172,8 @@ $('.top-slider').bxSlider({
 });
 </script>
 
+<!--Reload on rotation-->
+
 <script>
 jQuery(document).ready(function($){
     orientationChange();

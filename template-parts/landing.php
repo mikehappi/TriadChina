@@ -173,6 +173,7 @@ $('.top-slider').bxSlider({
 
 
 
+<!--Reload on rotation-->
 
 <script>
 jQuery(document).ready(function($){
