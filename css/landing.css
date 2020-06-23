@@ -367,7 +367,9 @@ width: 100%;
     margin-bottom: 26px!important;
      }
      .Acontent p {
-       font-size:20px !important;
+       font-size: 20px !important;
+    line-height: 30px;
+    hyphens: none;
 
      }
      .asection{
