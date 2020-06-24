@@ -973,7 +973,7 @@ font-size: 22px !important;
 
   .ccdn {
 font-family:AP !important;
-  line-height: 33.6px !important;
+line-height: 33.6px !important;
 font-size: 28px !important;
   }
   .cmail{
@@ -1003,6 +1003,7 @@ font-size: 28px !important;
   font-size: 15px !important;
   }
   .ccdcn{
+    font-family: AP !important;
     font-size:18px !important;
   }
   .cmail{
