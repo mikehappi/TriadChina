@@ -9,8 +9,13 @@
 }
 
 @font-face{
-    font-family:CN;
+    font-family:CN2;
      src:url("FZLTZCHJ.OTF");
+}
+
+@font-face{
+    font-family:CN;
+     src:url("FZLTKHJ.OTF");
 }
 
 
