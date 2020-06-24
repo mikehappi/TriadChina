@@ -139,7 +139,7 @@ langague
     vertical-align: middle; */
   }
 
-  svg:hover {
+svg:hover {
     fill: #E74011 !important;
   }
   .navbar-brand {
@@ -208,6 +208,16 @@ button,input[type="button"],input[type="reset"],input[type="submit"] {
 
 
 }
+
+@media screen and (max-width: 769px) {
+.navbar-brand {
+padding: 0.2em 0em 0em 1em;
+}
+.navbar-toggle {
+    display: none;
+}
+}
+
 @media screen and (max-width: 667px) {
   .navbar-toggle {
     display: none;
@@ -227,10 +237,5 @@ button,input[type="button"],input[type="reset"],input[type="submit"] {
 
     .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
     padding-left: 31px;
-}
-}
-@media screen and (max-width: 769px) {
-.navbar-brand {
-padding: 0.2em 0em 0em 1em;
 }
 }
