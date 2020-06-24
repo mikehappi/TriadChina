@@ -213,7 +213,9 @@ button,input[type="button"],input[type="reset"],input[type="submit"] {
   .navbar-default {
     height:72px;
   }
-
+  .row-header-1 {
+      padding-top: 24px;
+  }
   .navbar-toggle {
     display: none;
     }
