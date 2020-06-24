@@ -79,8 +79,8 @@ nav:after {
  .navbar-nav > .active > a{
       background-color: inherit !important;
       background-image: none !important;
-    -webkit-box-shadow: inherit !important;
-    box-shadow:inherit !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 
