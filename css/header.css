@@ -182,6 +182,16 @@ margin-top: 0.5em;
       padding-top: 0px;
   }
 
+.navbar-header {
+  padding-top: 0px !important;}
+
+  .navbar-brand {
+  padding: 0em 0em 0em 0.86em;
+}
+
+#lang {
+  padding-top: 10px;
+}
 
   .navbar-default{
     width: 100VW !important;
@@ -213,7 +223,7 @@ button,input[type="button"],input[type="reset"],input[type="submit"] {
   .navbar-default {
     height:72px;
   }
-  
+
   .navbar-toggle {
     display: none;
     }
