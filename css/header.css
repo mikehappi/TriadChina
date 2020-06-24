@@ -175,7 +175,7 @@ margin-top: 0.5em;
 
 --------------------------------------------------------------*/
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 900px) {
 
 
   .row-header-1 {
@@ -186,7 +186,7 @@ margin-top: 0.5em;
   padding-top: 0px !important;}
 
   .navbar-brand {
-  padding: 0em 0em 0em 0.86em;
+    padding: 0.2em 0em 0em 1em;
 }
 
 #lang {
