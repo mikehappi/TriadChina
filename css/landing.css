@@ -529,7 +529,7 @@ margin: 45px 0 0 0;}
      padding-top: 24px;
      height: 242.5px;
      width: 312.5px;}
-     
+
      .iiicaption {
        padding-left: 32px;
        padding-top: 24px;
@@ -774,7 +774,8 @@ font-size: 22px !important;
    }
    .pcap h6 {
   font-size: 12px !important;
-
+  line-height: 15px;
+  margin: 0;
    }
 
 }

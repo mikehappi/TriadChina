@@ -602,6 +602,7 @@ padding-top: 90px !important;
   height: auto;
   background-color: white;
   width: 100%;
+  ont-family: CN !important;
  }
 
  .scontainer{
@@ -638,7 +639,8 @@ padding-top: 90px !important;
        width: 100px;
    }
    .scap{
-     font-size:16px !important;
+     font-size:14px !important;
+     line-height: 22px;
    }
 
  }
