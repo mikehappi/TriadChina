@@ -177,6 +177,12 @@ margin-top: 0.5em;
 
 @media screen and (max-width: 769px) {
 
+
+  .row-header-1 {
+      padding-top: 0px;
+  }
+
+
   .navbar-default{
     width: 100VW !important;
     text-decoration: none;
@@ -194,9 +200,7 @@ margin-top: 0.5em;
 button,input[type="button"],input[type="reset"],input[type="submit"] {
 	border: none !important;}
 
-.row-header-1 {
-  padding-top: 13px!important
-}
+
 }
 @media screen and (max-width: 667px) {
   .navbar-toggle {
@@ -209,9 +213,7 @@ button,input[type="button"],input[type="reset"],input[type="submit"] {
   .navbar-default {
     height:72px;
   }
-  .row-header-1 {
-      padding-top: 24px;
-  }
+
   .navbar-toggle {
     display: none;
     }
