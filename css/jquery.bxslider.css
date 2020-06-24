@@ -27,8 +27,8 @@
   display: block;
 }
 
-
-figure::before {
+  /*Orange curtain*/
+/* figure::before {
     position: absolute;
     z-index: 0;
     content: '';
@@ -40,7 +40,7 @@ figure::before {
     height: 65%;
     margin-top: 56px;
 
-}
+} */
 
 
 ul.bxslider {

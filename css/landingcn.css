@@ -187,6 +187,7 @@ div.bxslider {
     position: absolute!important;
     top: 78px!important;
     left: 100px;
+    text-shadow: 0px 0px 5px #00000020;
 }
 
 
