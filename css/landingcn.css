@@ -990,12 +990,13 @@ font-size: 22px !important;
    font-size: 26px;
   }
   .ccd {
-  line-height: 21.6px !important;
-  font-size:18px !important;
+    line-height: 22px !important;
+  font-size: 15px !important;
   }
   .cmail{
   font-size: 16px !important;
   line-height: 19.2px !important;
+  margin-top: 0px;
   }
 
   .ccaption {
