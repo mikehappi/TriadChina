@@ -85,6 +85,9 @@ p {
 }
 
  @media only screen and (max-width: 1024px) {
+   h1 span {
+ padding-bottom: 16px;
+   }
    .default-width {
      margin: 0 auto;
      width: 768px;
