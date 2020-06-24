@@ -149,15 +149,11 @@ langague
 
 /*Menu item */
 #imenu {
-  /*
-display: inline-block;
-float: none;
-vertical-align: bottom;
- padding-left: 0px !important;
-margin: 0 !important;
-height: 30px !important;*/
 margin-top: 0.5em;
 }
+#menu-menucn{
+font-size: 18px;
+font-family: CN !important;}
 
 
 .navbar-nav {
