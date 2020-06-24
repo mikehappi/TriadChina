@@ -239,7 +239,7 @@ padding-right: 0px;
 }
 .ficp{
 width: 50% !important;
-bottom: 20px;
+/* bottom: 20px; */
 }
 
 
