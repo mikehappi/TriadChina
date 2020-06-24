@@ -292,7 +292,7 @@ bottom: 20px;
         <div class="fcontent">
 
 
-		        <div class="fmenu">
+		        <div class="fmenu hidden-sm hidden-md hidden-xs">
               <div class="fmenutitle hidden-sm hidden-md hidden-xs"> Discover</div>
               <ul id="fmenulist">
 		            <?php wp_nav_menu( array(
