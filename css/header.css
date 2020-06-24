@@ -15,29 +15,6 @@
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
-/*Navbar scroll css   */
-
-/* nav {
-  transition: background 0.4s ease-in-out;
-  background: #010101;
-}
-.is-hidden {
-  opacity: 0;
-  transition: transform 0.4s, opacity 0.2s;
-}
-.fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-
-.navbar-hide {
-  pointer-events: none;
-  opacity: 0;
-} */
-
 
 
 /*Navbar default   */
@@ -194,7 +171,7 @@ font-family: CN !important;}
     width: 100VW !important;
     text-decoration: none;
     height: 72px ;
-    -webkit-box-shadow:none !important;
+    -webkit-box-shadow: none !important;
     box-shadow:none !important;
 }
 
