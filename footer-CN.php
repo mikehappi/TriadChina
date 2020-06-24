@@ -199,7 +199,7 @@ margin-left: 50px;
 display: block;
   }
 
-.fbrand  svg { height: 24px;}
+.fbrand  svg { height: 30px;}
 
 
   .fcontent{
