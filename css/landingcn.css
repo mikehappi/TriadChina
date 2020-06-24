@@ -375,6 +375,7 @@ margin: 45px 0 0 0 !important;}
      .Acontent h3 {
     font-size:22px !important;
     margin-bottom: 26px!important;
+    line-height: 32px;
      }
      .Acontent p {
     font-size: 18px !important;
@@ -521,7 +522,7 @@ margin: 45px 0 0 0 !important;}
    }
    .iipd {
   line-height: 20px !important;
-  font-size: 12px !important;
+  font-size: 14px !important;
    width: 286px;
    }
    .iilo{
@@ -787,7 +788,9 @@ font-size: 22px !important;
 
    }
    .pcap h6 {
-  font-size: 12px !important;
+     font-size: 12px !important;
+   line-height: 15px;
+   margin: 0;
 
    }
 
