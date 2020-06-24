@@ -152,7 +152,7 @@ langague
 margin-top: 0.5em;
 }
 #menu-menucn{
-font-size: 18px;
+font-size: 18px !important;
 font-family: CN !important;}
 
 
