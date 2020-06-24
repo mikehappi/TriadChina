@@ -291,7 +291,7 @@ bottom: 20px;
 
 
 		        <div class="fmenu">
-              <div class="fmenutitle menutitlecn">发现</div>
+              <div class="fmenutitle menutitlecn hidden-sm hidden-md hidden-xs">发现</div>
               <ul id="fmenulist">
 		            <?php wp_nav_menu( array(
 		                'menu'              => 'primary',
