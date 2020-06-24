@@ -26,8 +26,8 @@
 <div class="row row-header-1 default-width">
 <div class="container-fluid">
             <div id=lang  style="font-size:10px;">
-              <a id="hitem" href="<?php echo home_url(); ?>">EN</a>
-              <a id="hitems" href="<?php echo home_url(); ?>/zh/">中文</a>
+              <a id="hitem" href="https://triadchina.asia">EN</a>
+              <a id="hitems" href="https://triadchina.asia/zh/">中文</a>
               <!-- <a id="hitems" href="">한국어</a> -->
             </div>
 
