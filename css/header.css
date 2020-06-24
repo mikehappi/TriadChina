@@ -186,7 +186,7 @@ margin-top: 0.5em;
   padding-top: 0px !important;}
 
   .navbar-brand {
-    padding: 0.2em 0em 0em 1em;
+    padding: 0em 0em 0em 0em;
 }
 
 #lang {
@@ -231,5 +231,10 @@ button,input[type="button"],input[type="reset"],input[type="submit"] {
 
     .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
     padding-left: 31px;
+}
+}
+@media screen and (max-width: 769px) {
+.navbar-brand {
+padding: 0.2em 0em 0em 1em;
 }
 }
