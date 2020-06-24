@@ -527,18 +527,9 @@ margin: 45px 0 0 0;}
    .iicaption {
      padding-left: 32px;
      padding-top: 24px;
-     height: 216px;
+     height: 242.5px;
      width: 312.5px;}
 
-     .iiicaption {
-         /* Make the caption a block so it occupies its own line. */
-         display: block;
-         text-align: left;
-         height: 229px;
-         width: 182px;
-         padding-left: 32px;
-         padding-top: 24px;
-       }
 
 }
 
